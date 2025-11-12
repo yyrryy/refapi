@@ -1,0 +1,50 @@
+<hr>
+{% for i in products %}
+<div class="suggestions__item suggestions__product border mb-2 productsbrand13 productscategorycat31">
+    <div class="suggestions__product-image image image--type--product">
+        <div class="image__body">
+        <a href="#" onclick="getproductdata(event, '{{i.code}}')" class="image__tag">
+            <img class="image__tag" src="{%if frombd%}{{i.image}}{%else%}{{i.images.0.url}}{%endif%}" alt="">
+        </a>
+        </div>
+        
+    
+    </div>
+    <div class="suggestions__product-info">
+        <div class="suggestions__product-name">
+        <strong class="text-blue">{% if fromdb %}{{i.brandref}}{%else%}{{i.catalogArticleNumber}}{%endif%}</strong><br>
+        </div>
+        <div class="suggestions__product-name">{{i.fullName}} </div>
+        <div class="peoductdata{{i.code}}">
+
+        </div>
+        <div class="d-flex justify-content-between">
+            <div class="status"></div>
+            
+            
+        </div>
+        
+    
+    </div>
+        <div class="d-flex flex-column">
+
+        <div class="suggestions__product-price text-orange"> 
+            0.00 DHS 
+        </div>
+        <div>
+        <strong>{% if fromdb %}{{i.brand}}{%else%}{{i.brand.name}}{%endif%}</strong>
+        </div>
+        
+        </div>
+    </div>
+{% endfor %}
+
+<script>
+    function getproductdata(event, code) {
+        $.get('/getproducdataforsuppliers', {code: code}, function(data) {
+            $('.peoductdata' + code).html(data.html);
+        });
+        // Assuming you have a function to handle the product data retrieval
+        
+    }
+</script>

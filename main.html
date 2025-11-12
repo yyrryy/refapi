@@ -1,0 +1,1269 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="row position-relative">
+
+  <!-- OEM and decription holder #4545dfg-->
+  <div class="card__tooltip" pdctid="" style="display:none;">
+
+      <div class="card__content border">
+        <button class="btn btn-danger" onclick="$('.card__tooltip').fadeOut()">x</button>
+        <header class="card__header border-bottom text-white">
+            <span>Orignal Ref</span>
+
+        </header>
+        <div class="card__data ">
+          <div class="d-flex justify-content-center">
+            <div class="spinner-border" role="status">
+            </div>
+          </div>
+        </div>
+        <header class="card__header border-bottom text-white">
+            <span>Description</span>
+        </header>
+        <div class="description__data bg-white">
+          <div class="spinner-border" role="status">
+          </div>
+        </div>
+
+        <div class="cars bg-white">
+          <div class="spinner-border" role="status">
+          </div>
+        </div>
+
+
+      </div>
+  </div>
+  <div class="col-3 position-relative">
+    <div class="bg-white border p-3 rounded" style="position: sticky;top: 0;">
+      <div class="">
+
+        <div class="card-header">
+
+          <ul class="nav nav-justified">
+            <li class="nav-item">
+              <a data-toggle="tab" href="#tab-sddr" class="active nav-link" onclick="$('.refsection').fadeOut();$('.vinsection').fadeIn();">
+                <div class="widget-number">Vin</div>
+
+              </a>
+            </li>
+            <li class="nav-item">
+              <a data-toggle="tab" href="#tab-searchref" class="nav-link" onclick="$('.vinsection').fadeOut();$('.refsection').fadeIn();">
+                <div class="widget-number">Reference</div>
+              </a>
+            </li>
+
+          </ul>
+        </div>
+        <div class="tab-content">
+          <div class="tab-pane active" id="tab-sddr" role="tabpanel">
+            <div class="card-body">
+              <div class="search-wrapper active">
+                <div class="input-holder">
+                  <input type="text" class="search-input vininput" placeholder="VIN" style="text-transform:uppercase;" onchange="getvindata(event)">
+                  <button class="search-icon" onclick="getvindata(event)"><span></span></button>
+                </div>
+              </div>
+
+
+
+
+              <div class="cars text-center mt-2">
+              </div>
+
+              <div class="carselector mt-5 position-relative">
+
+                <div class="mb-3 w-100">
+                  <strong>Fabricateur:</strong> <br>
+                  <select style="width:100%;" class="select2 manifacturer" name="" onchange="getmodels(event)">
+                    <option value="">---</option>
+                    <!-- <option value="TA-139">Dacia</option>
+                    <option value="TA-36">Ford</option>
+                    <option value="TA-88">PEUGEOT</option>
+                    <option value="TA-93">RENAULT</option>
+                    <option value="TA-21">CITROËN</option>
+                    <option value="TA-111">TOYOTA</option>
+                    <option value="TA-106">SKODA</option>
+                    <option value="TA-121">VW</option>
+                    <option value="TA-183">HYUNDAI</option>
+                    <option value="TA-184">KIA</option> -->
+                    <option value="TA-3854">ABARTH</option>
+                    <option value="TA-609">AC</option>
+                    <option value="TA-1505">ACURA</option>
+                    <option value="TA-4330">ADLY</option>
+                    <option value="TA-4331">AEON</option>
+                    <option value="TA-1480">AIXAM</option>
+                    <option value="TA-2">ALFA ROMEO</option>
+                    <option value="TA-866">ALPINA</option>
+                    <option value="TA-810">ALPINE</option>
+                    <option value="TA-2246">AMC</option>
+                    <option value="TA-2524">APRILIA</option>
+                    <option value="TA-1360">ARO</option>
+                    <option value="TA-3495">ARTEGA</option>
+                    <option value="TA-879">ASIA MOTORS</option>
+                    <option value="TA-4628">ASIAWING</option>
+                    <option value="TA-881">ASTON MARTIN</option>
+                    <option value="TA-5">AUDI</option>
+                    <option value="TA-6">AUSTIN</option>
+                    <option value="TA-1538">AUSTIN-HEALEY</option>
+                    <option value="TA-3">AUTO UNION</option>
+                    <option value="TA-799">AUTOBIANCHI</option>
+                    <option value="TA-4423">BAOTIAN</option>
+                    <option value="TA-134">BARKAS</option>
+                    <option value="TA-3071">BAW</option>
+                    <option value="TA-10">BEDFORD</option>
+                    <option value="TA-4402">BEELINE</option>
+                    <option value="TA-2532">BENELLI</option>
+                    <option value="TA-815">BENTLEY</option>
+                    <option value="TA-1485">BERTONE</option>
+                    <option value="TA-4315">BETA</option>
+                    <option value="TA-4368">BIMOTA</option>
+                    <option value="TA-1486">BITTER</option>
+                    <option value="TA-16">BMW</option>
+                    <option value="TA-1537">BOND</option>
+                    <option value="TA-136">BORGWARD</option>
+                    <option value="TA-1487">BRISTOL</option>
+                    <option value="TA-4540">BRIXTON</option>
+                    <option value="TA-4048">BUELL</option>
+                    <option value="TA-788">BUGATTI</option>
+                    <option value="TA-816">BUICK</option>
+                    <option value="TA-3122">BYD</option>
+                    <option value="TA-819">CADILLAC</option>
+                    <option value="TA-2554">CAGIVA</option>
+                    <option value="TA-1488">CALLAWAY</option>
+                    <option value="TA-1489">CARBODIES</option>
+                    <option value="TA-1490">CATERHAM</option>
+                    <option value="TA-4617">CCM</option>
+                    <option value="TA-4487">CEZETA</option>
+                    <option value="TA-4424">CF MOTO</option>
+                    <option value="TA-2852">CHANGAN</option>
+                    <option value="TA-1491">CHECKER</option>
+                    <option value="TA-2887">CHERY</option>
+                    <option value="TA-138">CHEVROLET</option>
+                    <option value="TA-20">CHRYSLER</option>
+                    <option value="TA-21">CITROËN</option>
+                    <option value="TA-3772">CMC</option>
+                    <option value="TA-4896">CUPRA</option>
+                    <option value="TA-139">DACIA</option>
+                    <option value="TA-4052">DAELIM</option>
+                    <option value="TA-185">DAEWOO</option>
+                    <option value="TA-24">DAF</option>
+                    <option value="TA-25">DAIHATSU</option>
+                    <option value="TA-26">DAIMLER</option>
+                    <option value="TA-1493">DALLAS</option>
+                    <option value="TA-1494">DE LOREAN</option>
+                    <option value="TA-1495">DE TOMASO</option>
+                    <option value="TA-4071">DERBI</option>
+                    <option value="TA-4269">DFSK</option>
+                    <option value="TA-29">DODGE</option>
+                    <option value="TA-4468">DS</option>
+                    <option value="TA-2759">DUCATI</option>
+                    <option value="TA-4288">ECM</option>
+                    <option value="TA-4072">FANTIC</option>
+                    <option value="TA-700">FERRARI</option>
+                    <option value="TA-35">FIAT</option>
+                    <option value="TA-3738">FISKER</option>
+                    <option value="TA-1496">FORD AUSTRALIA</option>
+                    <option value="TA-36">FORD</option>
+                    <option value="TA-808">FORD OTOSAN</option>
+                    <option value="TA-776">FORD USA</option>
+                    <option value="TA-775">FSO</option>
+                    <option value="TA-4289">GASGAS</option>
+                    <option value="TA-148">GAZ</option>
+                    <option value="TA-2590">GEELY</option>
+                    <option value="TA-4403">GENERIC</option>
+                    <option value="TA-831">GEO</option>
+                    <option value="TA-4054">GILERA</option>
+                    <option value="TA-1498">GINETTA</option>
+                    <option value="TA-812">GLAS</option>
+                    <option value="TA-39">GMC</option>
+                    <option value="TA-4539">GOVECS</option>
+                    <option value="TA-2903">GREAT WALL</option>
+                    <option value="TA-2866">HAFEI</option>
+                    <option value="TA-4055">HARLEY-DAVIDSON</option>
+                    <option value="TA-4087">HERCULES</option>
+                    <option value="TA-1499">HINDUSTAN</option>
+                    <option value="TA-4314">HMRacing</option>
+                    <option value="TA-1500">HOBBYCAR</option>
+                    <option value="TA-45">HONDA</option>
+                    <option value="TA-4488">HOREX</option>
+                    <option value="TA-1506">HUMMER</option>
+                    <option value="TA-4287">HUSABERG</option>
+                    <option value="TA-4241">HUSQVARNA</option>
+                    <option value="TA-4056">HYOSUNG</option>
+                    <option value="TA-183">HYUNDAI</option>
+                    <option value="TA-4325">INDIAN</option>
+                    <option value="TA-1507">INDIGO</option>
+                    <option value="TA-6576">INEOS</option>
+                    <option value="TA-1526">INFINITI</option>
+                    <option value="TA-52">INNOCENTI</option>
+                    <option value="TA-3677">INOKOM</option>
+                    <option value="TA-1508">IRMSCHER</option>
+                    <option value="TA-1509">ISDERA</option>
+                    <option value="TA-54">ISUZU</option>
+                    <option value="TA-4073">ITALJET</option>
+                    <option value="TA-55">IVECO</option>
+                    <option value="TA-4683">IZH</option>
+                    <option value="TA-56">JAGUAR</option>
+                    <option value="TA-4074">JAWA</option>
+                    <option value="TA-882">JEEP</option>
+                    <option value="TA-1511">JENSEN</option>
+                    <option value="TA-1131">KAWASAKI</option>
+                    <option value="TA-4495">KEEWAY</option>
+                    <option value="TA-184">KIA</option>
+                    <option value="TA-4070">KREIDLER</option>
+                    <option value="TA-4498">KSR MOTO</option>
+                    <option value="TA-2760">KTM</option>
+                    <option value="TA-4472">KUBA</option>
+                    <option value="TA-2621">KYMCO</option>
+                    <option value="TA-63">LADA</option>
+                    <option value="TA-701">LAMBORGHINI</option>
+                    <option value="TA-64">LANCIA</option>
+                    <option value="TA-1820">LAND ROVER</option>
+                    <option value="TA-2589">LANDWIND (JMC)</option>
+                    <option value="TA-4075">LAVERDA MOTORCYCLES</option>
+                    <option value="TA-1380">LDV</option>
+                    <option value="TA-842">LEXUS</option>
+                    <option value="TA-3086">LIFAN</option>
+                    <option value="TA-1513">LIGIER</option>
+                    <option value="TA-1200">LINCOLN</option>
+                    <option value="TA-4231">LML</option>
+                    <option value="TA-802">LOTUS</option>
+                    <option value="TA-3047">LTI</option>
+                    <option value="TA-4494">LUXXON</option>
+                    <option value="TA-1280">MAHINDRA</option>
+                    <option value="TA-4076">MAICO</option>
+                    <option value="TA-4060">MALAGUTI</option>
+                    <option value="TA-1516">MARCOS</option>
+                    <option value="TA-771">MASERATI</option>
+                    <option value="TA-4492">MASH</option>
+                    <option value="TA-2164">MAYBACH</option>
+                    <option value="TA-72">MAZDA</option>
+                    <option value="TA-4061">MBK</option>
+                    <option value="TA-1518">MCLAREN</option>
+                    <option value="TA-845">MEGA</option>
+                    <option value="TA-4618">MEGELLI</option>
+                    <option value="TA-74">MERCEDES-BENZ</option>
+                    <option value="TA-1520">METROCAB</option>
+                    <option value="TA-75">MG</option>
+                    <option value="TA-1521">MIDDLEBRIDGE</option>
+                    <option value="TA-1522">MINELLI</option>
+                    <option value="TA-1523">MINI</option>
+                    <option value="TA-77">MITSUBISHI</option>
+                    <option value="TA-2904">MITSUOKA</option>
+                    <option value="TA-803">MORGAN</option>
+                    <option value="TA-78">MORRIS</option>
+                    <option value="TA-813">MOSKVICH</option>
+                    <option value="TA-4062">MOTO GUZZI</option>
+                    <option value="TA-4077">MOTO-MORINI</option>
+                    <option value="TA-4328">MOTOBI</option>
+                    <option value="TA-4493">MOTOWELL</option>
+                    <option value="TA-2761">MV AGUSTA</option>
+                    <option value="TA-4063">MZ</option>
+                    <option value="TA-4334">NIPPONIA</option>
+                    <option value="TA-80">NISSAN</option>
+                    <option value="TA-4613">NIU</option>
+                    <option value="TA-81">NSU</option>
+                    <option value="TA-1141">OLDSMOBILE</option>
+                    <option value="TA-1527">OLTCIT</option>
+                    <option value="TA-84">OPEL</option>
+                    <option value="TA-1529">OSCA</option>
+                    <option value="TA-1530">PANOZ</option>
+                    <option value="TA-1531">PANTHER</option>
+                    <option value="TA-88">PEUGEOT</option>
+                    <option value="TA-4078">PGO MOTORCYCLES</option>
+                    <option value="TA-181">PIAGGIO</option>
+                    <option value="TA-3046">PININFARINA</option>
+                    <option value="TA-850">PLYMOUTH</option>
+                    <option value="TA-774">PONTIAC</option>
+                    <option value="TA-92">PORSCHE</option>
+                    <option value="TA-851">PREMIER</option>
+                    <option value="TA-778">PROTON</option>
+                    <option value="TA-1580">PUCH</option>
+                    <option value="TA-4346">QUADRO</option>
+                    <option value="TA-1534">RANGER</option>
+                    <option value="TA-1536">RAYTON FISSORE</option>
+                    <option value="TA-4377">REGAL RAPTOR</option>
+                    <option value="TA-773">RELIANT</option>
+                    <option value="TA-93">RENAULT</option>
+                    <option value="TA-694">RENAULT TRUCKS</option>
+                    <option value="TA-4290">REX</option>
+                    <option value="TA-1539">RILEY</option>
+                    <option value="TA-4404">RIVERO</option>
+                    <option value="TA-705">ROLLS-ROYCE</option>
+                    <option value="TA-95">ROVER</option>
+                    <option value="TA-4386">ROYAL ENFIELD</option>
+                    <option value="TA-4152">RUF</option>
+                    <option value="TA-99">SAAB</option>
+                    <option value="TA-4064">SACHS</option>
+                    <option value="TA-4260">SAMSUNG</option>
+                    <option value="TA-4079">SANGLAS</option>
+                    <option value="TA-171">SANTANA</option>
+                    <option value="TA-4624">SCOMADI</option>
+                    <option value="TA-104">SEAT</option>
+                    <option value="TA-4497">SFM</option>
+                    <option value="TA-1547">SHELBY</option>
+                    <option value="TA-4065">SIMSON</option>
+                    <option value="TA-1548">SIPANI</option>
+                    <option value="TA-106">SKODA</option>
+                    <option value="TA-1138">SMART</option>
+                    <option value="TA-675">SOLO</option>
+                    <option value="TA-4400">SOMMER MOTORCYCLES</option>
+                    <option value="TA-1549">SPECTRE</option>
+                    <option value="TA-2755">SPYKER</option>
+                    <option value="TA-175">SSANGYONG</option>
+                    <option value="TA-1550">STANDARD AUTOMOBILE</option>
+                    <option value="TA-176">STEYR</option>
+                    <option value="TA-4015">STREETSCOOTER</option>
+                    <option value="TA-107">SUBARU</option>
+                    <option value="TA-109">SUZUKI</option>
+                    <option value="TA-4407">SWM</option>
+                    <option value="TA-4245">SYM</option>
+                    <option value="TA-110">TALBOT</option>
+                    <option value="TA-178">TATA</option>
+                    <option value="TA-3443">TAZZARI</option>
+                    <option value="TA-3328">TESLA</option>
+                    <option value="TA-4401">TGB</option>
+                    <option value="TA-3514">THINK</option>
+                    <option value="TA-4425">TOMOS</option>
+                    <option value="TA-4080">TORNAX</option>
+                    <option value="TA-111">TOYOTA</option>
+                    <option value="TA-187">TRABANT</option>
+                    <option value="TA-112">TRIUMPH</option>
+                    <option value="TA-4496">TURBHO</option>
+                    <option value="TA-861">TVR</option>
+                    <option value="TA-1553">UAZ</option>
+                    <option value="TA-4555">UM</option>
+                    <option value="TA-1554">UMM</option>
+                    <option value="TA-117">VAUXHALL</option>
+                    <option value="TA-1555">VECTOR</option>
+                    <option value="TA-4069">VESPA</option>
+                    <option value="TA-4324">VICTORY MOTORCYCLES</option>
+                    <option value="TA-120">VOLVO</option>
+                    <option value="TA-121">VW</option>
+                    <option value="TA-186">WARTBURG</option>
+                    <option value="TA-907">WESTFIELD</option>
+                    <option value="TA-1558">WIESMANN</option>
+                    <option value="TA-1541">WOLSELEY</option>
+                    <option value="TA-1021">YAMAHA</option>
+                    <option value="TA-1559">YULON</option>
+                    <option value="TA-124">ZASTAVA</option>
+                    <option value="TA-1139">ZAZ</option>
+                    <option value="TA-4322">ZERO</option>
+                    <option value="TA-678">ZUENDAPP</option>
+
+                  </select>
+                  
+                </div>
+
+                <div class="spinner-border loader" role="status" style="display:none; position: absolute;">
+                </div>
+
+
+
+              </div>
+              <div class="vindirectresults">
+                <div class="justify-content-between btnsinfo d-none">
+                  <button class="btn btn-outline-secondary" onclick="$('.categoriesholder').fadeToggle()">
+                    <div class="border categoryselected"></div>
+                    <strong>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+                        <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/>
+                      </svg>
+                    </strong>
+                  </button>
+                    <!-- <div class="text-muted">
+                      Categories
+                    </div>
+                    <div class="text-muted">
+                      Info
+                    </div> -->
+                    
+                  </div>
+              </div>
+              <!-- <ul class="nav nav-tabs">
+              <li class="nav-item"><a data-toggle="tab" href="#tab-eg13-0" class="nav-link active">VIN (carte grise)</a></li>
+              <li class="nav-item"><a data-toggle="tab" href="#tab-eg13-1" class="nav-link">VOITURES</a></li>
+              </ul>
+              <div class="tab-content border-primary">
+              <div class="tab-pane active" id="tab-eg13-0" role="tabpanel">
+                <div class="search-wrapper active">
+                    <div class="input-holder">
+                        <input type="text" class="search-input vininput" placeholder="VIN">
+                        <button class="search-icon" onclick="getvindata(event)"><span></span></button>
+                    </div>
+                </div>
+
+
+                <div class="cars text-center mt-2">
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-eg13-1" role="tabpanel">
+
+                //Select car
+                <div class="carselector">
+
+                  <div class="mb-3 w-100">
+                    <strong>Fabricateur:</strong> <br>
+                    <select style="width:100%;" class="select2 manifacturer" name="" onchange="getmodels(event)">
+                      <option value="">---</option>
+                      <option value="TA-139">Dacia</option>
+                      <option value="TA-36">Ford</option>
+                      <option value="TA-88">PEUGEOT</option>
+                      <option value="TA-93">RENAULT</option>
+                      <option value="TA-21">CITROËN</option>
+                      <option value="TA-111">TOYOTA</option>
+                      <option value="TA-106">SKODA</option>
+                      <option value="TA-121">VW</option>
+
+                    </select>
+                  </div>
+
+                  <div class="spinner-border loader" role="status" style="display:none;">
+                  </div>
+
+
+
+                </div>
+
+              </div>
+
+
+              </div> -->
+
+
+
+
+
+
+            </div>
+
+          </div>
+          <!-- searchref tab -->
+          <div class="tab-pane" id="tab-searchref" role="tabpanel">
+            <div class="card-body">
+
+                  <input type="text" class="search-input refinput w-100 form-control active" placeholder="Ref" onchange="searchrefdirect(event)">
+
+
+              <!-- <div class="mt-5 d-flex flex-column">
+
+                <button class="btn border bg-white p-3 text-center category categorybtn" categoryid="100011-100121" onclick="getrefproducts(event, '100011-100121')">
+                  Amortisseur
+                </button>
+                <button class="btn border bg-white p-3 text-center category categorybtn" categoryid="100006-100030" onclick="getrefproducts(event, '100006-100030')">
+                  Plaquette de frien
+                </button>
+                <button class="btn border bg-white p-3 text-center category categorybtn" categoryid="100006-100032" onclick="getrefproducts(event, '100006-100032')">
+                  Disque de frien
+                </button>
+                <button class="btn border bg-white p-3 text-center category categorybtn" categoryid="100014-100071" onclick="getrefproducts(event, '100014-100071')">
+                  Tette Cardan
+                </button>
+                <button class="btn border bg-white p-3 text-center category categorybtn" categoryid="100014-100062" onclick="getrefproducts(event, '100014-100062')">
+                  Arbre de Transmission
+                </button>
+                <button class="btn border bg-white p-3 text-center category categorybtn" categoryid="100013-100578" onclick="getrefproducts(event, '100013-100578')">
+                  Moyeau de roue
+                </button>
+                <button class="btn border bg-white p-3 text-center category categorybtn" categoryid="100013-100579" onclick="getrefproducts(event, '100013-100579')">
+                  Roulement de roue
+                </button>
+                <button class="btn border bg-white p-3 text-center category categorybtn" categoryid="100016-100461" onclick="getrefproducts(event, '100016-100461')">
+                  Tendeur (crantée)
+                </button>
+                <button class="btn border bg-white p-3 text-center category categorybtn" categoryid="100016-100441" onclick="getrefproducts(event, '100016-100441')">
+                  Tendeur (trapezoidale)
+                </button>
+                <button class="btn border bg-white p-3 text-center category categorybtn" categoryid="100016-100455" onclick="getrefproducts(event, '100016-100455')">
+                  Poulie
+                </button>
+                <button class="btn border bg-white p-3 text-center category categorybtn" categoryid="100006-100032" onclick="getrefproducts(event, '100050-100050')">
+                  Embryage
+                </button>
+                <!-- category-assambly
+
+              </div> -->
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+      <!-- <div class="d-flex justify-content-between">
+        <button type="button" name="button" class="btn text-primary border" onclick="$('.categoriesholder').fadeIn()">
+          <strong>
+            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+              <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/>
+            </svg>
+          </strong>
+        </button>
+
+      </div> -->
+      <div class="">
+        <!-- <div class="text-center"> -->
+          <img src="/static/images/adashi.png" width="150"  alt="">
+          <!-- <img src="/static/images/adashi2.png"  alt=""> -->
+        </div>
+    </div>
+
+    <div class="mt-3 bg-white border-primary adashi">
+      DD
+    </div>
+    <div class="box">
+      <div class="front">
+           <div class="center">
+               <img src="https://blog.codepen.io/wp-content/uploads/2012/06/Button-Fill-White-Large.png">
+               <h1>Bousahla Mounir</h1>
+           </div>
+      </div>
+      <div class="back">
+          <div class="row">
+               <img src="https://assets.codepen.io/583564/internal/avatars/users/default.png?fit=crop&format=auto&height=512&version=1&width=512">
+               <h1>Bousahla Mounir</h1>
+          </div>
+          <div class="row">
+              <span>+91 987 568 9685</span>
+              <span>bousahlamounir@gmail.com</span>
+              <span>Sidi Bel Abbes , Algerie</span>
+           </div>
+       </div>
+  </div>
+
+
+  </div>
+
+  <div class="col-9">
+    <!-- creating div for each vin if clicked and ref if clicked to maintain data -->
+    <div class="refsection" style="display:none">
+      <strong>Ref section</strong>
+      <div class="refdirectresults">
+
+      </div>
+      <!-- selected car -->
+      <div class="selectedcar">
+
+      </div>
+      <div class="bg-white border p-3">
+
+        <div class="bg-white position-relative">
+          <div class="loader" style="display:none;position:fixed;z-index:999;">
+            <img src="/static/loaders/fingers.gif" alt="">
+          </div>
+          <div class="reftableholder">
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- vin section -->
+    <div class="vinsection">
+      <strong>Carte grise section</strong>
+      <!-- <div class="d-flex" style="height:100%; overflow-x:scroll; overflow-y:hidden;">
+
+        <button style="border-bottom:5px solid blue;" class="btn mr-2 bg-white p-3 text-center category categorybtn col-3" categoryid="100011-100121" onclick="getproducts(event, '100011-100121')">
+          Amortisseur
+        </button>
+        <button style="border-bottom:5px solid blue;" class="btn mr-2 bg-white p-3 text-center category categorybtn" categoryid="100006-100030" onclick="getproducts(event, '100006-100030')">
+          Plaquette de frien
+        </button>
+        <button style="border-bottom:5px solid blue;" class="btn mr-2 bg-white p-3 text-center category categorybtn" categoryid="100006-100032" onclick="getproducts(event, '100006-100032')">
+          Disque de frien
+        </button>
+
+        <button style="border-bottom:5px solid blue;" class="btn mr-2 bg-white p-3 text-center category categorybtn" categoryid="100014-100071" onclick="getproducts(event, '100014-100071')">
+          Tette Cardan
+        </button>
+        <button style="border-bottom:5px solid blue;" class="btn mr-2 bg-white p-3 text-center category categorybtn" categoryid="100014-100062" onclick="getproducts(event, '100014-100062')">
+          Arbre de Transmission
+        </button>
+        <button style="border-bottom:5px solid blue;" class="btn mr-2 bg-white p-3 text-center category categorybtn" categoryid="100013-100206" onclick="getproducts(event, '100013-100206')">
+          Moyeau/Roulement de roue
+        </button>
+        <!-- <button style="border-bottom:5px solid blue;" class="btn mr-2 bg-white p-3 text-center category categorybtn" categoryid="100013-100579" onclick="getproducts(event, '100013-100579')">
+           de roue
+        </button>
+        <button style="border-bottom:5px solid blue;" class="btn mr-2 bg-white p-3 text-center category categorybtn" categoryid="100016-100461" onclick="getproducts(event, '100016-100461')">
+          Tendeur (crantée)
+        </button>
+        <button style="border-bottom:5px solid blue;" class="btn mr-2 bg-white p-3 text-center category categorybtn" categoryid="100016-100441" onclick="getproducts(event, '100016-100441')">
+          Tendeur (trapezoidale)
+        </button>
+        <button style="border-bottom:5px solid blue;" class="btn mr-2 bg-white p-3 text-center category categorybtn" categoryid="100016-100455" onclick="getproducts(event, '100016-100455')">
+          Poulie
+        </button>
+        <button style="border-bottom:5px solid blue;" class="btn mr-2 bg-white p-3 text-center category categorybtn" categoryid="100006-100032" onclick="getproducts(event, '100050-100050')">
+          Embryage
+        </button>
+        <!-- category-assambly
+
+      </div> -->
+      
+      <!-- selected car -->
+      <div class="selectedcar">
+
+      </div>
+      <div class="bg-white border p-3">
+
+        <div class="bg-white position-relative">
+
+          <!-- <div class="p-0 d-block card-footer">
+            <div class="grid-menu grid-menu-4col">
+              <div class="no-gutters row">
+                <div class="col-sm-3">
+                  <button class="btn-icon-vertical btn-transition  btn btn-outline-link categorybtn" style="border-bottom:5px solid blue;" categoryid="100006-100032" onclick="getproducts(event, '100006-100032')">
+                  <i class="lnr-license btn-icon-wrapper btn-icon-lg mb-3"> </i>
+                  <strong>
+                    Disque de frien
+                  </strong>
+                  </button>
+                </div>
+                <div class="col-sm-3">
+
+                  <button style="border-bottom:5px solid blue;" class="btn mr-2 bg-white p-3 text-center category categorybtn col-3" categoryid="100006-100032" onclick="getproducts(event, '100006-100032')">
+                  Disque de frien
+                </button>
+                </div>
+                <div class="col-sm-3">
+                  <button class="btn-icon-vertical btn-transition  btn btn-outline-link">
+                  <i class="lnr-map btn-icon-wrapper btn-icon-lg mb-3"> </i>
+                  <span class="badge badge-info badge-dot badge-dot-lg badge-dot-inside"> </span>Secondary
+                  </button>
+                </div>
+                <div class="col-sm-3">
+                  <button class="btn-icon-vertical btn-transition  btn btn-outline-link">
+                  <i class="lnr-music-note btn-icon-wrapper btn-icon-lg mb-3"> </i>
+                  <span class="badge badge-alternate badge-dot badge-dot-lg badge-dot-inside"> </span>Success
+                  </button>
+                </div>
+                <div class="col-sm-3">
+                  <button class="btn-icon-vertical btn-transition  btn btn-outline-link">
+                  <i class="lnr-heart btn-icon-wrapper btn-icon-lg mb-3"> </i>
+                  <span class="badge badge-warning badge-dot badge-dot-lg badge-dot-inside"> </span>Info
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div> -->
+          <div class="grid-menu categoriesholder row flex-wrap p-2" style="
+          display:none;
+          position: fixed;
+          width:70vw;
+          top: 0px;
+          background: #3f6ad836;
+          border-radius: 16px;
+          box-shadow: rgb(0 0 0 / 10%) 0px 4px 30px;
+          backdrop-filter: blur(5px);
+          border: 1px solid #3f6ad8;
+          height:100vh;
+          z-index: 9999;
+          ">
+          <div class="mb-3 w-100 d-flex align-items-center">
+            <!-- <strong type="button" class="text-white w-2 p-2 bg-danger border-radius" onclick="$('.categoriesholder').fadeOut()">X</strong> -->
+            <input type="text" class="searchcategories form-control" placeholder="Category">
+          </div>
+            <div class="col-sm-3 mb-2">
+
+              <button style="border-bottom:5px solid blue;" class="btn mr-2 bg-white p-3 text-center category categorybtn col-3" categoryid="100011-100121" onclick="getproducts(event, '100011-100121')">
+                Amortisseur
+              </button>
+            </div>
+              <div class="col-sm-3 mb-2">
+
+                <button style="border-bottom:5px solid blue;" class="btn mr-2 bg-white p-3 text-center category categorybtn col-3" categoryid="100006-100030" onclick="getproducts(event, '100006-100030')">
+                Plaquette de frien
+              </button>
+            </div>
+              <div class="col-sm-3 mb-2">
+
+                <button style="border-bottom:5px solid blue;" class="btn mr-2 bg-white p-3 text-center category categorybtn col-3" categoryid="100006-100032" onclick="getproducts(event, '100006-100032')">
+                Disque de frien
+              </button>
+            </div>
+
+              <div class="col-sm-3 mb-2">
+
+                <button style="border-bottom:5px solid blue;" class="btn mr-2 bg-white p-3 text-center category categorybtn col-3" categoryid="100014-100071" onclick="getproducts(event, '100014-100071')">
+                Tette Cardan
+              </button>
+            </div>
+              <div class="col-sm-3 mb-2">
+
+                <button style="border-bottom:5px solid blue;" class="btn mr-2 bg-white p-3 text-center category categorybtn col-3" categoryid="100014-100062" onclick="getproducts(event, '100014-100062')">
+                Arbre de Transmission
+              </button>
+            </div>
+              <div class="col-sm-3 mb-2">
+
+                <button style="border-bottom:5px solid blue;" class="btn mr-2 bg-white p-3 text-center category categorybtn col-3" categoryid="100013-100206" onclick="getproducts(event, '100013-100206')">
+                Moyeau/Roulement de roue
+              </button>
+            </div>
+            <!--
+                <div class="col-sm-3 mb-2">
+
+                  <button style="border-bottom:5px solid blue;" class="btn mr-2 bg-white p-3 text-center category categorybtn col-3" categoryid="100013-100579" onclick="getproducts(event, '100013-100579')">
+                 de roue
+               </div>
+              </button> -->
+              <div class="col-sm-3 mb-2">
+
+                <button style="border-bottom:5px solid blue;" class="btn mr-2 bg-white p-3 text-center category categorybtn col-3" categoryid="100016-100461" onclick="getproducts(event, '100016-100461')">
+                Tendeur (crantée)
+              </button>
+            </div>
+              <div class="col-sm-3 mb-2">
+
+                <button style="border-bottom:5px solid blue;" class="btn mr-2 bg-white p-3 text-center category categorybtn col-3" categoryid="100016-100441" onclick="getproducts(event, '100016-100441')">
+                Tendeur (trapezoidale)
+              </button>
+            </div>
+              <div class="col-sm-3 mb-2">
+
+                <button style="border-bottom:5px solid blue;" class="btn mr-2 bg-white p-3 text-center category categorybtn col-3" categoryid="100016-100455" onclick="getproducts(event, '100016-100455')">
+                Poulie
+              </button>
+            </div>
+              <div class="col-sm-3 mb-2">
+
+                <button style="border-bottom:5px solid blue;" class="btn mr-2 bg-white p-3 text-center category categorybtn col-3" categoryid="100006-100032" onclick="getproducts(event, '100050-100050')">
+                Embryage
+              </button>
+            </div>
+              <!-- category-assambly -->
+
+
+          </div>
+          <div class="loader" style="display:none;position:fixed;z-index:999;">
+            <img src="/static/loaders/fingers.gif" alt="">
+          </div>
+          <div class="vintableholder">
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+
+</div>
+
+
+
+
+
+{% endblock %}
+
+
+
+
+
+
+
+{% block script %}
+<script>
+  //car info
+  function getcarinfo(event, carid){
+    $('.carinfo').fadeIn()
+    $.get('/searcher/getcarinfo', {'carid':carid}, (data)=>{
+      $('.carinfo').html(data.html)
+    })
+  }
+  // display full image
+  function displayfullimage(event){
+    thistr=$(event.target).parent().parent()
+    $('tr').css('background', 'none')
+    thistr.css('background', 'gainsboro')
+    const img = event.target;
+    const originalSrc = img.src;
+    const fullSizeSrc = originalSrc.replace("/200/", "/800/");
+    td = $(event.target).parent();
+    if (td.find('.imagecard__tooltip').length > 0) {
+      return
+    }
+    $('.imagecard__tooltip').remove()
+    // create element
+    // Create the div element as a jQuery object
+    const cardTooltip = $(`
+        <div class="imagecard__tooltip">
+
+            <div class="card__content border">
+              <button class="btn btn-danger" onclick="$('.imagecard__tooltip').remove()">x</button>
+              <header class="card__header border-bottom text-white">
+                  <span>Orignal Ref</span>
+
+              </header>
+                <div class="imgcard__data">
+                  <img src="${fullSizeSrc}">
+
+                </div>
+
+
+
+            </div>
+        </div>
+    `);
+
+    // Insert the div into the td
+    td.append(cardTooltip);
+  }
+  // getbranddirectref
+  function getbranddirectref(event){
+    brandid=$(event.target).val()
+    if (brandid==""){
+      return
+    }
+    ref=$('.refinput').val()
+    brandcount=$(event.target).find("option:selected").attr('count');
+    brandname=$(event.target).find("option:selected").text();
+    $('.reftableholder').css('filter', 'blur(5px)')
+    console.log(brandcount, brandname, ref)
+    $('.loader').fadeIn()
+    $.get('/searcher/getbranddirectref', {
+      'brandid':brandid,
+      'brandname':brandname,
+      'ref':ref,
+      'brandcount':brandcount,
+    }, (data)=>{
+      $('.refpdctstrs').html(data.trs)
+      $('.loader').fadeOut()
+      $('.reftableholder').css('filter', 'blur(0)')
+
+    })
+  }
+
+  // searchrefdirect
+  function searchrefdirect(event){
+    ref=$(event.target).val()
+    if (ref==""){
+      return
+    }
+    $('.loader').fadeIn()
+    $.get('/searcher/searchrefdirect',
+    {
+      'ref':ref
+    },
+    (data)=>{
+      $('.reftableholder').html(data.trs)
+      $('.select2').select2()
+      //$('.refdirectresults').html(data.html)
+      $('.loader').fadeOut()
+      // console.log(data.products)
+      // console.log(data.brands)
+    }
+    )
+  }
+
+
+  function gettargets(event){
+    model_code=$(event.target).val()
+    if (model_code==''){
+      return
+    }
+    $('.cars').html('')
+    $('.targetsholder').remove()
+    $('.carselector').find('.loader').fadeIn()
+    $.get('/searcher/gettargets', {'model_code':model_code}, (data)=>{
+      $('.carselector').find('.loader').fadeOut()
+      $('.carselector').append(data.html)
+      $('.select2').select2()
+    })
+  }
+  function getmodels(event){
+    manifacturer_code=$(event.target).val()
+    if (manifacturer_code==''){
+      return
+    }
+    $('.cars').html('')
+    $('.modelsholder').remove()
+    $('.targetsholder').remove()
+    $('.carselector').find('.loader').fadeIn()
+    $.get('/searcher/getmodels', {'manifacturer_code':manifacturer_code}, (data)=>{
+      $('.carselector').find('.loader').fadeOut()
+      $('.carselector').append(data.html)
+      $('.select2').select2()
+    })
+  }
+  function getrefproducts(event, categoryabdassambly){
+    ref=$('.refinput').val()
+    if (ref==""){
+      return
+    }
+    $('.loader').fadeIn()
+    assambly=categoryabdassambly.split('-')[1]
+    categoryid=categoryabdassambly.split('-')[0]
+
+    $.get('/searcher/getrefdata', {'ref':ref, 'assambly':assambly, 'categoryid':categoryid}, (data)=>{
+      $('.reftableholder').html(data.trs)
+      $('.loader').fadeOut()
+      $('.reftableholder').css('filter', 'blur(0)')
+
+      $('.select2').select2()
+    })
+    console.log('select2')
+  }
+  function checkibra(event, ref){
+    thistr=$(event.target).parent().parent().parent()
+    $('tr').css('background', 'none')
+    thistr.css('background', 'gainsboro')
+    td = $(event.target).parent();
+    if (td.find('.ibracard__tooltip').length > 0) {
+      return
+    }
+    $('.ibracard__tooltip').remove()
+    // create element
+    // Create the div element as a jQuery object
+    const cardTooltip = $(`
+        <div class="ibracard__tooltip">
+
+            <div class="ibracard__content border">
+              <button class="btn btn-danger" onclick="$('.ibracard__tooltip').remove()">x</button>
+
+
+
+              <header class="ibracard__header border-bottom text-white">
+                  <span>Ibra status</span>
+
+              </header>
+                <div class="ibracard__data bg-white">
+                  <div class="d-flex justify-content-center">
+                    <div class="spinner-border" role="status">
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    `);
+
+    // Insert the div into the td
+    td.append(cardTooltip);
+    // Perform the AJAX request
+    $.get('/searcher/checkibra', {
+        'ref': ref
+    }, (data) => {
+        console.log(data);
+        if (data.found){
+          td.find('.ibracard__data').html('')
+          for (i of data.products){
+            td.find('.ibracard__data').append(`
+            <table class="table table-bordered">
+              <tr>
+                <td>${i.ref}</td>
+                <td>${i.name}</td>
+                <td>${i.disponible}</td>
+              </tr>
+            </table>
+            `)
+          }
+        }else{
+          td.find('.ibracard__data').text('No data')
+        }
+    });
+
+  }
+  function getbrandpdcts(event){
+    brandid=$(event.target).val()
+    if (brandid==""){
+      return
+    }
+    $('.vintableholder').css('filter', 'blur(5px)')
+    assamblyandcategory=$(event.target).attr('assamblyandcategory')
+    // selectedradio=$('input[name="carselector"]:checked')
+    // if (selectedradio.length==0 && ($('.targets').length==0 || $('.targets').val()=="")){
+    //   console.log('nor car selected')
+    //   return
+    // }
+    carid=$('input[name="carselector"]').length?$('input[name="carselector"]').attr('carid'):$('.targets').val()
+    if (carid==null){
+      console.log('nor car selected')
+      return
+    }
+    $('.loader').fadeIn()
+    //carid=selectedradio.length?selectedradio.attr('carid'):$('.targets').val()
+    console.log(brandid, assamblyandcategory, carid)
+    $.get('/searcher/getbrandpdcts', {
+      'carid':carid,
+      'assamblyandcategory':assamblyandcategory,
+      'brandid':brandid,
+    }, (data)=>{
+      $('.pdctstrs').html(data.trs)
+      $('.loader').fadeOut()
+      $('.vintableholder').css('filter', 'blur(0)')
+    })
+
+  }
+  function getbrandrefpdcts(event){
+    brandid=$(event.target).val()
+    if (brandid==""){
+      return
+    }
+    ref=$('.refinput').val()
+    brandcount=$(event.target).find("option:selected").attr('count');
+    brandname=$(event.target).find("option:selected").text();
+    $('.reftableholder').css('filter', 'blur(5px)')
+    assambly=$(event.target).attr('assamblyandcategory')
+    console.log(brandid, brandcount, brandname, ref, assambly)
+    $('.refloader').fadeIn()
+    $.get('/searcher/getbrandrefpdcts', {
+      'assambly':assambly,
+      'brandid':brandid,
+      'brandname':brandname,
+      'ref':ref,
+      'brandcount':brandcount,
+    }, (data)=>{
+      $('.pdctstrs').html(data.trs)
+      $('.loader').fadeOut()
+      $('.reftableholder').css('filter', 'blur(0)')
+
+    })
+
+  }
+  function getproductoems(event, code) {
+    thistr=$(event.target).parent().parent().parent()
+    $('tr').css('background', 'none')
+    thistr.css('background', 'gainsboro')
+    //old code: creating the div card inside the td, now we use one global #4545dfg
+    // Get the parent td element
+    // td = $(event.target).parent();
+    // if (td.find('.card__tooltip').length > 0) {
+    //   return
+    // }
+    // //$('.card__tooltip').remove()
+    // // create element
+    // // Create the div element as a jQuery object
+    // const cardTooltip = $(`
+    //     <div class="card__tooltip">
+    //
+    //         <div class="card__content border">
+    //           <button class="btn btn-danger" onclick="$('.card__tooltip').remove()">x</button>
+    //           <header class="card__header border-bottom text-white">
+    //               <span>Orignal Ref</span>
+    //
+    //           </header>
+    //             <div class="card__data">
+    //               <div class="d-flex justify-content-center">
+    //                 <div class="spinner-border" role="status">
+    //                 </div>
+    //               </div>
+    //             </div>
+    //           <header class="card__header border-bottom text-white">
+    //               <span>Description</span>
+    //           </header>
+    //           <div class="description__data">
+    //             <div class="d-flex justify-content-center">
+    //               <div class="spinner-border" role="status">
+    //               </div>
+    //             </div>
+    //           </div>
+    //
+    //
+    //         </div>
+    //     </div>
+    // `);
+    //
+    // // Insert the div into the td
+    // td.append(cardTooltip);
+
+    $('.card__tooltip').fadeIn()
+    if ($('.card__tooltip').attr('code')== code) {
+      return
+    }
+    $('.card__data').html('<div class="spinner-border" role="status"></div>')
+    $('.description__data').html('<div class="spinner-border" role="status"></div>')
+    $('.card__tooltip').attr('code', code)
+    // Perform the AJAX request
+    $.get('/searcher/getproductoems', {
+        'code': code
+    }, (data) => {
+        console.log(data);
+        //old
+        // td.find('.card__data').html(data.oems)
+        // td.find('.description__data').html(data.features)
+        $('.card__data').html(data.oems)
+        $('.description__data').html(data.features)
+        $('.cars').html(data.cars)
+    });
+    // Check if the element with class 'card__tooltip' already exists in the td
+    // if (td.find('.card__tooltip').length === 0) {
+    //
+    // }
+    // else{
+    //   td.find('.card__tooltip').remove()
+    // }
+
+}
+  function getproducts(event, categoryid){
+    category=$(event.target).text()
+    $('.categoryselected').text(category)
+    $('.categoriesholder').fadeOut()
+    $('.categorybtn').removeClass('active')
+    $(event.target).addClass('active')
+    $('.vintableholder').css('filter', 'blur(5px)')
+
+    // get selected vehicule a9dim, now the car will be the iput since we will have just one car
+    // selectedradio=$('input[name="carselector"]:checked')
+    // if (selectedradio.length==0 && ($('.targets').length==0 || $('.targets').val()=="")){
+    //   console.log('nor car selected')
+    //   return
+    // }
+
+    //carid=selectedradio.length?selectedradio.attr('carid'):$('.targets').val()
+    carid=$('input[name="carselector"]').length?$('input[name="carselector"]').attr('carid'):$('.targets').val()
+    if (carid==null){
+      console.log('nor car selected')
+      return
+    }
+    $('.loader').fadeIn()
+    // get products
+    $.get('/searcher/getprudcts', {'carid':carid, 'categoryid':categoryid}, (data)=>{
+      $('.vintableholder').html(data.trs)
+      $('.loader').fadeOut()
+      $('.vintableholder').css('filter', 'blur(0)')
+
+      $('.select2').select2()
+    })
+    console.log('select2')
+  }
+  function getvindata(event){
+    console.log("getting data")
+    vin=$('.vininput').val().replace(/\s+/g, '');
+    if (vin=="" || vin.length!==17){
+      console.log('here1')
+      $('.vininput').addClass('border-danger')
+      $('.categoriesholder').fadeOut()
+      $('.cars').html('VIN code incorrect')
+      // $('.btnsinfo').html('')
+      $('.btnsinfo').removeClass('d-flex').addClass('d-none')
+      
+      return
+    }
+    console.log('here')
+    $('.cars').html('<div class="spinner-grow" role="status"><span class="sr-only"></span></div>')
+    $('.vininput').removeClass('border-danger')
+
+    $('.targetsholder').remove()
+    $.get('/searcher/vindata', {'vin':vin}, (data)=>{
+      console.log(data.fromdb)
+      $('.cars').html('')
+      if (data.success){
+
+        //$('.cars').append(data.data.name)
+        console.log(data.data[0].name.split(' ')[0])
+        if (data.fromdb){
+          $('.cars').append(`<img style="width: 100%;" src='/static/images/cars/${data.data[0].name.split(' ')[0]}.jpg'>`)
+          for (i of data.data){
+            console.log(i, 'data from db')
+            $('.cars').append(`
+            <div class="vincarsresult">
+              <div class="form-check">
+                <label class="form-check-label">
+                <input type="radio" name="carselector" carid="${i.uuid}" class="form-check-input">${i.name} (${i.yearfrom} - ${i.yearto?i.yearto:''})
+
+                </label>
+              </div>
+            </div>
+            `)
+          }
+          // remove cartargets so that when category is selected it will use vin data #3RCDSQDS
+          $('.targetsholder').remove()
+          $('.categoriesholder').fadeIn()
+          // display btns
+          // $('.btnsinfo').html(`
+          // <button class="btn btn-outline-secondary" onclick="$('.categoriesholder').fadeIn()">
+          //   <strong>
+          //     <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+          //       <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/>
+          //     </svg>
+          //   </strong>
+          // </button>
+          //
+          //
+          // <button type="button" name="button" class="btn btn-outline-secondary" onclick="getcarinfo(event, ${data.data[0].uuid})">
+          //   <strong>
+          //     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-question-circle" viewBox="0 0 16 16">
+          //       <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+          //       <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286m1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94"/>
+          //     </svg>
+          //   </strong>
+          // </button>
+          // `)
+        }else{
+          console.log(i, 'data not from db')
+          $('.cars').append(`<img style="width: 100%;" src='/static/images/cars/${data.data[0].fullName.split(' ')[0]}.jpg'>`)
+
+          $('.cars').append(`
+          <div>
+            <div class="form-check">
+              <label class="form-check-label">
+                <input type="radio" name="carselector" carid="${data.data[0].uuid}" class="form-check-input">${data.data[0].fullName} (${data.data[0].constructionYearFrom} - ${data.data[0].constructionYearTo})
+
+              </label>
+            </div>
+          </div>
+          `)
+          $('.categoriesholder').fadeIn()
+
+          // for (i of data.data){
+          //   // disply btnsinfo
+          //   // $('.btnsinfo').html(`
+          //   // <button class="btn btn-outline-secondary" onclick="$('.categoriesholder').fadeIn()">
+          //   //   <strong>
+          //   //     <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+          //   //       <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/>
+          //   //     </svg>
+          //   //   </strong>
+          //   // </button>
+          //   //
+          //   //
+          //   // <button type="button" name="button" class="btn btn-outline-secondary" onclick="getcarinfo(event, ${data.data[0].uuid})">
+          //   //   <strong>
+          //   //     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-question-circle" viewBox="0 0 16 16">
+          //   //       <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+          //   //       <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286m1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94"/>
+          //   //     </svg>
+          //   //   </strong>
+          //   // </button>
+          //   // `)
+          // }
+
+        }
+        $('.btnsinfo').removeClass('d-none').addClass('d-flex')
+        // $('.btnsinfo').html(`
+        // <button class="btn btn-outline-secondary" onclick="$('.categoriesholder').fadeToggle()">
+        //   <strong>
+        //     <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+        //       <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/>
+        //     </svg>
+        //   </strong>
+        // </button>
+
+
+
+        // `)
+        
+        // <button type="button" name="button" class="btn btn-outline-secondary position-relative" onclick="getcarinfo(event, '${data.data[0].uuid}')">
+        //   <strong>
+        //     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-question-circle" viewBox="0 0 16 16">
+        //       <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+        //       <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286m1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94"/>
+        //     </svg>
+        //   </strong>
+        //   <div class="position-absolute p-2 border rounded bg-white text-dark carinfo" style="display:none; top:0; left:43px; border: 1px solid rgb(63, 106, 216);">
+        //     <div class="spinner-border loader" role="status">
+        //     </div>
+        //   </div>
+        // </button>
+      }
+      else{
+        $('.cars').text('VIN introuvable, Reclamation Envoyé')
+        $('.categoriesholder').fadeOut()
+        //$('.btnsinfo').html('')
+        $('.btnsinfo').removeClass('d-flex').addClass('d-none')
+      }
+    })
+  }
+</script>
+{% endblock %}

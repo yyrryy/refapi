@@ -1,0 +1,76 @@
+<!-- this is for ref searching direct -->
+{% load custom_filters %}
+<strong>Marque: </strong>
+<select class="select2" assamblyandcategory="{{assamblyandcategory}}" {% if ref %} onchange="getbrandrefpdcts(event)" {% else %} onchange="getbrandpdcts(event)" {% endif %}>
+  <option value="">--</option>
+  {% for i in brands %}
+  <option value="{{ i.query.query.value|extract_brand }}" count="{{i.count}}">{{i.name}}</option>
+  {% endfor %}
+</select>
+<table class="table table-bordered" style="font-weight: bold;">
+  <thead>
+    <tr>
+      <td style="width:2%;">Image</td>
+      <td>Ref.</td>
+      <td>Marque</td>
+      <td>Nom</td>
+    </tr>
+  </thead>
+  <tbody class="pdctstrs">
+    {% if fromdb %}
+      {% for i in products %}
+      <tr pdctid="{{i.id}}">
+        <td class="position-relative">
+
+          <img onclick="displayfullimage(event) src="{% if i.image == '' %}/static/images/noimage.jpg{% else %}{{i.image}}{% endif %}" alt="" width=90>
+        </td>
+        <td>
+          {{i.brandref}}
+          <div class="d-flex">
+            <button type="button" class="btn mr-2 mb-2 btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg" onclick="getproductoems(event, '{{i.code}}')">OEM</button>
+            <button type="button" class="btn mr-2 mb-2 btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg" onclick="checkibra(event, '{{i.brandref}}')"></button>
+          </div>
+        </td>
+        <td>
+          {{i.brand}}
+        </td>
+        <td>
+
+
+
+          
+
+            {{i.fullName}} ({{i.features.0.featureValues.0.value}} - {{i.features.1.featureValues.0.value}})
+        </td>
+        
+      </tr>
+      {% endfor %}
+
+    {% else %}
+      {% for i in products %}
+      <tr>
+        <td class="position-relative">
+          <img onclick="displayfullimage(event) src="{% if i.images.0.url == '' %}/static/images/noimage.jpg{% else %}{{i.images.0.url}}{% endif %}" width=90>
+        </td>
+        <td>
+          {{i.catalogArticleNumber}}
+          <div class="d-flex flex-column">
+            <button type="button" class="btn mr-2 mb-2 btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg" onclick="getproductoems(event, '{{i.code}}')">OEM</button>
+            <button type="button" class="btn mr-2 mb-2 btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg" onclick="checkibra(event, '{{i.catalogArticleNumber}}')"></button>
+          </div>
+        </td>
+        <td>
+          {{i.brand.name}}
+        </td>
+        <td>
+
+          
+          {{i.fullName}}
+          
+        </td>
+        
+      </tr>
+      {% endfor %}
+    {% endif %}
+  </tbody>
+</table>

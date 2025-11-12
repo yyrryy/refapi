@@ -1,0 +1,62 @@
+{% if fromdb %}
+  {% for i in products %}
+  <tr pdctid="{{i.id}}">
+    <td class="position-relative">
+      <img onclick="displayfullimage(event)" src="{% if i.image == '' %}/static/images/noimage.jpg{% else %}{{i.image}}{% endif %}" alt="" width=90>
+    </td>
+    <td>
+      {{i.brandref}}
+      <div class="d-flex">
+        <button type="button" class="btn mr-2 mb-2 btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg" onclick="getproductoems(event, '{{i.code}}')">OEM</button>
+        <button type="button" class="btn mr-2 mb-2 btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg" onclick="$(this).closest('td').find('.supplierscheck').toggleClass('h-75');">F</button>
+        <!-- checkibra(event, '{{i.brandref}}') -->
+
+      </div>
+    </td>
+    <td>
+      {{i.brand}}
+    </td>
+    <td>
+
+
+
+      
+
+      {{i.fullName}}
+      
+
+    </td>
+    
+  </tr>
+  {% endfor %}
+
+{% else %}
+  {% for i in products %}
+  <tr>
+    <td class="position-relative">
+      <img onclick="displayfullimage(event)" src="{% if i.images.0.url == '' %}/static/images/noimage.jpg{% else %}{{i.images.0.url}}{% endif %}" width=90>
+    </td>
+    <td>
+      {{i.catalogArticleNumber}}
+      <div class="d-flex">
+        <button type="button" class="btn mr-2 mb-2 btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg" onclick="getproductoems(event, '{{i.code}}')">OEM</button>
+        <button type="button" class="btn mr-2 mb-2 btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg" onclick="$(this).closest('td').find('.supplierscheck').toggleClass('h-75');">F</button>
+        <!-- checkibra(event, '{{i.catalogArticleNumber}}') -->
+
+      </div>
+    </td>
+    <td>
+      {{i.brand.name}}
+    </td>
+    <td>
+
+      
+      {{i.fullName}}
+      
+
+
+    </td>
+    
+  </tr>
+  {% endfor %}
+{% endif %}

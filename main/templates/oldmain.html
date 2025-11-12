@@ -1,0 +1,1060 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="row position-relative">
+
+  <!-- OEM and decription holder #4545dfg-->
+  <div class="card__tooltip" pdctid="" style="display:none;">
+
+      <div class="card__content border">
+        <button class="btn btn-danger" onclick="$('.card__tooltip').fadeOut()">x</button>
+        <header class="card__header border-bottom text-white">
+            <span>Orignal Ref</span>
+
+        </header>
+        <div class="card__data ">
+          <div class="d-flex justify-content-center">
+            <div class="spinner-border" role="status">
+            </div>
+          </div>
+        </div>
+        <header class="card__header border-bottom text-white">
+            <span>Description</span>
+        </header>
+        <div class="description__data bg-white">
+          <div class="spinner-border" role="status">
+          </div>
+        </div>
+
+
+      </div>
+  </div>
+
+  <!-- suppliers card -->
+  <div class="ibracard__tooltip" style="display:none;">
+     <div class="ibracard__content border">
+       <button class="btn btn-danger" onclick="$('.ibracard__tooltip').remove()">x</button>
+
+
+
+       <header class="ibracard__header border-bottom text-white">
+           <span>Ibra status</span>
+
+       </header>
+         <div class="ibracard__data bg-white">
+           <div class="d-flex justify-content-center">
+             <div class="spinner-border" role="status">
+             </div>
+           </div>
+         </div>
+     </div>
+  </div>
+  <div class="col-3 position-relative">
+    <div class="bg-white border p-3 rounded" style="position: sticky;top: 0;">
+      <div class="">
+
+        <div class="card-header p-0">
+
+          <ul class="nav nav-justified">
+            <li class="nav-item">
+              <a data-toggle="tab" href="#tab-sddr" class="active nav-link" onclick="$('.refsection').fadeOut();$('.vinsection').fadeIn();">
+                <div class="widget-number">Vin</div>
+
+              </a>
+            </li>
+            <li class="nav-item">
+              <a data-toggle="tab" href="#tab-searchref" class="nav-link" onclick="$('.vinsection').fadeOut();$('.refsection').fadeIn();">
+                <div class="widget-number">Reference</div>
+              </a>
+            </li>
+
+          </ul>
+        </div>
+        <div class="tab-content" style="background: aliceblue;">
+          <div class="tab-pane active" id="tab-sddr" role="tabpanel">
+            <div class="card-body">
+              <div class="search-wrapper active">
+                <div class="input-holder">
+                  <input type="text" class="search-input vininput" placeholder="VIN" style="text-transform:uppercase;" onchange="getvindata(event)">
+                  <button class="search-icon" onclick="getvindata(event)"><span></span></button>
+                </div>
+              </div>
+
+
+
+
+              <div class="cars text-center mt-2">
+              </div>
+
+              <div class="carselector mt-5 position-relative">
+
+                <div class="mb-3 w-100">
+                  <strong>Fabricateur:</strong> <br>
+                  <select style="width:100%;" class="select2 manifacturer" name="" onchange="getmodels(event)">
+                    <option value="">---</option>
+                    <option value="TA-139">Dacia</option>
+                    <option value="TA-36">Ford</option>
+                    <option value="TA-88">PEUGEOT</option>
+                    <option value="TA-93">RENAULT</option>
+                    <option value="TA-21">CITROËN</option>
+                    <option value="TA-111">TOYOTA</option>
+                    <option value="TA-106">SKODA</option>
+                    <option value="TA-121">VW</option>
+                    <option value="TA-183">HYUNDAI</option>
+                    <option value="TA-184">KIA</option>
+
+                  </select>
+                </div>
+
+                <div class="spinner-border loader" role="status" style="display:none; position: absolute;">
+                </div>
+
+
+
+              </div>
+              <div class="vindirectresults">
+                <div class="justify-content-between btnsinfo d-none">
+                  <button class="btn btn-outline-secondary" onclick="$('.categoriesholder').fadeToggle()">
+                    <div class="border categoryselected"></div>
+                    <strong>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+                        <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/>
+                      </svg>
+                    </strong>
+                  </button>
+                    <!-- <div class="text-muted">
+                      Categories
+                    </div>
+                    <div class="text-muted">
+                      Info
+                    </div> -->
+
+                  </div>
+              </div>
+              <!-- <ul class="nav nav-tabs">
+              <li class="nav-item"><a data-toggle="tab" href="#tab-eg13-0" class="nav-link active">VIN (carte grise)</a></li>
+              <li class="nav-item"><a data-toggle="tab" href="#tab-eg13-1" class="nav-link">VOITURES</a></li>
+              </ul>
+              <div class="tab-content border-primary">
+              <div class="tab-pane active" id="tab-eg13-0" role="tabpanel">
+                <div class="search-wrapper active">
+                    <div class="input-holder">
+                        <input type="text" class="search-input vininput" placeholder="VIN">
+                        <button class="search-icon" onclick="getvindata(event)"><span></span></button>
+                    </div>
+                </div>
+
+
+                <div class="cars text-center mt-2">
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-eg13-1" role="tabpanel">
+
+                //Select car
+                <div class="carselector">
+
+                  <div class="mb-3 w-100">
+                    <strong>Fabricateur:</strong> <br>
+                    <select style="width:100%;" class="select2 manifacturer" name="" onchange="getmodels(event)">
+                      <option value="">---</option>
+                      <option value="TA-139">Dacia</option>
+                      <option value="TA-36">Ford</option>
+                      <option value="TA-88">PEUGEOT</option>
+                      <option value="TA-93">RENAULT</option>
+                      <option value="TA-21">CITROËN</option>
+                      <option value="TA-111">TOYOTA</option>
+                      <option value="TA-106">SKODA</option>
+                      <option value="TA-121">VW</option>
+
+                    </select>
+                  </div>
+
+                  <div class="spinner-border loader" role="status" style="display:none;">
+                  </div>
+
+
+
+                </div>
+
+              </div>
+
+
+              </div> -->
+
+
+
+
+
+
+            </div>
+
+          </div>
+          <!-- searchref tab -->
+          <div class="tab-pane" id="tab-searchref" role="tabpanel">
+            <div class="card-body">
+
+                  <input type="text" class="search-input refinput w-100 form-control active" placeholder="Ref" onchange="searchrefdirect(event)">
+
+
+              <!-- <div class="mt-5 d-flex flex-column">
+
+                <button class="btn border bg-white p-3 text-center category categorybtn" categoryid="100011-100121" onclick="getrefproducts(event, '100011-100121')">
+                  Amortisseur
+                </button>
+                <button class="btn border bg-white p-3 text-center category categorybtn" categoryid="100006-100030" onclick="getrefproducts(event, '100006-100030')">
+                  Plaquette de frien
+                </button>
+                <button class="btn border bg-white p-3 text-center category categorybtn" categoryid="100006-100032" onclick="getrefproducts(event, '100006-100032')">
+                  Disque de frien
+                </button>
+                <button class="btn border bg-white p-3 text-center category categorybtn" categoryid="100014-100071" onclick="getrefproducts(event, '100014-100071')">
+                  Tette Cardan
+                </button>
+                <button class="btn border bg-white p-3 text-center category categorybtn" categoryid="100014-100062" onclick="getrefproducts(event, '100014-100062')">
+                  Arbre de Transmission
+                </button>
+                <button class="btn border bg-white p-3 text-center category categorybtn" categoryid="100013-100578" onclick="getrefproducts(event, '100013-100578')">
+                  Moyeau de roue
+                </button>
+                <button class="btn border bg-white p-3 text-center category categorybtn" categoryid="100013-100579" onclick="getrefproducts(event, '100013-100579')">
+                  Roulement de roue
+                </button>
+                <button class="btn border bg-white p-3 text-center category categorybtn" categoryid="100016-100461" onclick="getrefproducts(event, '100016-100461')">
+                  Tendeur (crantée)
+                </button>
+                <button class="btn border bg-white p-3 text-center category categorybtn" categoryid="100016-100441" onclick="getrefproducts(event, '100016-100441')">
+                  Tendeur (trapezoidale)
+                </button>
+                <button class="btn border bg-white p-3 text-center category categorybtn" categoryid="100016-100455" onclick="getrefproducts(event, '100016-100455')">
+                  Poulie
+                </button>
+                <button class="btn border bg-white p-3 text-center category categorybtn" categoryid="100006-100032" onclick="getrefproducts(event, '100050-100050')">
+                  Embryage
+                </button>
+                <!-- category-assambly
+
+              </div> -->
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+      <!-- <div class="d-flex justify-content-between">
+        <button type="button" name="button" class="btn text-primary border" onclick="$('.categoriesholder').fadeIn()">
+          <strong>
+            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+              <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/>
+            </svg>
+          </strong>
+        </button>
+
+      </div> -->
+      <div class="d-flex justify-content-between">
+        <!-- <div class="text-center">-->
+          <img src="/static/images/adashi.png" width="150"  alt="">
+          <button class="btn adashiinfobtn position-relative" onclick="$('.adashiinfo').fadeToggle()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle-fill" viewBox="0 0 16 16">
+                  <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2"></path>
+                </svg>
+                <div class="adashiinfo bg-white border shadow-lg p-2 rounded border-primary" style="
+                position: absolute;
+                top: 30px;
+                right: 34px;
+                display:none;
+                width:15vw;
+                ">
+
+                    <div class="d-flex text-primary">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-bounding-box mr-2" viewBox="0 0 16 16">
+                        <path d="M1.5 1a.5.5 0 0 0-.5.5v3a.5.5 0 0 1-1 0v-3A1.5 1.5 0 0 1 1.5 0h3a.5.5 0 0 1 0 1zM11 .5a.5.5 0 0 1 .5-.5h3A1.5 1.5 0 0 1 16 1.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 1-.5-.5M.5 11a.5.5 0 0 1 .5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 1 0 1h-3A1.5 1.5 0 0 1 0 14.5v-3a.5.5 0 0 1 .5-.5m15 0a.5.5 0 0 1 .5.5v3a1.5 1.5 0 0 1-1.5 1.5h-3a.5.5 0 0 1 0-1h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 1 .5-.5"></path>
+                        <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm8-9a3 3 0 1 1-6 0 3 3 0 0 1 6 0"></path>
+                      </svg>
+                      <strong>Abdelwahed</strong>
+                    </div>
+
+                    <div class="d-flex text-primary">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill mr-2" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"></path>
+                      </svg>
+                      <div class="">
+                        06 88 52 43 20
+                      </div>
+                    </div>
+
+                    <div class="d-flex text-primary mt-5">
+                      <strong>
+                        Creation des systems local/online
+                      </strong>
+                    </div>
+                </div>
+              </button>
+          <!-- <img src="/static/images/adashi2.png"  alt=""> -->
+      </div>
+      <hr>
+      <!-- <div class="box bg-white border-primary" style="position:relative; height:15vh;">
+        <div class="front d-flex justify-content-center align-items-center">
+             <div class="center">
+                 <img src="/static/images/adashi.png" width="150"  alt="">
+             </div>
+        </div>
+        <div class="back p-2 text-primary">
+              <div class="h5">
+                <strong>Abdelouahed</strong>
+              </div>
+              <div class="h5">
+                <strong>06 88 52 43 20</strong>
+              </div>
+              <div class="h5">
+                <strong>aitaliabdelwahed@gmail.com</strong>
+              </div>
+        </div>
+      </div> -->
+    </div>
+
+
+
+
+
+  </div>
+
+  <div class="col-9">
+    <!-- creating div for each vin if clicked and ref if clicked to maintain data -->
+    <div class="refsection" style="display:none">
+      <strong>Ref section</strong>
+      <div class="refdirectresults">
+
+      </div>
+      <!-- selected car -->
+      <div class="selectedcar">
+
+      </div>
+      <div class="bg-white border p-3">
+
+        <div class="bg-white position-relative">
+          <div class="loader" style="display:none;position:fixed;z-index:999;">
+            <!-- <img src="/static/loaders/fingers.gif" alt=""> -->
+          </div>
+          <div class="reftableholder">
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- vin section -->
+    <div class="vinsection">
+      <strong>Carte grise section</strong>
+      <!-- <div class="d-flex" style="height:100%; overflow-x:scroll; overflow-y:hidden;">
+
+        <button style="border-bottom:5px solid blue;" class="btn mr-2 bg-white p-3 text-center category categorybtn col-3" categoryid="100011-100121" onclick="getproducts(event, '100011-100121')">
+          Amortisseur
+        </button>
+        <button style="border-bottom:5px solid blue;" class="btn mr-2 bg-white p-3 text-center category categorybtn" categoryid="100006-100030" onclick="getproducts(event, '100006-100030')">
+          Plaquette de frien
+        </button>
+        <button style="border-bottom:5px solid blue;" class="btn mr-2 bg-white p-3 text-center category categorybtn" categoryid="100006-100032" onclick="getproducts(event, '100006-100032')">
+          Disque de frien
+        </button>
+
+        <button style="border-bottom:5px solid blue;" class="btn mr-2 bg-white p-3 text-center category categorybtn" categoryid="100014-100071" onclick="getproducts(event, '100014-100071')">
+          Tette Cardan
+        </button>
+        <button style="border-bottom:5px solid blue;" class="btn mr-2 bg-white p-3 text-center category categorybtn" categoryid="100014-100062" onclick="getproducts(event, '100014-100062')">
+          Arbre de Transmission
+        </button>
+        <button style="border-bottom:5px solid blue;" class="btn mr-2 bg-white p-3 text-center category categorybtn" categoryid="100013-100206" onclick="getproducts(event, '100013-100206')">
+          Moyeau/Roulement de roue
+        </button>
+        <!-- <button style="border-bottom:5px solid blue;" class="btn mr-2 bg-white p-3 text-center category categorybtn" categoryid="100013-100579" onclick="getproducts(event, '100013-100579')">
+           de roue
+        </button>
+        <button style="border-bottom:5px solid blue;" class="btn mr-2 bg-white p-3 text-center category categorybtn" categoryid="100016-100461" onclick="getproducts(event, '100016-100461')">
+          Tendeur (crantée)
+        </button>
+        <button style="border-bottom:5px solid blue;" class="btn mr-2 bg-white p-3 text-center category categorybtn" categoryid="100016-100441" onclick="getproducts(event, '100016-100441')">
+          Tendeur (trapezoidale)
+        </button>
+        <button style="border-bottom:5px solid blue;" class="btn mr-2 bg-white p-3 text-center category categorybtn" categoryid="100016-100455" onclick="getproducts(event, '100016-100455')">
+          Poulie
+        </button>
+        <button style="border-bottom:5px solid blue;" class="btn mr-2 bg-white p-3 text-center category categorybtn" categoryid="100006-100032" onclick="getproducts(event, '100050-100050')">
+          Embryage
+        </button>
+        <!-- category-assambly
+
+      </div> -->
+
+      <!-- selected car -->
+      <div class="selectedcar">
+
+      </div>
+      <div class="bg-white border p-3">
+
+        <div class="bg-white position-relative">
+
+          <!-- <div class="p-0 d-block card-footer">
+            <div class="grid-menu grid-menu-4col">
+              <div class="no-gutters row">
+                <div class="col-sm-3">
+                  <button class="btn-icon-vertical btn-transition  btn btn-outline-link categorybtn" style="border-bottom:5px solid blue;" categoryid="100006-100032" onclick="getproducts(event, '100006-100032')">
+                  <i class="lnr-license btn-icon-wrapper btn-icon-lg mb-3"> </i>
+                  <strong>
+                    Disque de frien
+                  </strong>
+                  </button>
+                </div>
+                <div class="col-sm-3">
+
+                  <button style="border-bottom:5px solid blue;" class="btn mr-2 bg-white p-3 text-center category categorybtn col-3" categoryid="100006-100032" onclick="getproducts(event, '100006-100032')">
+                  Disque de frien
+                </button>
+                </div>
+                <div class="col-sm-3">
+                  <button class="btn-icon-vertical btn-transition  btn btn-outline-link">
+                  <i class="lnr-map btn-icon-wrapper btn-icon-lg mb-3"> </i>
+                  <span class="badge badge-info badge-dot badge-dot-lg badge-dot-inside"> </span>Secondary
+                  </button>
+                </div>
+                <div class="col-sm-3">
+                  <button class="btn-icon-vertical btn-transition  btn btn-outline-link">
+                  <i class="lnr-music-note btn-icon-wrapper btn-icon-lg mb-3"> </i>
+                  <span class="badge badge-alternate badge-dot badge-dot-lg badge-dot-inside"> </span>Success
+                  </button>
+                </div>
+                <div class="col-sm-3">
+                  <button class="btn-icon-vertical btn-transition  btn btn-outline-link">
+                  <i class="lnr-heart btn-icon-wrapper btn-icon-lg mb-3"> </i>
+                  <span class="badge badge-warning badge-dot badge-dot-lg badge-dot-inside"> </span>Info
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div> -->
+          <div class="grid-menu categoriesholder row flex-wrap p-2" style="
+          display:none;
+          position: fixed;
+          width: 70vw;
+          top: 78px;
+          background: rgb(255 255 255);
+          border-radius: 16px 0;
+          box-shadow: rgb(0 0 0 / 32%) -2px 6px 3px;
+          backdrop-filter: blur(5px);
+          border: 1px solid rgb(63, 106, 216);
+          /* height: 75vh; */
+          z-index: 9999;
+          ">
+          <div class="mb-3 w-100 d-flex align-items-center">
+            <!-- <strong type="button" class="text-white w-2 p-2 bg-danger border-radius" onclick="$('.categoriesholder').fadeOut()">X</strong> -->
+            <input type="text" class="searchcategories form-control" placeholder="Category">
+          </div>
+            <div class="col-sm-3 mb-2">
+
+              <button style="border-bottom:5px solid blue;" class="btn mr-2 bg-white p-3 text-center category categorybtn col-3" categoryid="100011-100121" onclick="getproducts(event, '100011-100121')">
+                Amortisseur
+              </button>
+            </div>
+              <div class="col-sm-3 mb-2">
+
+                <button style="border-bottom:5px solid blue;" class="btn mr-2 bg-white p-3 text-center category categorybtn col-3" categoryid="100006-100030" onclick="getproducts(event, '100006-100030')">
+                Plaquette de frien
+              </button>
+            </div>
+              <div class="col-sm-3 mb-2">
+
+                <button style="border-bottom:5px solid blue;" class="btn mr-2 bg-white p-3 text-center category categorybtn col-3" categoryid="100006-100032" onclick="getproducts(event, '100006-100032')">
+                Disque de frien
+              </button>
+            </div>
+
+              <div class="col-sm-3 mb-2">
+
+                <button style="border-bottom:5px solid blue;" class="btn mr-2 bg-white p-3 text-center category categorybtn col-3" categoryid="100014-100071" onclick="getproducts(event, '100014-100071')">
+                Tette Cardan
+              </button>
+            </div>
+              <div class="col-sm-3 mb-2">
+
+                <button style="border-bottom:5px solid blue;" class="btn mr-2 bg-white p-3 text-center category categorybtn col-3" categoryid="100014-100062" onclick="getproducts(event, '100014-100062')">
+                Arbre de Transmission
+              </button>
+            </div>
+              <div class="col-sm-3 mb-2">
+
+                <button style="border-bottom:5px solid blue;" class="btn mr-2 bg-white p-3 text-center category categorybtn col-3" categoryid="100013-100206" onclick="getproducts(event, '100013-100206')">
+                Moyeau/Roulement de roue
+              </button>
+            </div>
+            <!--
+                <div class="col-sm-3 mb-2">
+
+                  <button style="border-bottom:5px solid blue;" class="btn mr-2 bg-white p-3 text-center category categorybtn col-3" categoryid="100013-100579" onclick="getproducts(event, '100013-100579')">
+                 de roue
+               </div>
+              </button> -->
+              <div class="col-sm-3 mb-2">
+
+                <button style="border-bottom:5px solid blue;" class="btn mr-2 bg-white p-3 text-center category categorybtn col-3" categoryid="100016-100461" onclick="getproducts(event, '100016-100461')">
+                Tendeur (crantée)
+              </button>
+            </div>
+              <div class="col-sm-3 mb-2">
+
+                <button style="border-bottom:5px solid blue;" class="btn mr-2 bg-white p-3 text-center category categorybtn col-3" categoryid="100016-100441" onclick="getproducts(event, '100016-100441')">
+                Tendeur (trapezoidale)
+              </button>
+            </div>
+              <div class="col-sm-3 mb-2">
+
+                <button style="border-bottom:5px solid blue;" class="btn mr-2 bg-white p-3 text-center category categorybtn col-3" categoryid="100016-100455" onclick="getproducts(event, '100016-100455')">
+                Poulie
+              </button>
+            </div>
+            <div class="col-sm-3 mb-2">
+
+                <button style="border-bottom:5px solid blue;" class="btn mr-2 bg-white p-3 text-center category categorybtn col-3" categoryid="100050-100050" onclick="getproducts(event, '100050-100050')">
+                Embryage
+              </button>
+            </div>
+            <div class="col-sm-3 mb-2">
+
+                <button style="border-bottom:5px solid blue;" class="btn mr-2 bg-white p-3 text-center category categorybtn col-3" categoryid="100005-100260" onclick="getproducts(event, '100005-100260')">
+                FILTRE AIR
+              </button>
+            </div>
+            <div class="col-sm-3 mb-2">
+
+                <button style="border-bottom:5px solid blue;" class="btn mr-2 bg-white p-3 text-center category categorybtn col-3" categoryid="100005-100259" onclick="getproducts(event, '100005-100259')">
+                FILTRE HUILE
+              </button>
+            </div>
+              <!-- category-assambly -->
+
+
+          </div>
+          <div class="loader" style="display:none;position:fixed;z-index:999;">
+            <!-- <img src="/static/loaders/fingers.gif" alt=""> -->
+          </div>
+          <div class="vintableholder">
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+
+</div>
+
+
+
+
+
+{% endblock %}
+
+
+
+
+
+
+
+{% block script %}
+<script>
+  //$('.pdctstrs').html('<tr><td><div class="spinner-border" role="status"></div></td></tr>')
+
+  //car info
+  function getcarinfo(event, carid){
+    $('.carinfo').fadeIn()
+    $.get('/searcher/getcarinfo', {'carid':carid}, (data)=>{
+      $('.carinfo').html(data.html)
+    })
+  }
+  // display full image
+  function displayfullimage(event){
+    thistr=$(event.target).parent().parent()
+    $('tr').removeClass('activetr')
+    thistr.addClass('activetr')
+    const img = event.target;
+    const originalSrc = img.src;
+    const fullSizeSrc = originalSrc.replace("/200/", "/800/");
+    td = $(event.target).parent();
+    if (td.find('.imagecard__tooltip').length > 0) {
+      return
+    }
+    $('.imagecard__tooltip').remove()
+    // create element
+    // Create the div element as a jQuery object
+    const cardTooltip = $(`
+        <div class="imagecard__tooltip">
+
+            <div class="card__content border">
+              <button class="btn btn-danger" onclick="$('.imagecard__tooltip').remove()">x</button>
+              <header class="card__header border-bottom text-white">
+                  <span>Orignal Ref</span>
+
+              </header>
+                <div class="imgcard__data">
+                  <img src="${fullSizeSrc}" style="width:100%;">
+
+                </div>
+
+
+
+            </div>
+        </div>
+    `);
+
+    // Insert the div into the td
+    td.append(cardTooltip);
+  }
+  // getbranddirectref
+  function getbranddirectref(event){
+    brandid=$(event.target).val()
+    if (brandid==""){
+      return
+    }
+    ref=$('.refinput').val()
+    brandcount=$(event.target).find("option:selected").attr('count');
+    brandname=$(event.target).find("option:selected").text();
+    //$('.reftableholder').css('filter', 'blur(5px)')
+    $('.refpdctstrs').html('<tr><td><div class="spinner-border" role="status"></div></td></tr>')
+    console.log(brandcount, brandname, ref)
+    $('.loader').fadeIn()
+    $.get('/searcher/getbranddirectref', {
+      'brandid':brandid,
+      'brandname':brandname,
+      'ref':ref,
+      'brandcount':brandcount,
+    }, (data)=>{
+      $('.refpdctstrs').html(data.trs)
+      $('.loader').fadeOut()
+      //$('.reftableholder').css('filter', 'blur(0)')
+
+    })
+  }
+
+  // searchrefdirect
+  function searchrefdirect(event){
+    ref=$(event.target).val()
+    if (ref==""){
+      return
+    }
+    //$('.loader').fadeIn()
+    //$('.refsection').css('filter', 'blur(5px)')
+    $('.reftableholder').html('<tr><td><div class="spinner-border" role="status"></div></td></tr>')
+    //$.get('/searcher/searchrefdirect',
+    $.get('/searcher/searchdirectrefrep',
+    {
+      'ref':ref
+    },
+    (data)=>{
+      $('.reftableholder').html(data.trs)
+      $('.select2').select2()
+      //$('.refdirectresults').html(data.html)
+      //$('.loader').fadeOut()
+      //$('.refsection').css('filter', 'blur(0)')
+      // console.log(data.products)
+      // console.log(data.brands)
+    }
+    )
+  }
+
+
+
+  function getrefproducts(event, categoryabdassambly){
+    ref=$('.refinput').val()
+    if (ref==""){
+      return
+    }
+    $('.loader').fadeIn()
+    assambly=categoryabdassambly.split('-')[1]
+    categoryid=categoryabdassambly.split('-')[0]
+
+    $.get('/searcher/getrefdata', {'ref':ref, 'assambly':assambly, 'categoryid':categoryid}, (data)=>{
+      $('.reftableholder').html(data.trs)
+      $('.loader').fadeOut()
+      //$('.reftableholder').css('filter', 'blur(0)')
+
+      $('.select2').select2()
+    })
+    console.log('select2')
+  }
+  function checksuppliers(event, ref){
+    thistr=$(event.target).parent().parent().parent()
+    $('tr').css('background', 'none')
+    thistr.css('background', 'gainsboro')
+    td = $(event.target).parent();
+    // finish this, supplier card absolute
+    if (td.find('.ibracard__tooltip').length > 0) {
+      return
+    }
+    //$('.ibracard__tooltip').remove()
+    // create element
+    // Create the div element as a jQuery object
+    // old code #R54CS*9
+    // const cardTooltip = $(`
+    //     <div class="ibracard__tooltip">
+    //
+    //         <div class="ibracard__content border">
+    //           <button class="btn btn-danger" onclick="$('.ibracard__tooltip').remove()">x</button>
+    //
+    //
+    //
+    //           <header class="ibracard__header border-bottom text-white">
+    //               <span>Ibra status</span>
+    //
+    //           </header>
+    //             <div class="ibracard__data bg-white">
+    //               <div class="d-flex justify-content-center">
+    //                 <div class="spinner-border" role="status">
+    //                 </div>
+    //               </div>
+    //             </div>
+    //         </div>
+    //     </div>
+    // `);
+
+    // Insert the div into the td
+    // td.append(cardTooltip);
+    // Perform the AJAX request
+    $.get('/searcher/checksuppliers', {
+        'ref': ref
+    }, (data) => {
+        console.log(data);
+        if (data.found){
+          td.find('.ibracard__data').html('')
+          for (i of data.products){
+            td.find('.ibracard__data').append(`
+            <table class="table table-bordered">
+              <tr>
+                <td>${i.ref}</td>
+                <td>${i.name}</td>
+                <td>${i.disponible}</td>
+              </tr>
+            </table>
+            `)
+          }
+        }else{
+          td.find('.ibracard__data').text('No data')
+        }
+    });
+
+  }
+  function getbrandpdcts(event){
+    brandid=$(event.target).val()
+    brandname=$(event.target).find("option:selected").text();
+    count=$(event.target).find("option:selected").attr('count');
+    console.log('>> count', count)
+    if (brandid==""){
+      console.log('brandid is empty')
+      return
+    }
+    //$('.vintableholder').css('filter', 'blur(5px)')
+    $('.pdctstrs').html('<tr><td><div class="spinner-border" role="status"></div></td></tr>')
+    assamblyandcategory=$(event.target).attr('assamblyandcategory')
+    // selectedradio=$('input[name="carselector"]:checked')
+    // if (selectedradio.length==0 && ($('.targets').length==0 || $('.targets').val()=="")){
+    //   console.log('nor car selected')
+    //   return
+    // }
+    carid=$('input[name="carselector"]').length?$('input[name="carselector"]').attr('carid'):$('.targets').val()
+    if (carid==null){
+      console.log('nor car selected')
+      return
+    }
+    $('.loader').fadeIn()
+    //carid=selectedradio.length?selectedradio.attr('carid'):$('.targets').val()
+    console.log(brandid, assamblyandcategory, carid, brandname)
+    $.get('/searcher/getbrandpdcts', {
+      'carid':carid,
+      'assamblyandcategory':assamblyandcategory,
+      'brandid':brandid,
+      'brandname':brandname,
+      'count':count,
+    }, (data)=>{
+      $('.pdctstrs').html(data.trs)
+      $('.loader').fadeOut()
+      //$('.vintableholder').css('filter', 'blur(0)')
+    })
+
+  }
+  function getbrandrefpdcts(event){
+    brandid=$(event.target).val()
+    if (brandid==""){
+      console.log('brandid is empty')
+      return
+    }
+    ref=$('.refinput').val()
+    brandcount=$(event.target).find("option:selected").attr('count');
+    brandname=$(event.target).find("option:selected").text();
+    // get brandname using .val() => No cause val() gives brandid
+    //brandname=$(event.target).val();
+    //$('.reftableholder').css('filter', 'blur(5px)')
+    $('.refpdctstrs').html('<tr><td><div class="spinner-border" role="status"></div></td></tr>')
+    assambly=$(event.target).attr('assamblyandcategory')
+    console.log(brandid, brandcount, brandname, ref, assambly)
+    $('.refloader').fadeIn()
+    $.get('/searcher/getbrandrefpdcts', {
+      'assambly':assambly,
+      'brandid':brandid,
+      'brandname':brandname,
+      'ref':ref,
+      'brandcount':brandcount,
+    }, (data)=>{
+      $('.refpdctstrs').html(data.trs)
+      $('.loader').fadeOut()
+      //$('.reftableholder').css('filter', 'blur(0)')
+
+    })
+
+  }
+  function getproductoems(event, code) {
+    thistr=$(event.target).parent().parent().parent()
+    $('tr').removeClass('activetr')
+    thistr.addClass('activetr')
+    //old code: creating the div card inside the td, now we use one global #4545dfg
+    // Get the parent td element
+    // td = $(event.target).parent();
+    // if (td.find('.card__tooltip').length > 0) {
+    //   return
+    // }
+    // //$('.card__tooltip').remove()
+    // // create element
+    // // Create the div element as a jQuery object
+    // const cardTooltip = $(`
+    //     <div class="card__tooltip">
+    //
+    //         <div class="card__content border">
+    //           <button class="btn btn-danger" onclick="$('.card__tooltip').remove()">x</button>
+    //           <header class="card__header border-bottom text-white">
+    //               <span>Orignal Ref</span>
+    //
+    //           </header>
+    //             <div class="card__data">
+    //               <div class="d-flex justify-content-center">
+    //                 <div class="spinner-border" role="status">
+    //                 </div>
+    //               </div>
+    //             </div>
+    //           <header class="card__header border-bottom text-white">
+    //               <span>Description</span>
+    //           </header>
+    //           <div class="description__data">
+    //             <div class="d-flex justify-content-center">
+    //               <div class="spinner-border" role="status">
+    //               </div>
+    //             </div>
+    //           </div>
+    //
+    //
+    //         </div>
+    //     </div>
+    // `);
+    //
+    // // Insert the div into the td
+    // td.append(cardTooltip);
+
+    $('.card__tooltip').fadeIn()
+    if ($('.card__tooltip').attr('code')== code) {
+      return
+    }
+    $('.card__data').html('<div class="spinner-border" role="status"></div>')
+    $('.description__data').html('<div class="spinner-border" role="status"></div>')
+    $('.card__tooltip').attr('code', code)
+    // Perform the AJAX request
+    $.get('/searcher/getproductoems', {
+        'code': code
+    }, (data) => {
+        console.log(data);
+        //old
+        // td.find('.card__data').html(data.oems)
+        // td.find('.description__data').html(data.features)
+        $('.card__data').html(data.oems)
+        $('.description__data').html(data.features)
+    });
+    // Check if the element with class 'card__tooltip' already exists in the td
+    // if (td.find('.card__tooltip').length === 0) {
+    //
+    // }
+    // else{
+    //   td.find('.card__tooltip').remove()
+    // }
+
+}
+  function getproducts(event, categoryid){
+    $('.categoriesholder').fadeOut()
+    $('.categorybtn').removeClass('active')
+    $(event.target).addClass('active')
+    //$('.vintableholder').css('filter', 'blur(5px)')
+
+    // get selected vehicule a9dim, now the car will be the iput since we will have just one car
+    // selectedradio=$('input[name="carselector"]:checked')
+    // if (selectedradio.length==0 && ($('.targets').length==0 || $('.targets').val()=="")){
+    //   console.log('nor car selected')
+    //   return
+    // }
+
+    //carid=selectedradio.length?selectedradio.attr('carid'):$('.targets').val()
+    carid=$('input[name="carselector"]').length?$('input[name="carselector"]').attr('carid'):$('.targets').val()
+    if (carid==null){
+      console.log('nor car selected')
+      return
+    }
+    //$('.loader').fadeIn()
+    //$('.vinsection').css('filter', 'blur(5px)')
+    $('.vintableholder').html('<tr><td><div class="spinner-border" role="status"></div></td></tr>')
+
+    // get products
+    $.get('/searcher/getprudcts', {'carid':carid, 'categoryid':categoryid}, (data)=>{
+      $('.vintableholder').html(data.trs)
+      //$('.loader').fadeOut()
+      //$('.vinsection').css('filter', 'blur(0)')
+
+      //$('.vintableholder').css('filter', 'blur(0)')
+
+      $('.select2').select2()
+    })
+    console.log('select2')
+  }
+  function getvindata(event){
+    console.log("getting data")
+    vin=$('.vininput').val().replace(/\s+/g, '');
+    if (vin=="" || vin.length!==17){
+      console.log('here1')
+      $('.vininput').addClass('border-danger')
+      $('.categoriesholder').fadeOut()
+      $('.cars').html('VIN code incorrect')
+      // $('.btnsinfo').html('')
+      $('.btnsinfo').removeClass('d-flex').addClass('d-none')
+
+      return
+    }
+    console.log('here')
+    $('.cars').html('<div class="spinner-grow" role="status"><span class="sr-only"></span></div>')
+    $('.vininput').removeClass('border-danger')
+
+    $('.targetsholder').remove()
+    $.get('/searcher/vindata', {'vin':vin}, (data)=>{
+      console.log(data.fromdb)
+      $('.cars').html('')
+      if (data.success){
+
+        //$('.cars').append(data.data.name)
+        console.log(data.data[0].name.split(' ')[0])
+        if (data.fromdb){
+          $('.cars').append(`<img style="width: 100%;" src='/static/images/cars/${data.data[0].name.split(' ')[0]}.jpg'>`)
+          for (i of data.data){
+            console.log(i, 'data from db')
+            $('.cars').append(`
+            <div class="vincarsresult">
+              <div class="form-check">
+                <label class="form-check-label">
+                <input type="radio" name="carselector" carid="${i.uuid}" class="form-check-input">${i.name} (${i.yearfrom} - ${i.yearto?i.yearto:''})
+
+                </label>
+              </div>
+            </div>
+            `)
+          }
+          // remove cartargets so that when category is selected it will use vin data #3RCDSQDS
+          $('.targetsholder').remove()
+          $('.categoriesholder').fadeIn()
+          // display btns
+          // $('.btnsinfo').html(`
+          // <button class="btn btn-outline-secondary" onclick="$('.categoriesholder').fadeIn()">
+          //   <strong>
+          //     <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+          //       <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/>
+          //     </svg>
+          //   </strong>
+          // </button>
+          //
+          //
+          // <button type="button" name="button" class="btn btn-outline-secondary" onclick="getcarinfo(event, ${data.data[0].uuid})">
+          //   <strong>
+          //     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-question-circle" viewBox="0 0 16 16">
+          //       <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+          //       <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286m1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94"/>
+          //     </svg>
+          //   </strong>
+          // </button>
+          // `)
+        }else{
+          console.log(i, 'data not from db')
+          $('.cars').append(`<img style="width: 100%;" src='/static/images/cars/${data.data[0].fullName.split(' ')[0]}.jpg'>`)
+
+          $('.cars').append(`
+          <div>
+            <div class="form-check">
+              <label class="form-check-label">
+                <input type="radio" name="carselector" carid="${data.data[0].uuid}" class="form-check-input">${data.data[0].fullName} (${data.data[0].constructionYearFrom} - ${data.data[0].constructionYearTo})
+
+              </label>
+            </div>
+          </div>
+          `)
+          $('.categoriesholder').fadeIn()
+
+          // for (i of data.data){
+          //   // disply btnsinfo
+          //   // $('.btnsinfo').html(`
+          //   // <button class="btn btn-outline-secondary" onclick="$('.categoriesholder').fadeIn()">
+          //   //   <strong>
+          //   //     <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+          //   //       <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/>
+          //   //     </svg>
+          //   //   </strong>
+          //   // </button>
+          //   //
+          //   //
+          //   // <button type="button" name="button" class="btn btn-outline-secondary" onclick="getcarinfo(event, ${data.data[0].uuid})">
+          //   //   <strong>
+          //   //     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-question-circle" viewBox="0 0 16 16">
+          //   //       <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+          //   //       <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286m1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94"/>
+          //   //     </svg>
+          //   //   </strong>
+          //   // </button>
+          //   // `)
+          // }
+
+        }
+        $('.btnsinfo').removeClass('d-none').addClass('d-flex')
+        // $('.btnsinfo').html(`
+        // <button class="btn btn-outline-secondary" onclick="$('.categoriesholder').fadeToggle()">
+        //   <strong>
+        //     <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+        //       <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/>
+        //     </svg>
+        //   </strong>
+        // </button>
+
+
+
+        // `)
+
+        // <button type="button" name="button" class="btn btn-outline-secondary position-relative" onclick="getcarinfo(event, '${data.data[0].uuid}')">
+        //   <strong>
+        //     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-question-circle" viewBox="0 0 16 16">
+        //       <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+        //       <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286m1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94"/>
+        //     </svg>
+        //   </strong>
+        //   <div class="position-absolute p-2 border rounded bg-white text-dark carinfo" style="display:none; top:0; left:43px; border: 1px solid rgb(63, 106, 216);">
+        //     <div class="spinner-border loader" role="status">
+        //     </div>
+        //   </div>
+        // </button>
+      }
+      else{
+        $('.cars').text('VIN introuvable, Reclamation Envoyé')
+        $('.categoriesholder').fadeOut()
+        //$('.btnsinfo').html('')
+        $('.btnsinfo').removeClass('d-flex').addClass('d-none')
+      }
+    })
+  }
+</script>
+{% endblock %}

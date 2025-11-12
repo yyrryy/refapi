@@ -1,0 +1,36 @@
+
+<div class="mb-3 card">
+  <div class="card-header">
+    <ul class="nav nav-justified">
+      {% for i in cars %}
+      <li class="nav-item">
+        <a data-toggle="tab" href="#tab-eg{{forloop.counter}}-0" class="nav-link">
+          <!-- <img src="/static/images/cars/{{i.manufacturer.name}}.jpg" alt="" width="90"> -->
+          <div class="widget-number">{{i.name}}</div>
+
+
+        </a>
+      </li>
+      {% endfor %}
+
+    </ul>
+  </div>
+  <div class="tab-content">
+    {% for i in oems %}
+    <div class="tab-pane" id="tab-eg{{forloop.counter}}-0" role="tabpanel">
+      <div class="card-body" style="height:35vh;overflow-y:scroll;">
+        <div class="d-flex flex-wrap">
+          {% for number in i.numbers %}
+          <div class="d-flex align-items-center" style="height:35px; margin:0 10px 10px 0;">
+            <strong class="p-2 border">
+              {{number.normalizedNumber.upper}}
+            </strong>
+            <button class="btn btn-info" onclick="checkibra(event, '{{number.normalizedNumber}}')"></button>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>

@@ -1,0 +1,11 @@
+<div class="mt-2 targetsholder">
+  <!-- <strong>Moteur:</strong> <br> -->
+  <select style="width:100%;" class="select2 targets" onchange="cartargetselected(event)">
+    <!-- // remove cartargets so that when category is selected it will use vin data #3RCDSQDS -->
+    <option value="">Moteur</option>
+    {% for i in targets %}
+    <option value="{{i.uuid}}">{{i.name}} ({{i.engineType}}, Valves: {{i.valves}}, Cylinders:{{i.cylinders}}, {{i.constructionYearFrom}}-{{i.constructionYearTo}})</option>
+    {% endfor %}
+
+  </select>
+</div>

@@ -1,0 +1,12 @@
+<table class="table table-bordered table-hover">
+  {% for i in features %}
+  <tr>
+    <td>
+      {{i.name}}
+    </td>
+    <td>
+      {{i.featureValues.0.value}}
+    </td>
+  </tr>
+  {% endfor %}
+</table>

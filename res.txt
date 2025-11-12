@@ -1,0 +1,1854 @@
+https://avto.pro/api/v1/search/query
+
+{
+    "manufacturers": [
+        {
+            "name": "ABARTH",
+            "seoPath": [
+                "abarth"
+            ],
+            "uuid": "TA-3854"
+        },
+        {
+            "name": "AC",
+            "seoPath": [
+                "ac"
+            ],
+            "uuid": "TA-609"
+        },
+        {
+            "name": "ACURA",
+            "seoPath": [
+                "acura"
+            ],
+            "uuid": "TA-1505"
+        },
+        {
+            "name": "ADLY",
+            "seoPath": [
+                "adly"
+            ],
+            "uuid": "TA-4330"
+        },
+        {
+            "name": "AEON",
+            "seoPath": [
+                "aeon"
+            ],
+            "uuid": "TA-4331"
+        },
+        {
+            "name": "AIXAM",
+            "seoPath": [
+                "aixam"
+            ],
+            "uuid": "TA-1480"
+        },
+        {
+            "name": "ALFA ROMEO",
+            "seoPath": [
+                "alfa-romeo"
+            ],
+            "uuid": "TA-2"
+        },
+        {
+            "name": "ALPINA",
+            "seoPath": [
+                "alpina"
+            ],
+            "uuid": "TA-866"
+        },
+        {
+            "name": "ALPINE",
+            "seoPath": [
+                "alpine"
+            ],
+            "uuid": "TA-810"
+        },
+        {
+            "name": "AMC",
+            "seoPath": [
+                "amc"
+            ],
+            "uuid": "TA-2246"
+        },
+        {
+            "name": "APRILIA",
+            "seoPath": [
+                "aprilia"
+            ],
+            "uuid": "TA-2524"
+        },
+        {
+            "name": "ARO",
+            "seoPath": [
+                "aro"
+            ],
+            "uuid": "TA-1360"
+        },
+        {
+            "name": "ARTEGA",
+            "seoPath": [
+                "artega"
+            ],
+            "uuid": "TA-3495"
+        },
+        {
+            "name": "ASIA MOTORS",
+            "seoPath": [
+                "asia-motors"
+            ],
+            "uuid": "TA-879"
+        },
+        {
+            "name": "ASIAWING",
+            "seoPath": [
+                "asiawing"
+            ],
+            "uuid": "TA-4628"
+        },
+        {
+            "name": "ASTON MARTIN",
+            "seoPath": [
+                "aston-martin"
+            ],
+            "uuid": "TA-881"
+        },
+        {
+            "name": "AUDI",
+            "seoPath": [
+                "audi"
+            ],
+            "uuid": "TA-5"
+        },
+        {
+            "name": "AUSTIN",
+            "seoPath": [
+                "austin"
+            ],
+            "uuid": "TA-6"
+        },
+        {
+            "name": "AUSTIN-HEALEY",
+            "seoPath": [
+                "austin-healey"
+            ],
+            "uuid": "TA-1538"
+        },
+        {
+            "name": "AUTO UNION",
+            "seoPath": [
+                "auto-union"
+            ],
+            "uuid": "TA-3"
+        },
+        {
+            "name": "AUTOBIANCHI",
+            "seoPath": [
+                "autobianchi"
+            ],
+            "uuid": "TA-799"
+        },
+        {
+            "name": "BAOTIAN",
+            "seoPath": [
+                "baotian"
+            ],
+            "uuid": "TA-4423"
+        },
+        {
+            "name": "BARKAS",
+            "seoPath": [
+                "barkas"
+            ],
+            "uuid": "TA-134"
+        },
+        {
+            "name": "BAW",
+            "seoPath": [
+                "baw"
+            ],
+            "uuid": "TA-3071"
+        },
+        {
+            "name": "BEDFORD",
+            "seoPath": [
+                "bedford"
+            ],
+            "uuid": "TA-10"
+        },
+        {
+            "name": "BEELINE",
+            "seoPath": [
+                "beeline"
+            ],
+            "uuid": "TA-4402"
+        },
+        {
+            "name": "BENELLI",
+            "seoPath": [
+                "benelli"
+            ],
+            "uuid": "TA-2532"
+        },
+        {
+            "name": "BENTLEY",
+            "seoPath": [
+                "bentley"
+            ],
+            "uuid": "TA-815"
+        },
+        {
+            "name": "BERTONE",
+            "seoPath": [
+                "bertone"
+            ],
+            "uuid": "TA-1485"
+        },
+        {
+            "name": "BETA",
+            "seoPath": [
+                "beta"
+            ],
+            "uuid": "TA-4315"
+        },
+        {
+            "name": "BIMOTA",
+            "seoPath": [
+                "bimota"
+            ],
+            "uuid": "TA-4368"
+        },
+        {
+            "name": "BITTER",
+            "seoPath": [
+                "bitter"
+            ],
+            "uuid": "TA-1486"
+        },
+        {
+            "name": "BMW",
+            "seoPath": [
+                "bmw"
+            ],
+            "uuid": "TA-16"
+        },
+        {
+            "name": "BOND",
+            "seoPath": [
+                "bond"
+            ],
+            "uuid": "TA-1537"
+        },
+        {
+            "name": "BORGWARD",
+            "seoPath": [
+                "borgward"
+            ],
+            "uuid": "TA-136"
+        },
+        {
+            "name": "BRISTOL",
+            "seoPath": [
+                "bristol"
+            ],
+            "uuid": "TA-1487"
+        },
+        {
+            "name": "BRIXTON",
+            "seoPath": [
+                "brixton"
+            ],
+            "uuid": "TA-4540"
+        },
+        {
+            "name": "BUELL",
+            "seoPath": [
+                "buell"
+            ],
+            "uuid": "TA-4048"
+        },
+        {
+            "name": "BUGATTI",
+            "seoPath": [
+                "bugatti"
+            ],
+            "uuid": "TA-788"
+        },
+        {
+            "name": "BUICK",
+            "seoPath": [
+                "buick"
+            ],
+            "uuid": "TA-816"
+        },
+        {
+            "name": "BYD",
+            "seoPath": [
+                "byd"
+            ],
+            "uuid": "TA-3122"
+        },
+        {
+            "name": "CADILLAC",
+            "seoPath": [
+                "cadillac"
+            ],
+            "uuid": "TA-819"
+        },
+        {
+            "name": "CAGIVA",
+            "seoPath": [
+                "cagiva"
+            ],
+            "uuid": "TA-2554"
+        },
+        {
+            "name": "CALLAWAY",
+            "seoPath": [
+                "callaway"
+            ],
+            "uuid": "TA-1488"
+        },
+        {
+            "name": "CARBODIES",
+            "seoPath": [
+                "carbodies"
+            ],
+            "uuid": "TA-1489"
+        },
+        {
+            "name": "CATERHAM",
+            "seoPath": [
+                "caterham"
+            ],
+            "uuid": "TA-1490"
+        },
+        {
+            "name": "CCM",
+            "seoPath": [
+                "ccm"
+            ],
+            "uuid": "TA-4617"
+        },
+        {
+            "name": "CEZETA",
+            "seoPath": [
+                "cezeta"
+            ],
+            "uuid": "TA-4487"
+        },
+        {
+            "name": "CF MOTO",
+            "seoPath": [
+                "cf-moto"
+            ],
+            "uuid": "TA-4424"
+        },
+        {
+            "name": "CHANGAN",
+            "seoPath": [
+                "changan"
+            ],
+            "uuid": "TA-2852"
+        },
+        {
+            "name": "CHECKER",
+            "seoPath": [
+                "checker"
+            ],
+            "uuid": "TA-1491"
+        },
+        {
+            "name": "CHERY",
+            "seoPath": [
+                "chery"
+            ],
+            "uuid": "TA-2887"
+        },
+        {
+            "name": "CHEVROLET",
+            "seoPath": [
+                "chevrolet"
+            ],
+            "uuid": "TA-138"
+        },
+        {
+            "name": "CHRYSLER",
+            "seoPath": [
+                "chrysler"
+            ],
+            "uuid": "TA-20"
+        },
+        {
+            "name": "CITROËN",
+            "seoPath": [
+                "citroen"
+            ],
+            "uuid": "TA-21"
+        },
+        {
+            "name": "CMC",
+            "seoPath": [
+                "cmc"
+            ],
+            "uuid": "TA-3772"
+        },
+        {
+            "name": "CUPRA",
+            "seoPath": [
+                "cupra"
+            ],
+            "uuid": "TA-4896"
+        },
+        {
+            "name": "DACIA",
+            "seoPath": [
+                "dacia"
+            ],
+            "uuid": "TA-139"
+        },
+        {
+            "name": "DAELIM",
+            "seoPath": [
+                "daelim"
+            ],
+            "uuid": "TA-4052"
+        },
+        {
+            "name": "DAEWOO",
+            "seoPath": [
+                "daewoo"
+            ],
+            "uuid": "TA-185"
+        },
+        {
+            "name": "DAF",
+            "seoPath": [
+                "daf"
+            ],
+            "uuid": "TA-24"
+        },
+        {
+            "name": "DAIHATSU",
+            "seoPath": [
+                "daihatsu"
+            ],
+            "uuid": "TA-25"
+        },
+        {
+            "name": "DAIMLER",
+            "seoPath": [
+                "daimler"
+            ],
+            "uuid": "TA-26"
+        },
+        {
+            "name": "DALLAS",
+            "seoPath": [
+                "dallas"
+            ],
+            "uuid": "TA-1493"
+        },
+        {
+            "name": "DE LOREAN",
+            "seoPath": [
+                "de-lorean"
+            ],
+            "uuid": "TA-1494"
+        },
+        {
+            "name": "DE TOMASO",
+            "seoPath": [
+                "de-tomaso"
+            ],
+            "uuid": "TA-1495"
+        },
+        {
+            "name": "DERBI",
+            "seoPath": [
+                "derbi"
+            ],
+            "uuid": "TA-4071"
+        },
+        {
+            "name": "DFSK",
+            "seoPath": [
+                "dfsk"
+            ],
+            "uuid": "TA-4269"
+        },
+        {
+            "name": "DODGE",
+            "seoPath": [
+                "dodge"
+            ],
+            "uuid": "TA-29"
+        },
+        {
+            "name": "DS",
+            "seoPath": [
+                "ds"
+            ],
+            "uuid": "TA-4468"
+        },
+        {
+            "name": "DUCATI",
+            "seoPath": [
+                "ducati"
+            ],
+            "uuid": "TA-2759"
+        },
+        {
+            "name": "ECM",
+            "seoPath": [
+                "ecm"
+            ],
+            "uuid": "TA-4288"
+        },
+        {
+            "name": "FANTIC",
+            "seoPath": [
+                "fantic"
+            ],
+            "uuid": "TA-4072"
+        },
+        {
+            "name": "FERRARI",
+            "seoPath": [
+                "ferrari"
+            ],
+            "uuid": "TA-700"
+        },
+        {
+            "name": "FIAT",
+            "seoPath": [
+                "fiat"
+            ],
+            "uuid": "TA-35"
+        },
+        {
+            "name": "FISKER",
+            "seoPath": [
+                "fisker"
+            ],
+            "uuid": "TA-3738"
+        },
+        {
+            "name": "FORD AUSTRALIA",
+            "seoPath": [
+                "ford-australia"
+            ],
+            "uuid": "TA-1496"
+        },
+        {
+            "name": "FORD",
+            "seoPath": [
+                "ford"
+            ],
+            "uuid": "TA-36"
+        },
+        {
+            "name": "FORD OTOSAN",
+            "seoPath": [
+                "ford-otosan"
+            ],
+            "uuid": "TA-808"
+        },
+        {
+            "name": "FORD USA",
+            "seoPath": [
+                "ford-usa"
+            ],
+            "uuid": "TA-776"
+        },
+        {
+            "name": "FSO",
+            "seoPath": [
+                "fso"
+            ],
+            "uuid": "TA-775"
+        },
+        {
+            "name": "GASGAS",
+            "seoPath": [
+                "gasgas"
+            ],
+            "uuid": "TA-4289"
+        },
+        {
+            "name": "GAZ",
+            "seoPath": [
+                "gaz"
+            ],
+            "uuid": "TA-148"
+        },
+        {
+            "name": "GEELY",
+            "seoPath": [
+                "geely"
+            ],
+            "uuid": "TA-2590"
+        },
+        {
+            "name": "GENERIC",
+            "seoPath": [
+                "generic"
+            ],
+            "uuid": "TA-4403"
+        },
+        {
+            "name": "GEO",
+            "seoPath": [
+                "geo"
+            ],
+            "uuid": "TA-831"
+        },
+        {
+            "name": "GILERA",
+            "seoPath": [
+                "gilera"
+            ],
+            "uuid": "TA-4054"
+        },
+        {
+            "name": "GINETTA",
+            "seoPath": [
+                "ginetta"
+            ],
+            "uuid": "TA-1498"
+        },
+        {
+            "name": "GLAS",
+            "seoPath": [
+                "glas"
+            ],
+            "uuid": "TA-812"
+        },
+        {
+            "name": "GMC",
+            "seoPath": [
+                "gmc"
+            ],
+            "uuid": "TA-39"
+        },
+        {
+            "name": "GOVECS",
+            "seoPath": [
+                "govecs"
+            ],
+            "uuid": "TA-4539"
+        },
+        {
+            "name": "GREAT WALL",
+            "seoPath": [
+                "great-wall"
+            ],
+            "uuid": "TA-2903"
+        },
+        {
+            "name": "HAFEI",
+            "seoPath": [
+                "hafei"
+            ],
+            "uuid": "TA-2866"
+        },
+        {
+            "name": "HARLEY-DAVIDSON",
+            "seoPath": [
+                "harley-davidson"
+            ],
+            "uuid": "TA-4055"
+        },
+        {
+            "name": "HERCULES",
+            "seoPath": [
+                "hercules"
+            ],
+            "uuid": "TA-4087"
+        },
+        {
+            "name": "HINDUSTAN",
+            "seoPath": [
+                "hindustan"
+            ],
+            "uuid": "TA-1499"
+        },
+        {
+            "name": "HMRacing",
+            "seoPath": [
+                "hmracing"
+            ],
+            "uuid": "TA-4314"
+        },
+        {
+            "name": "HOBBYCAR",
+            "seoPath": [
+                "hobbycar"
+            ],
+            "uuid": "TA-1500"
+        },
+        {
+            "name": "HONDA",
+            "seoPath": [
+                "honda"
+            ],
+            "uuid": "TA-45"
+        },
+        {
+            "name": "HOREX",
+            "seoPath": [
+                "horex"
+            ],
+            "uuid": "TA-4488"
+        },
+        {
+            "name": "HUMMER",
+            "seoPath": [
+                "hummer"
+            ],
+            "uuid": "TA-1506"
+        },
+        {
+            "name": "HUSABERG",
+            "seoPath": [
+                "husaberg"
+            ],
+            "uuid": "TA-4287"
+        },
+        {
+            "name": "HUSQVARNA",
+            "seoPath": [
+                "husqvarna"
+            ],
+            "uuid": "TA-4241"
+        },
+        {
+            "name": "HYOSUNG",
+            "seoPath": [
+                "hyosung"
+            ],
+            "uuid": "TA-4056"
+        },
+        {
+            "name": "HYUNDAI",
+            "seoPath": [
+                "hyundai"
+            ],
+            "uuid": "TA-183"
+        },
+        {
+            "name": "INDIAN",
+            "seoPath": [
+                "indian"
+            ],
+            "uuid": "TA-4325"
+        },
+        {
+            "name": "INDIGO",
+            "seoPath": [
+                "indigo"
+            ],
+            "uuid": "TA-1507"
+        },
+        {
+            "name": "INEOS",
+            "seoPath": [
+                "ineos"
+            ],
+            "uuid": "TA-6576"
+        },
+        {
+            "name": "INFINITI",
+            "seoPath": [
+                "infiniti"
+            ],
+            "uuid": "TA-1526"
+        },
+        {
+            "name": "INNOCENTI",
+            "seoPath": [
+                "innocenti"
+            ],
+            "uuid": "TA-52"
+        },
+        {
+            "name": "INOKOM",
+            "seoPath": [
+                "inokom"
+            ],
+            "uuid": "TA-3677"
+        },
+        {
+            "name": "IRMSCHER",
+            "seoPath": [
+                "irmscher"
+            ],
+            "uuid": "TA-1508"
+        },
+        {
+            "name": "ISDERA",
+            "seoPath": [
+                "isdera"
+            ],
+            "uuid": "TA-1509"
+        },
+        {
+            "name": "ISUZU",
+            "seoPath": [
+                "isuzu"
+            ],
+            "uuid": "TA-54"
+        },
+        {
+            "name": "ITALJET",
+            "seoPath": [
+                "italjet"
+            ],
+            "uuid": "TA-4073"
+        },
+        {
+            "name": "IVECO",
+            "seoPath": [
+                "iveco"
+            ],
+            "uuid": "TA-55"
+        },
+        {
+            "name": "IZH",
+            "seoPath": [
+                "izh"
+            ],
+            "uuid": "TA-4683"
+        },
+        {
+            "name": "JAGUAR",
+            "seoPath": [
+                "jaguar"
+            ],
+            "uuid": "TA-56"
+        },
+        {
+            "name": "JAWA",
+            "seoPath": [
+                "jawa"
+            ],
+            "uuid": "TA-4074"
+        },
+        {
+            "name": "JEEP",
+            "seoPath": [
+                "jeep"
+            ],
+            "uuid": "TA-882"
+        },
+        {
+            "name": "JENSEN",
+            "seoPath": [
+                "jensen"
+            ],
+            "uuid": "TA-1511"
+        },
+        {
+            "name": "KAWASAKI",
+            "seoPath": [
+                "kawasaki"
+            ],
+            "uuid": "TA-1131"
+        },
+        {
+            "name": "KEEWAY",
+            "seoPath": [
+                "keeway"
+            ],
+            "uuid": "TA-4495"
+        },
+        {
+            "name": "KIA",
+            "seoPath": [
+                "kia"
+            ],
+            "uuid": "TA-184"
+        },
+        {
+            "name": "KREIDLER",
+            "seoPath": [
+                "kreidler"
+            ],
+            "uuid": "TA-4070"
+        },
+        {
+            "name": "KSR MOTO",
+            "seoPath": [
+                "ksr-moto"
+            ],
+            "uuid": "TA-4498"
+        },
+        {
+            "name": "KTM",
+            "seoPath": [
+                "ktm"
+            ],
+            "uuid": "TA-2760"
+        },
+        {
+            "name": "KUBA",
+            "seoPath": [
+                "kuba"
+            ],
+            "uuid": "TA-4472"
+        },
+        {
+            "name": "KYMCO",
+            "seoPath": [
+                "kymco"
+            ],
+            "uuid": "TA-2621"
+        },
+        {
+            "name": "LADA",
+            "seoPath": [
+                "lada"
+            ],
+            "uuid": "TA-63"
+        },
+        {
+            "name": "LAMBORGHINI",
+            "seoPath": [
+                "lamborghini"
+            ],
+            "uuid": "TA-701"
+        },
+        {
+            "name": "LANCIA",
+            "seoPath": [
+                "lancia"
+            ],
+            "uuid": "TA-64"
+        },
+        {
+            "name": "LAND ROVER",
+            "seoPath": [
+                "land-rover"
+            ],
+            "uuid": "TA-1820"
+        },
+        {
+            "name": "LANDWIND (JMC)",
+            "seoPath": [
+                "landwind-jmc"
+            ],
+            "uuid": "TA-2589"
+        },
+        {
+            "name": "LAVERDA MOTORCYCLES",
+            "seoPath": [
+                "laverda-motorcycles"
+            ],
+            "uuid": "TA-4075"
+        },
+        {
+            "name": "LDV",
+            "seoPath": [
+                "ldv"
+            ],
+            "uuid": "TA-1380"
+        },
+        {
+            "name": "LEXUS",
+            "seoPath": [
+                "lexus"
+            ],
+            "uuid": "TA-842"
+        },
+        {
+            "name": "LIFAN",
+            "seoPath": [
+                "lifan"
+            ],
+            "uuid": "TA-3086"
+        },
+        {
+            "name": "LIGIER",
+            "seoPath": [
+                "ligier"
+            ],
+            "uuid": "TA-1513"
+        },
+        {
+            "name": "LINCOLN",
+            "seoPath": [
+                "lincoln"
+            ],
+            "uuid": "TA-1200"
+        },
+        {
+            "name": "LML",
+            "seoPath": [
+                "lml"
+            ],
+            "uuid": "TA-4231"
+        },
+        {
+            "name": "LOTUS",
+            "seoPath": [
+                "lotus"
+            ],
+            "uuid": "TA-802"
+        },
+        {
+            "name": "LTI",
+            "seoPath": [
+                "lti"
+            ],
+            "uuid": "TA-3047"
+        },
+        {
+            "name": "LUXXON",
+            "seoPath": [
+                "luxxon"
+            ],
+            "uuid": "TA-4494"
+        },
+        {
+            "name": "MAHINDRA",
+            "seoPath": [
+                "mahindra"
+            ],
+            "uuid": "TA-1280"
+        },
+        {
+            "name": "MAICO",
+            "seoPath": [
+                "maico"
+            ],
+            "uuid": "TA-4076"
+        },
+        {
+            "name": "MALAGUTI",
+            "seoPath": [
+                "malaguti"
+            ],
+            "uuid": "TA-4060"
+        },
+        {
+            "name": "MARCOS",
+            "seoPath": [
+                "marcos"
+            ],
+            "uuid": "TA-1516"
+        },
+        {
+            "name": "MASERATI",
+            "seoPath": [
+                "maserati"
+            ],
+            "uuid": "TA-771"
+        },
+        {
+            "name": "MASH",
+            "seoPath": [
+                "mash"
+            ],
+            "uuid": "TA-4492"
+        },
+        {
+            "name": "MAYBACH",
+            "seoPath": [
+                "maybach"
+            ],
+            "uuid": "TA-2164"
+        },
+        {
+            "name": "MAZDA",
+            "seoPath": [
+                "mazda"
+            ],
+            "uuid": "TA-72"
+        },
+        {
+            "name": "MBK",
+            "seoPath": [
+                "mbk"
+            ],
+            "uuid": "TA-4061"
+        },
+        {
+            "name": "MCLAREN",
+            "seoPath": [
+                "mclaren"
+            ],
+            "uuid": "TA-1518"
+        },
+        {
+            "name": "MEGA",
+            "seoPath": [
+                "mega"
+            ],
+            "uuid": "TA-845"
+        },
+        {
+            "name": "MEGELLI",
+            "seoPath": [
+                "megelli"
+            ],
+            "uuid": "TA-4618"
+        },
+        {
+            "name": "MERCEDES-BENZ",
+            "seoPath": [
+                "mercedes-benz"
+            ],
+            "uuid": "TA-74"
+        },
+        {
+            "name": "METROCAB",
+            "seoPath": [
+                "metrocab"
+            ],
+            "uuid": "TA-1520"
+        },
+        {
+            "name": "MG",
+            "seoPath": [
+                "mg"
+            ],
+            "uuid": "TA-75"
+        },
+        {
+            "name": "MIDDLEBRIDGE",
+            "seoPath": [
+                "middlebridge"
+            ],
+            "uuid": "TA-1521"
+        },
+        {
+            "name": "MINELLI",
+            "seoPath": [
+                "minelli"
+            ],
+            "uuid": "TA-1522"
+        },
+        {
+            "name": "MINI",
+            "seoPath": [
+                "mini"
+            ],
+            "uuid": "TA-1523"
+        },
+        {
+            "name": "MITSUBISHI",
+            "seoPath": [
+                "mitsubishi"
+            ],
+            "uuid": "TA-77"
+        },
+        {
+            "name": "MITSUOKA",
+            "seoPath": [
+                "mitsuoka"
+            ],
+            "uuid": "TA-2904"
+        },
+        {
+            "name": "MORGAN",
+            "seoPath": [
+                "morgan"
+            ],
+            "uuid": "TA-803"
+        },
+        {
+            "name": "MORRIS",
+            "seoPath": [
+                "morris"
+            ],
+            "uuid": "TA-78"
+        },
+        {
+            "name": "MOSKVICH",
+            "seoPath": [
+                "moskvich"
+            ],
+            "uuid": "TA-813"
+        },
+        {
+            "name": "MOTO GUZZI",
+            "seoPath": [
+                "moto-guzzi"
+            ],
+            "uuid": "TA-4062"
+        },
+        {
+            "name": "MOTO-MORINI",
+            "seoPath": [
+                "moto-morini"
+            ],
+            "uuid": "TA-4077"
+        },
+        {
+            "name": "MOTOBI",
+            "seoPath": [
+                "motobi"
+            ],
+            "uuid": "TA-4328"
+        },
+        {
+            "name": "MOTOWELL",
+            "seoPath": [
+                "motowell"
+            ],
+            "uuid": "TA-4493"
+        },
+        {
+            "name": "MV AGUSTA",
+            "seoPath": [
+                "mv-agusta"
+            ],
+            "uuid": "TA-2761"
+        },
+        {
+            "name": "MZ",
+            "seoPath": [
+                "mz"
+            ],
+            "uuid": "TA-4063"
+        },
+        {
+            "name": "NIPPONIA",
+            "seoPath": [
+                "nipponia"
+            ],
+            "uuid": "TA-4334"
+        },
+        {
+            "name": "NISSAN",
+            "seoPath": [
+                "nissan"
+            ],
+            "uuid": "TA-80"
+        },
+        {
+            "name": "NIU",
+            "seoPath": [
+                "niu"
+            ],
+            "uuid": "TA-4613"
+        },
+        {
+            "name": "NSU",
+            "seoPath": [
+                "nsu"
+            ],
+            "uuid": "TA-81"
+        },
+        {
+            "name": "OLDSMOBILE",
+            "seoPath": [
+                "oldsmobile"
+            ],
+            "uuid": "TA-1141"
+        },
+        {
+            "name": "OLTCIT",
+            "seoPath": [
+                "oltcit"
+            ],
+            "uuid": "TA-1527"
+        },
+        {
+            "name": "OPEL",
+            "seoPath": [
+                "opel"
+            ],
+            "uuid": "TA-84"
+        },
+        {
+            "name": "OSCA",
+            "seoPath": [
+                "osca"
+            ],
+            "uuid": "TA-1529"
+        },
+        {
+            "name": "PANOZ",
+            "seoPath": [
+                "panoz"
+            ],
+            "uuid": "TA-1530"
+        },
+        {
+            "name": "PANTHER",
+            "seoPath": [
+                "panther"
+            ],
+            "uuid": "TA-1531"
+        },
+        {
+            "name": "PEUGEOT",
+            "seoPath": [
+                "peugeot"
+            ],
+            "uuid": "TA-88"
+        },
+        {
+            "name": "PGO MOTORCYCLES",
+            "seoPath": [
+                "pgo-motorcycles"
+            ],
+            "uuid": "TA-4078"
+        },
+        {
+            "name": "PIAGGIO",
+            "seoPath": [
+                "piaggio"
+            ],
+            "uuid": "TA-181"
+        },
+        {
+            "name": "PININFARINA",
+            "seoPath": [
+                "pininfarina"
+            ],
+            "uuid": "TA-3046"
+        },
+        {
+            "name": "PLYMOUTH",
+            "seoPath": [
+                "plymouth"
+            ],
+            "uuid": "TA-850"
+        },
+        {
+            "name": "PONTIAC",
+            "seoPath": [
+                "pontiac"
+            ],
+            "uuid": "TA-774"
+        },
+        {
+            "name": "PORSCHE",
+            "seoPath": [
+                "porsche"
+            ],
+            "uuid": "TA-92"
+        },
+        {
+            "name": "PREMIER",
+            "seoPath": [
+                "premier"
+            ],
+            "uuid": "TA-851"
+        },
+        {
+            "name": "PROTON",
+            "seoPath": [
+                "proton"
+            ],
+            "uuid": "TA-778"
+        },
+        {
+            "name": "PUCH",
+            "seoPath": [
+                "puch"
+            ],
+            "uuid": "TA-1580"
+        },
+        {
+            "name": "QUADRO",
+            "seoPath": [
+                "quadro"
+            ],
+            "uuid": "TA-4346"
+        },
+        {
+            "name": "RANGER",
+            "seoPath": [
+                "ranger"
+            ],
+            "uuid": "TA-1534"
+        },
+        {
+            "name": "RAYTON FISSORE",
+            "seoPath": [
+                "rayton-fissore"
+            ],
+            "uuid": "TA-1536"
+        },
+        {
+            "name": "REGAL RAPTOR",
+            "seoPath": [
+                "regal-raptor"
+            ],
+            "uuid": "TA-4377"
+        },
+        {
+            "name": "RELIANT",
+            "seoPath": [
+                "reliant"
+            ],
+            "uuid": "TA-773"
+        },
+        {
+            "name": "RENAULT",
+            "seoPath": [
+                "renault"
+            ],
+            "uuid": "TA-93"
+        },
+        {
+            "name": "RENAULT TRUCKS",
+            "seoPath": [
+                "renault-trucks"
+            ],
+            "uuid": "TA-694"
+        },
+        {
+            "name": "REX",
+            "seoPath": [
+                "rex"
+            ],
+            "uuid": "TA-4290"
+        },
+        {
+            "name": "RILEY",
+            "seoPath": [
+                "riley"
+            ],
+            "uuid": "TA-1539"
+        },
+        {
+            "name": "RIVERO",
+            "seoPath": [
+                "rivero"
+            ],
+            "uuid": "TA-4404"
+        },
+        {
+            "name": "ROLLS-ROYCE",
+            "seoPath": [
+                "rolls-royce"
+            ],
+            "uuid": "TA-705"
+        },
+        {
+            "name": "ROVER",
+            "seoPath": [
+                "rover"
+            ],
+            "uuid": "TA-95"
+        },
+        {
+            "name": "ROYAL ENFIELD",
+            "seoPath": [
+                "royal-enfield"
+            ],
+            "uuid": "TA-4386"
+        },
+        {
+            "name": "RUF",
+            "seoPath": [
+                "ruf"
+            ],
+            "uuid": "TA-4152"
+        },
+        {
+            "name": "SAAB",
+            "seoPath": [
+                "saab"
+            ],
+            "uuid": "TA-99"
+        },
+        {
+            "name": "SACHS",
+            "seoPath": [
+                "sachs"
+            ],
+            "uuid": "TA-4064"
+        },
+        {
+            "name": "SAMSUNG",
+            "seoPath": [
+                "samsung"
+            ],
+            "uuid": "TA-4260"
+        },
+        {
+            "name": "SANGLAS",
+            "seoPath": [
+                "sanglas"
+            ],
+            "uuid": "TA-4079"
+        },
+        {
+            "name": "SANTANA",
+            "seoPath": [
+                "santana"
+            ],
+            "uuid": "TA-171"
+        },
+        {
+            "name": "SCOMADI",
+            "seoPath": [
+                "scomadi"
+            ],
+            "uuid": "TA-4624"
+        },
+        {
+            "name": "SEAT",
+            "seoPath": [
+                "seat"
+            ],
+            "uuid": "TA-104"
+        },
+        {
+            "name": "SFM",
+            "seoPath": [
+                "sfm"
+            ],
+            "uuid": "TA-4497"
+        },
+        {
+            "name": "SHELBY",
+            "seoPath": [
+                "shelby"
+            ],
+            "uuid": "TA-1547"
+        },
+        {
+            "name": "SIMSON",
+            "seoPath": [
+                "simson"
+            ],
+            "uuid": "TA-4065"
+        },
+        {
+            "name": "SIPANI",
+            "seoPath": [
+                "sipani"
+            ],
+            "uuid": "TA-1548"
+        },
+        {
+            "name": "SKODA",
+            "seoPath": [
+                "skoda"
+            ],
+            "uuid": "TA-106"
+        },
+        {
+            "name": "SMART",
+            "seoPath": [
+                "smart"
+            ],
+            "uuid": "TA-1138"
+        },
+        {
+            "name": "SOLO",
+            "seoPath": [
+                "solo"
+            ],
+            "uuid": "TA-675"
+        },
+        {
+            "name": "SOMMER MOTORCYCLES",
+            "seoPath": [
+                "sommer-motorcycles"
+            ],
+            "uuid": "TA-4400"
+        },
+        {
+            "name": "SPECTRE",
+            "seoPath": [
+                "spectre"
+            ],
+            "uuid": "TA-1549"
+        },
+        {
+            "name": "SPYKER",
+            "seoPath": [
+                "spyker"
+            ],
+            "uuid": "TA-2755"
+        },
+        {
+            "name": "SSANGYONG",
+            "seoPath": [
+                "ssangyong"
+            ],
+            "uuid": "TA-175"
+        },
+        {
+            "name": "STANDARD AUTOMOBILE",
+            "seoPath": [
+                "standard-automobile"
+            ],
+            "uuid": "TA-1550"
+        },
+        {
+            "name": "STEYR",
+            "seoPath": [
+                "steyr"
+            ],
+            "uuid": "TA-176"
+        },
+        {
+            "name": "STREETSCOOTER",
+            "seoPath": [
+                "streetscooter"
+            ],
+            "uuid": "TA-4015"
+        },
+        {
+            "name": "SUBARU",
+            "seoPath": [
+                "subaru"
+            ],
+            "uuid": "TA-107"
+        },
+        {
+            "name": "SUZUKI",
+            "seoPath": [
+                "suzuki"
+            ],
+            "uuid": "TA-109"
+        },
+        {
+            "name": "SWM",
+            "seoPath": [
+                "swm"
+            ],
+            "uuid": "TA-4407"
+        },
+        {
+            "name": "SYM",
+            "seoPath": [
+                "sym"
+            ],
+            "uuid": "TA-4245"
+        },
+        {
+            "name": "TALBOT",
+            "seoPath": [
+                "talbot"
+            ],
+            "uuid": "TA-110"
+        },
+        {
+            "name": "TATA",
+            "seoPath": [
+                "tata"
+            ],
+            "uuid": "TA-178"
+        },
+        {
+            "name": "TAZZARI",
+            "seoPath": [
+                "tazzari"
+            ],
+            "uuid": "TA-3443"
+        },
+        {
+            "name": "TESLA",
+            "seoPath": [
+                "tesla"
+            ],
+            "uuid": "TA-3328"
+        },
+        {
+            "name": "TGB",
+            "seoPath": [
+                "tgb"
+            ],
+            "uuid": "TA-4401"
+        },
+        {
+            "name": "THINK",
+            "seoPath": [
+                "think"
+            ],
+            "uuid": "TA-3514"
+        },
+        {
+            "name": "TOMOS",
+            "seoPath": [
+                "tomos"
+            ],
+            "uuid": "TA-4425"
+        },
+        {
+            "name": "TORNAX",
+            "seoPath": [
+                "tornax"
+            ],
+            "uuid": "TA-4080"
+        },
+        {
+            "name": "TOYOTA",
+            "seoPath": [
+                "toyota"
+            ],
+            "uuid": "TA-111"
+        },
+        {
+            "name": "TRABANT",
+            "seoPath": [
+                "trabant"
+            ],
+            "uuid": "TA-187"
+        },
+        {
+            "name": "TRIUMPH",
+            "seoPath": [
+                "triumph"
+            ],
+            "uuid": "TA-112"
+        },
+        {
+            "name": "TURBHO",
+            "seoPath": [
+                "turbho"
+            ],
+            "uuid": "TA-4496"
+        },
+        {
+            "name": "TVR",
+            "seoPath": [
+                "tvr"
+            ],
+            "uuid": "TA-861"
+        },
+        {
+            "name": "UAZ",
+            "seoPath": [
+                "uaz"
+            ],
+            "uuid": "TA-1553"
+        },
+        {
+            "name": "UM",
+            "seoPath": [
+                "um"
+            ],
+            "uuid": "TA-4555"
+        },
+        {
+            "name": "UMM",
+            "seoPath": [
+                "umm"
+            ],
+            "uuid": "TA-1554"
+        },
+        {
+            "name": "VAUXHALL",
+            "seoPath": [
+                "vauxhall"
+            ],
+            "uuid": "TA-117"
+        },
+        {
+            "name": "VECTOR",
+            "seoPath": [
+                "vector"
+            ],
+            "uuid": "TA-1555"
+        },
+        {
+            "name": "VESPA",
+            "seoPath": [
+                "vespa"
+            ],
+            "uuid": "TA-4069"
+        },
+        {
+            "name": "VICTORY MOTORCYCLES",
+            "seoPath": [
+                "victory-motorcycles"
+            ],
+            "uuid": "TA-4324"
+        },
+        {
+            "name": "VOLVO",
+            "seoPath": [
+                "volvo"
+            ],
+            "uuid": "TA-120"
+        },
+        {
+            "name": "VW",
+            "seoPath": [
+                "vw"
+            ],
+            "uuid": "TA-121"
+        },
+        {
+            "name": "WARTBURG",
+            "seoPath": [
+                "wartburg"
+            ],
+            "uuid": "TA-186"
+        },
+        {
+            "name": "WESTFIELD",
+            "seoPath": [
+                "westfield"
+            ],
+            "uuid": "TA-907"
+        },
+        {
+            "name": "WIESMANN",
+            "seoPath": [
+                "wiesmann"
+            ],
+            "uuid": "TA-1558"
+        },
+        {
+            "name": "WOLSELEY",
+            "seoPath": [
+                "wolseley"
+            ],
+            "uuid": "TA-1541"
+        },
+        {
+            "name": "YAMAHA",
+            "seoPath": [
+                "yamaha"
+            ],
+            "uuid": "TA-1021"
+        },
+        {
+            "name": "YULON",
+            "seoPath": [
+                "yulon"
+            ],
+            "uuid": "TA-1559"
+        },
+        {
+            "name": "ZASTAVA",
+            "seoPath": [
+                "zastava"
+            ],
+            "uuid": "TA-124"
+        },
+        {
+            "name": "ZAZ",
+            "seoPath": [
+                "zaz"
+            ],
+            "uuid": "TA-1139"
+        },
+        {
+            "name": "ZERO",
+            "seoPath": [
+                "zero"
+            ],
+            "uuid": "TA-4322"
+        },
+        {
+            "name": "ZUENDAPP",
+            "seoPath": [
+                "zuendapp"
+            ],
+            "uuid": "TA-678"
+        }
+    ]
+}

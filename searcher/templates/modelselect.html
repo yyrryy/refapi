@@ -1,0 +1,11 @@
+<div class="mt-2 modelsholder">
+  <!-- <strong>Model:</strong> <br> -->
+
+  <select style="width:100%;" class="select2 models" onchange="gettargets(event)">
+    <option value="">Model</option>
+    {% for i in models %}
+    <option value="{{i.uuid}}">{{i.name}} ({{i.constructionYearFrom}}-{{i.constructionYearTo}})</option>
+    {% endfor %}
+
+  </select>
+</div>

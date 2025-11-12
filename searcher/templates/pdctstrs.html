@@ -1,0 +1,124 @@
+{% load custom_filters %}
+<!-- btn to disply vategroies only ion vin -->
+<div class="">
+  <div class="d-flex justify-content-between p-2 bg-dark">
+    <div class="">
+      {% if not directref %}
+    
+      <button class="btn btn-sm text-white bi bi-border-all" onclick="$('.categoriesholder').fadeToggle()">
+      </button>
+      {% endif %}
+      <!-- <div class="justify-content-between btnsinfo">
+        
+          <div class="text-muted">
+            Categories
+          </div>
+          <div class="text-muted">
+            Info
+          </div> 
+  
+      </div>-->
+      <!-- <strong>Marque: </strong> -->
+      <select  class="select2" style="width: 25em;" assamblyandcategory="{{assamblyandcategory}}" {% if repref %} onchange="getbrandrefpdcts(event)" {% elif directref %} onchange="getbranddirectref(event)" {% else %} onchange="getbrandpdcts(event)" {% endif %}>
+        <option value="">--Marque--</option>
+        {% for i in brands %}
+        <option value="{{ i.query.query.value|extract_brand }}" count="{{i.count}}">{{i.name}} ##{{i.count}}</option>
+        {% endfor %}
+      </select>
+    </div>
+    {% if not directref %}
+    <div class="categoryselected text-white">{{categoryname}}</div>
+    
+    {% endif %}
+  </div>
+
+  <div class="tableholder" style="height: 80vh; overflow:scroll;">
+    <table class="table table-hover table-bordered" style="font-weight: bold;">
+      <thead>
+        <tr>
+          <td style="width:2%;">Image</td>
+          <td>Ref.</td>
+          <td>Marque</td>
+          <td>Nom</td>
+        </tr>
+      </thead>
+      <tbody class="{% if repref or directref %} refpdctstrs {% else %}pdctstrs{% endif %}">
+        {% if fromdb %}
+          {% for i in products %}
+          <tr pdctid="{{i.id}}">
+            <td class="position-relative">
+              <img onclick="displayfullimage(event)" src="{% if i.image == '' %}/static/images/noimage.jpg{% else %}{{i.image}}{% endif %}" alt="" width=90>
+            </td>
+            <td>
+              {{i.brandref}}
+              <div class="d-flex">
+                <button type="button" class="btn mr-2 mb-2 btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg" onclick="getproductoems(event, '{{i.code}}')">OEM</button>
+                <!-- <button type="button" class="btn mr-2 mb-2 btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg" onclick="$(this).closest('td').find('.supplierscheck').toggleClass('d-none').toggleClass('h-75');">F</button> -->
+                <button type="button" class="btn mr-2 mb-2 btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg" onclick="checksuppliers(event, '{{i.brandref}}')">F</button>
+                <!-- checkibra(event, '{{i.brandref}}') -->
+
+              </div>
+            </td>
+            <td>
+              {{i.brand}}
+            </td>
+            <td>
+
+
+
+              
+
+              {{i.fullName}}
+              
+
+            </td>
+            
+          </tr>
+          {% empty %}
+          <tr>
+            <td colspan=5>
+              <h1>Pas de resultat pour le moment</h1>
+            </td>
+          </tr>
+          {% endfor %}
+
+        {% else %}
+          {% for i in products %}
+          <tr>
+            <td class="position-relative">
+              <img onclick="displayfullimage(event)" src="{% if i.images.0.url == '' %}/static/images/noimage.jpg{% else %}{{i.images.0.url}}{% endif %}" width=90>
+            </td>
+            <td>
+              {{i.catalogArticleNumber}}
+              <div class="d-flex">
+                <button type="button" class="btn mr-2 mb-2 btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg" onclick="getproductoems(event, '{{i.code}}')">OEM</button>
+                <!-- <button type="button" class="btn mr-2 mb-2 btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg" onclick="$(this).closest('td').find('.supplierscheck').toggleClass('d-none').toggleClass('h-75');">F</button> -->
+                <button type="button" class="btn mr-2 mb-2 btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg" onclick="checksuppliers(event, '{{i.catalogArticleNumber}}')">F</button>
+                <!-- checkibra(event, '{{i.catalogArticleNumber}}') -->
+
+              </div>
+            </td>
+            <td>
+              {{i.brand.name}}
+            </td>
+            <td>
+
+              
+              {{i.fullName}}
+              
+
+            </td>
+            
+          </tr>
+          {% empty %}
+          <tr>
+            <td colspan=5>
+              <h1>Pas de resultat pour le moment</h1>
+            </td>
+          </tr>
+          {% endfor %}
+        {% endif %}
+      </tbody>
+    </table>
+  </div>
+</div>

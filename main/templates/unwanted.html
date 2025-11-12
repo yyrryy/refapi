@@ -1,0 +1,83 @@
+<!-- accordions vin voitures -->
+<!-- Accordion -->
+<div id="accordionExample" class="accordion">
+
+  <!-- Accordion item 1 -->
+  <div class="card">
+    <div id="headingOne" class="card-header bg-white shadow-sm border-0">
+      <h2 class="mb-0">
+        <button type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+          aria-controls="collapseOne"
+          class="btn btn-link btn-primary font-weight-bold text-uppercase collapsible-link">Vin</button>
+      </h2>
+    </div>
+    <div id="collapseOne" aria-labelledby="headingOne" data-parent="#accordionExample" class="collapse show">
+      <div class="card-body p-5">
+        <div class="search-wrapper active">
+            <div class="input-holder">
+                <input type="text" class="search-input vininput" placeholder="VIN">
+                <button class="search-icon" onclick="getvindata(event)"><span></span></button>
+            </div>
+        </div>
+
+
+        <div class="cars">
+        </div>
+      </div>
+    </div>
+  </div><!-- End -->
+
+  <!-- Accordion item 2 -->
+  <div class="card">
+    <div id="headingTwo" class="card-header bg-white shadow-sm border-0">
+      <h2 class="mb-0">
+        <button type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+          aria-controls="collapseTwo"
+          class="btn btn-link btn-primary w-100 collapsed font-weight-bold text-uppercase collapsible-link">Voitures</button>
+      </h2>
+    </div>
+    <div id="collapseTwo" aria-labelledby="headingTwo" data-parent="#accordionExample" class="collapse">
+      <div class="card-body p-5">
+        <!-- Select car -->
+        <div class="carselector">
+          <select class="select2 manifacturer mb-3 w-100" name="">
+            <option value="TA-139">Dacia</option>
+            <option value="TA-36">Ford</option>
+            <option value="TA-4078">PEUGEOT</option>
+
+          </select>
+          <select class="select2 models mb-3 w-100" name="">
+
+
+          </select>
+          <select class="select2 targets mb-3 w-100" name="">
+
+
+          </select>
+
+        </div>
+      </div>
+    </div>
+  </div><!-- End -->
+
+  <!-- Accordion item 3
+  <div class="card">
+    <div id="headingThree" class="card-header bg-white shadow-sm border-0">
+      <h2 class="mb-0">
+        <button type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+          aria-controls="collapseThree"
+          class="btn btn-link btn-primary collapsed font-weight-bold text-uppercase collapsible-link">Collapsible
+          Group Item #3</button>
+      </h2>
+    </div>
+    <div id="collapseThree" aria-labelledby="headingThree" data-parent="#accordionExample" class="collapse">
+      <div class="card-body p-5">
+        <p class="font-weight-light m-0">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+          terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck
+          quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+          single-origin coffee nulla assumenda shoreditch et.</p>
+      </div>
+    </div>
+  </div><!-- End -->
+
+</div><!-- End -->

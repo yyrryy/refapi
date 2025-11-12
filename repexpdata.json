@@ -1,0 +1,4211 @@
+{
+    
+    "products": [
+        {
+            "brand": {
+                "logo": {
+                    "url": "/medias/logo-fag.svg?context=bWFzdGVyfGltYWdlc3wzNDY1OHxpbWFnZS9zdmcreG1sfGltYWdlcy9oNjAvaDBiLzkxMTA4NzY5NzkyMzAuc3ZnfDYzYzc3NDQ0ZTY3YzMzZGUwZjMwMTgzMzFjNzlmYTRmYTIzMjA1MzY3ZjMxYWI2ODQ2NDBkY2I4NjEzMjY1Nzk"
+                },
+                "name": "FAG"
+            },
+            "catalogArticleNumber": "771 0762 30",
+            "catalogArticleNumbers": [
+                {
+                    "label": "Global catalog number",
+                    "number": "771 0762 30"
+                }
+            ],
+            "catalogStatus": {
+                "code": "normal",
+                "name": "Normal"
+            },
+            "classifications": [
+                {
+                    "code": "5",
+                    "features": [
+                        {
+                            "code": "TA-ProductClassificationSystem/default/5.592",
+                            "comparable": true,
+                            "featureValues": [
+                                {
+                                    "value": "Joint sphérique homocinétique"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Type de joint",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "TA-ProductClassificationSystem/default/5.292",
+                            "comparable": true,
+                            "featureValues": [
+                                {
+                                    "value": "36"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Denture extérieure, côté roue",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "TA-ProductClassificationSystem/default/5.294",
+                            "comparable": true,
+                            "featureValues": [
+                                {
+                                    "value": "30"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Denture intérieure, côté roue",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "TA-ProductClassificationSystem/default/5.297",
+                            "comparable": true,
+                            "featureUnit": {
+                                "name": "mm",
+                                "symbol": "mm",
+                                "unitType": "unknown"
+                            },
+                            "featureValues": [
+                                {
+                                    "value": "52,8"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Diamètre de la bague détanchéité [mm]",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "TA-ProductClassificationSystem/default/5.497",
+                            "comparable": true,
+                            "featureUnit": {
+                                "name": "mm",
+                                "symbol": "mm",
+                                "unitType": "unknown"
+                            },
+                            "featureValues": [
+                                {
+                                    "value": "90"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Diamètre extérieur [mm]",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "TA-ProductClassificationSystem/default/5.3296",
+                            "comparable": true,
+                            "featureValues": [
+                                {
+                                    "value": "Néoprène (polychloroprène)"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Matériau soufflet",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        }
+                    ],
+                    "name": "Jeu de joints, arbre de transmission"
+                }
+            ],
+            "code": "TA-5-7710762300",
+            "ean": "4014870587246",
+            "foundBy": [
+                {
+                    "key": "REFERENCE_NUMBER",
+                    "value": [
+                        "803036"
+                    ]
+                }
+            ],
+            "fullName": "Jeu de joints, arbre de transmission",
+            "name": "Jeu de joints, arbre de transmission",
+            "productReferences": [],
+            "purchasableStatus": {
+                "code": "normal",
+                "name": "Achetable"
+            },
+            "seoPath": [
+                "wheel-drive",
+                "joint-set",
+                "joint-kit-drive-shaft"
+            ],
+            "targetTypes": [
+                "passengerCar"
+            ],
+            "type": "VehiclePartVariantProduct",
+            "url": "/Repxpert-MA/products/TA-5-7710762300"
+        },
+        {
+            "brand": {
+                "logo": {
+                    "url": "/medias/logo-fag.svg?context=bWFzdGVyfGltYWdlc3wzNDY1OHxpbWFnZS9zdmcreG1sfGltYWdlcy9oNjAvaDBiLzkxMTA4NzY5NzkyMzAuc3ZnfDYzYzc3NDQ0ZTY3YzMzZGUwZjMwMTgzMzFjNzlmYTRmYTIzMjA1MzY3ZjMxYWI2ODQ2NDBkY2I4NjEzMjY1Nzk"
+                },
+                "name": "FAG"
+            },
+            "catalogArticleNumber": "771 0807 30",
+            "catalogArticleNumbers": [
+                {
+                    "label": "Global catalog number",
+                    "number": "771 0807 30"
+                }
+            ],
+            "catalogStatus": {
+                "code": "normal",
+                "name": "Normal"
+            },
+            "classifications": [
+                {
+                    "code": "5",
+                    "features": [
+                        {
+                            "code": "TA-ProductClassificationSystem/default/5.592",
+                            "comparable": true,
+                            "featureValues": [
+                                {
+                                    "value": "Joint sphérique homocinétique"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Type de joint",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "TA-ProductClassificationSystem/default/5.292",
+                            "comparable": true,
+                            "featureValues": [
+                                {
+                                    "value": "36"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Denture extérieure, côté roue",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "TA-ProductClassificationSystem/default/5.294",
+                            "comparable": true,
+                            "featureValues": [
+                                {
+                                    "value": "30"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Denture intérieure, côté roue",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "TA-ProductClassificationSystem/default/5.297",
+                            "comparable": true,
+                            "featureUnit": {
+                                "name": "mm",
+                                "symbol": "mm",
+                                "unitType": "unknown"
+                            },
+                            "featureValues": [
+                                {
+                                    "value": "52,8"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Diamètre de la bague détanchéité [mm]",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "TA-ProductClassificationSystem/default/5.497",
+                            "comparable": true,
+                            "featureUnit": {
+                                "name": "mm",
+                                "symbol": "mm",
+                                "unitType": "unknown"
+                            },
+                            "featureValues": [
+                                {
+                                    "value": "90"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Diamètre extérieur [mm]",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "TA-ProductClassificationSystem/default/5.3296",
+                            "comparable": true,
+                            "featureValues": [
+                                {
+                                    "value": "Thermoplastique"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Matériau soufflet",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        }
+                    ],
+                    "name": "Jeu de joints, arbre de transmission"
+                }
+            ],
+            "code": "TA-5-7710807300",
+            "ean": "4014870582081",
+            "foundBy": [
+                {
+                    "key": "REFERENCE_NUMBER",
+                    "value": [
+                        "803036"
+                    ]
+                }
+            ],
+            "fullName": "Jeu de joints, arbre de transmission",
+            "images": [
+                {
+                    "format": "thumbnail",
+                    "imageType": "PRIMARY",
+                    "url": "/medias/csccProductThumb-771080730.webp?context=bWFzdGVyfHByb2R1Y3RpbWFnZXN8MTkwMTh8aW1hZ2Uvd2VicHxwcm9kdWN0aW1hZ2VzL2g3OC9oZjEvOTMyMzI1MDkwOTIxNC53ZWJwfDU3NzRhNmYzZmI0NDc4NzUyZTViMjk2ZTJiY2Y2NmZiYzU3OTdiMTk5MDQwZWVmYTM4ZDgzZDhkOTQxYzFmNmU"
+                }
+            ],
+            "name": "Jeu de joints, arbre de transmission",
+            "productReferences": [],
+            "purchasableStatus": {
+                "code": "normal",
+                "name": "Achetable"
+            },
+            "seoPath": [
+                "wheel-drive",
+                "joint-set",
+                "joint-kit-drive-shaft"
+            ],
+            "targetTypes": [
+                "passengerCar"
+            ],
+            "type": "VehiclePartVariantProduct",
+            "url": "/Repxpert-MA/products/TA-5-7710807300"
+        },
+        {
+            "brand": {
+                "logo": {
+                    "url": "/medias/logo-fag.svg?context=bWFzdGVyfGltYWdlc3wzNDY1OHxpbWFnZS9zdmcreG1sfGltYWdlcy9oNjAvaDBiLzkxMTA4NzY5NzkyMzAuc3ZnfDYzYzc3NDQ0ZTY3YzMzZGUwZjMwMTgzMzFjNzlmYTRmYTIzMjA1MzY3ZjMxYWI2ODQ2NDBkY2I4NjEzMjY1Nzk"
+                },
+                "name": "FAG"
+            },
+            "catalogArticleNumber": "771 0325 30",
+            "catalogArticleNumbers": [
+                {
+                    "label": "Global catalog number",
+                    "number": "771 0325 30"
+                }
+            ],
+            "catalogStatus": {
+                "code": "no_longer_supplied",
+                "name": "plus livrable par l'équipementier"
+            },
+            "classifications": [
+                {
+                    "code": "5",
+                    "features": [
+                        {
+                            "code": "TA-ProductClassificationSystem/default/5.592",
+                            "comparable": true,
+                            "featureValues": [
+                                {
+                                    "value": "Joint sphérique homocinétique"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Type de joint",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "TA-ProductClassificationSystem/default/5.292",
+                            "comparable": true,
+                            "featureValues": [
+                                {
+                                    "value": "36"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Denture extérieure, côté roue",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "TA-ProductClassificationSystem/default/5.294",
+                            "comparable": true,
+                            "featureValues": [
+                                {
+                                    "value": "30"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Denture intérieure, côté roue",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "TA-ProductClassificationSystem/default/5.297",
+                            "comparable": true,
+                            "featureUnit": {
+                                "name": "mm",
+                                "symbol": "mm",
+                                "unitType": "unknown"
+                            },
+                            "featureValues": [
+                                {
+                                    "value": "52,8"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Diamètre de la bague détanchéité [mm]",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "TA-ProductClassificationSystem/default/5.497",
+                            "comparable": true,
+                            "featureUnit": {
+                                "name": "mm",
+                                "symbol": "mm",
+                                "unitType": "unknown"
+                            },
+                            "featureValues": [
+                                {
+                                    "value": "90"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Diamètre extérieur [mm]",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        }
+                    ],
+                    "name": "Jeu de joints, arbre de transmission"
+                }
+            ],
+            "code": "TA-5-7710325300",
+            "ean": "4014870385569",
+            "foundBy": [
+                {
+                    "key": "REFERENCE_NUMBER",
+                    "value": [
+                        "803036"
+                    ]
+                }
+            ],
+            "fullName": "Jeu de joints, arbre de transmission",
+            "name": "Jeu de joints, arbre de transmission",
+            "productReferences": [],
+            "purchasableStatus": {
+                "code": "not_available",
+                "name": "Pas disponible"
+            },
+            "seoPath": [
+                "wheel-drive",
+                "joint-set",
+                "joint-kit-drive-shaft"
+            ],
+            "targetTypes": [
+                "passengerCar"
+            ],
+            "type": "VehiclePartVariantProduct",
+            "url": "/Repxpert-MA/products/TA-5-7710325300"
+        },
+        {
+            "brand": {
+                "code": "2745",
+                "name": "AUTEX"
+            },
+            "catalogArticleNumber": "803036",
+            "catalogStatus": {
+                "code": "normal",
+                "name": "Normal"
+            },
+            "classifications": [
+                {
+                    "code": "654",
+                    "features": [
+                        {
+                            "code": "496",
+                            "comparable": false,
+                            "featureUnit": {
+                                "name": "mm",
+                                "symbol": "mm"
+                            },
+                            "featureValues": [
+                                {
+                                    "value": "44"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Diamètre intérieur [mm]",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "497",
+                            "comparable": false,
+                            "featureUnit": {
+                                "name": "mm",
+                                "symbol": "mm"
+                            },
+                            "featureValues": [
+                                {
+                                    "value": "82,5"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Diamètre extérieur [mm]",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "206",
+                            "comparable": false,
+                            "featureUnit": {
+                                "name": "mm",
+                                "symbol": "mm"
+                            },
+                            "featureValues": [
+                                {
+                                    "value": "37"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Largeur [mm]",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        }
+                    ],
+                    "name": "Kit de roulements de roue"
+                }
+            ],
+            "code": "Ext-TA-MzAwOjgwMzAzNg",
+            "foundBy": [
+                {
+                    "key": "ARTICLE_NUMBER",
+                    "value": [
+                        "803036"
+                    ]
+                }
+            ],
+            "fullName": "Kit de roulements de roue",
+            "images": [
+                {
+                    "format": "thumbnail",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/200/743a9a37e0da45076fecafea0731c74cb42df3cd.jpg"
+                },
+                {
+                    "format": "product",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/400/743a9a37e0da45076fecafea0731c74cb42df3cd.jpg"
+                },
+                {
+                    "format": "zoom",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/800/743a9a37e0da45076fecafea0731c74cb42df3cd.jpg"
+                }
+            ],
+            "linkages": [],
+            "productReferences": [],
+            "tradeNumbers": [],
+            "type": "VehiclePartVariantProduct"
+        },
+        {
+            "brand": {
+                "code": "3166",
+                "name": "GSP"
+            },
+            "catalogArticleNumber": "803036",
+            "catalogStatus": {
+                "code": "normal",
+                "name": "Normal"
+            },
+            "classifications": [
+                {
+                    "code": "5",
+                    "features": [
+                        {
+                            "code": "203",
+                            "comparable": false,
+                            "featureUnit": {
+                                "name": "mm",
+                                "symbol": "mm"
+                            },
+                            "featureValues": [
+                                {
+                                    "value": "138,5"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Longueur [mm]",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "289",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "M20X1,5"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Filetage",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "292",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "36"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Denture extérieure, côté roue",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "294",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "30"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Denture intérieure, côté roue",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "297",
+                            "comparable": false,
+                            "featureUnit": {
+                                "name": "mm",
+                                "symbol": "mm"
+                            },
+                            "featureValues": [
+                                {
+                                    "value": "53,2"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Diamètre de la bague détanchéité [mm]",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "903",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "Groove Type Inner"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Numéro d'information technique",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        }
+                    ],
+                    "name": "Jeu de joints, arbre de transmission"
+                }
+            ],
+            "code": "Ext-TA-MzczOjgwMzAzNg",
+            "foundBy": [
+                {
+                    "key": "ARTICLE_NUMBER",
+                    "value": [
+                        "803036"
+                    ]
+                }
+            ],
+            "fullName": "Jeu de joints, arbre de transmission",
+            "images": [
+                {
+                    "format": "thumbnail",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/200/0f0adb64ca417a9559ca1d14cc9c1adae957d0e9.jpg"
+                },
+                {
+                    "format": "product",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/400/0f0adb64ca417a9559ca1d14cc9c1adae957d0e9.jpg"
+                },
+                {
+                    "format": "zoom",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/800/0f0adb64ca417a9559ca1d14cc9c1adae957d0e9.jpg"
+                }
+            ],
+            "linkages": [],
+            "productReferences": [
+                {
+                    "inverse": false,
+                    "referenceType": "SUPERSESSION",
+                    "target": {
+                        "brand": {
+                            "code": "3166",
+                            "name": "GSP",
+                            "supplierNumber": "373"
+                        },
+                        "catalogArticleNumber": "803070",
+                        "code": "Ext-TA-MzczOjgwMzA3MA",
+                        "documentGroups": []
+                    }
+                }
+            ],
+            "tradeNumbers": [],
+            "type": "VehiclePartVariantProduct"
+        },
+        {
+            "brand": {
+                "code": "4197",
+                "name": "WILMINK GROUP"
+            },
+            "catalogArticleNumber": "WG1803036",
+            "catalogStatus": {
+                "code": "normal",
+                "name": "Normal"
+            },
+            "code": "Ext-TA-NDgzMjpXRzE4MDMwMzY",
+            "foundBy": [
+                {
+                    "key": "ARTICLE_NUMBER",
+                    "value": [
+                        "WG1803036"
+                    ]
+                }
+            ],
+            "fullName": "Coussinet de palier, bielle",
+            "linkages": [],
+            "productReferences": [],
+            "tradeNumbers": [],
+            "type": "VehiclePartVariantProduct"
+        },
+        {
+            "brand": {
+                "code": "6241",
+                "name": "ELPI"
+            },
+            "catalogArticleNumber": "LP180 3036",
+            "catalogStatus": {
+                "code": "normal",
+                "name": "Normal"
+            },
+            "classifications": [
+                {
+                    "code": "589",
+                    "features": [
+                        {
+                            "code": "215",
+                            "comparable": false,
+                            "featureUnit": {
+                                "name": "mm",
+                                "symbol": "mm"
+                            },
+                            "featureValues": [
+                                {
+                                    "value": "128"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Alésage de cylindre [mm]",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "698",
+                            "comparable": false,
+                            "featureUnit": {
+                                "name": "mm",
+                                "symbol": "mm"
+                            },
+                            "featureValues": [
+                                {
+                                    "value": "155,5"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Bride Ø [mm]",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "497",
+                            "comparable": false,
+                            "featureUnit": {
+                                "name": "mm",
+                                "symbol": "mm"
+                            },
+                            "featureValues": [
+                                {
+                                    "value": "144,5"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Diamètre extérieur [mm]",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "1183",
+                            "comparable": false,
+                            "featureUnit": {
+                                "name": "mm",
+                                "symbol": "mm"
+                            },
+                            "featureValues": [
+                                {
+                                    "value": "1,1"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Hauteur de cloison de gorges de piston supérieure [mm]",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "836",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "Chemise humide de cylindre"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Article complémentaire / Info complémentaire 2",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        }
+                    ],
+                    "name": "Chemise de cylindre"
+                }
+            ],
+            "code": "Ext-TA-NTI3OTpMUDE4MCAzMDM2",
+            "foundBy": [
+                {
+                    "key": "ARTICLE_NUMBER",
+                    "value": [
+                        "LP180 3036"
+                    ]
+                }
+            ],
+            "fullName": "Chemise de cylindre",
+            "images": [
+                {
+                    "format": "thumbnail",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/200/8fc144ede56937a3bd7ea13393259b9a8aea9fd1.jpg"
+                },
+                {
+                    "format": "product",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/400/8fc144ede56937a3bd7ea13393259b9a8aea9fd1.jpg"
+                },
+                {
+                    "format": "zoom",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/800/8fc144ede56937a3bd7ea13393259b9a8aea9fd1.jpg"
+                }
+            ],
+            "linkages": [],
+            "productReferences": [],
+            "tradeNumbers": [],
+            "type": "VehiclePartVariantProduct"
+        },
+        {
+            "brand": {
+                "code": "3166",
+                "name": "GSP"
+            },
+            "catalogArticleNumber": "803070",
+            "catalogStatus": {
+                "code": "normal",
+                "name": "Normal"
+            },
+            "classifications": [
+                {
+                    "code": "5",
+                    "features": [
+                        {
+                            "code": "48",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "1J0498099B"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "pour numéro OE",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "203",
+                            "comparable": false,
+                            "featureUnit": {
+                                "name": "mm",
+                                "symbol": "mm"
+                            },
+                            "featureValues": [
+                                {
+                                    "value": "138"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Longueur [mm]",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "289",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "M20X1,5"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Filetage",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "292",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "36"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Denture extérieure, côté roue",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "294",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "30"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Denture intérieure, côté roue",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "297",
+                            "comparable": false,
+                            "featureUnit": {
+                                "name": "mm",
+                                "symbol": "mm"
+                            },
+                            "featureValues": [
+                                {
+                                    "value": "53"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Diamètre de la bague détanchéité [mm]",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "903",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "Groove Type Inner"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Numéro d'information technique",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        }
+                    ],
+                    "name": "Jeu de joints, arbre de transmission"
+                }
+            ],
+            "code": "Ext-TA-MzczOjgwMzA3MA",
+            "foundBy": [
+                {
+                    "key": "SUPERSESSION",
+                    "value": [
+                        "803036"
+                    ]
+                }
+            ],
+            "fullName": "Jeu de joints, arbre de transmission",
+            "images": [
+                {
+                    "format": "thumbnail",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/200/0b6ecdbaf24280143ec853d8316f72841477204d.jpg"
+                },
+                {
+                    "format": "product",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/400/0b6ecdbaf24280143ec853d8316f72841477204d.jpg"
+                },
+                {
+                    "format": "zoom",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/800/0b6ecdbaf24280143ec853d8316f72841477204d.jpg"
+                }
+            ],
+            "linkages": [],
+            "productReferences": [
+                {
+                    "inverse": true,
+                    "referenceType": "SUPERSESSION",
+                    "target": {
+                        "brand": {
+                            "code": "3166",
+                            "name": "GSP",
+                            "supplierNumber": "373"
+                        },
+                        "catalogArticleNumber": "803036",
+                        "code": "Ext-TA-MzczOjgwMzAzNg",
+                        "documentGroups": []
+                    }
+                }
+            ],
+            "tradeNumbers": [],
+            "type": "VehiclePartVariantProduct"
+        },
+        {
+            "brand": {
+                "code": "3724",
+                "name": "STELLOX"
+            },
+            "catalogArticleNumber": "84-08116-SX",
+            "catalogStatus": {
+                "code": "normal",
+                "name": "Normal"
+            },
+            "classifications": [
+                {
+                    "code": "251",
+                    "features": [
+                        {
+                            "code": "551",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "Support métal-caoutchouc"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Type de suspension",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "496",
+                            "comparable": false,
+                            "featureUnit": {
+                                "name": "mm",
+                                "symbol": "mm"
+                            },
+                            "featureValues": [
+                                {
+                                    "value": "37"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Diamètre intérieur [mm]",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "497",
+                            "comparable": false,
+                            "featureUnit": {
+                                "name": "mm",
+                                "symbol": "mm"
+                            },
+                            "featureValues": [
+                                {
+                                    "value": "65"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Diamètre extérieur [mm]",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "468",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "Caoutchouc/métal"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Matériel",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "124",
+                            "comparable": false,
+                            "featureUnit": {
+                                "name": "mm",
+                                "symbol": "mm"
+                            },
+                            "featureValues": [
+                                {
+                                    "value": "28"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Épaisseur [mm]",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "100",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "Essieu avant gauche"
+                                },
+                                {
+                                    "value": "Essieu avant droit"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Côté d'assemblage",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        }
+                    ],
+                    "name": "Suspension, bras de liaison"
+                }
+            ],
+            "code": "Ext-TA-NDU5NTo4NC0wODExNi1TWA",
+            "foundBy": [
+                {
+                    "key": "REFERENCE_NUMBER",
+                    "value": [
+                        "803036"
+                    ]
+                }
+            ],
+            "fullName": "Suspension, bras de liaison",
+            "images": [
+                {
+                    "format": "thumbnail",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/200/1de9b92bc466723d365dca009bded631423f82c7.jpg"
+                },
+                {
+                    "format": "product",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/400/1de9b92bc466723d365dca009bded631423f82c7.jpg"
+                },
+                {
+                    "format": "zoom",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/800/1de9b92bc466723d365dca009bded631423f82c7.jpg"
+                }
+            ],
+            "linkages": [],
+            "productReferences": [],
+            "tradeNumbers": [],
+            "type": "VehiclePartVariantProduct"
+        },
+        {
+            "brand": {
+                "code": "797",
+                "name": "FEBI BILSTEIN"
+            },
+            "catalogArticleNumber": "20098",
+            "catalogStatus": {
+                "code": "no_longer_supplied",
+                "name": "N'est plus livrable par le fabricant"
+            },
+            "classifications": [
+                {
+                    "code": "854",
+                    "features": [
+                        {
+                            "code": "203",
+                            "comparable": false,
+                            "featureUnit": {
+                                "name": "mm",
+                                "symbol": "mm"
+                            },
+                            "featureValues": [
+                                {
+                                    "value": "368"
+                                },
+                                {
+                                    "value": "591"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Longueur [mm]",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "138",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "Goujon en haut"
+                                },
+                                {
+                                    "value": "Goujon en bas"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Mode de serrage d'amortisseur",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "100",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "Essieu avant"
+                                },
+                                {
+                                    "value": "Essieu arrière"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Côté d'assemblage",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        }
+                    ],
+                    "name": "Amortisseur"
+                }
+            ],
+            "code": "Ext-TA-MTAxOjIwMDk4",
+            "foundBy": [
+                {
+                    "key": "REFERENCE_NUMBER",
+                    "value": [
+                        "8030367"
+                    ]
+                }
+            ],
+            "fullName": "Amortisseur",
+            "linkages": [],
+            "productReferences": [
+                {
+                    "inverse": false,
+                    "referenceType": "SUPERSESSION",
+                    "target": {
+                        "brand": {
+                            "code": "797",
+                            "name": "FEBI BILSTEIN",
+                            "supplierNumber": "101"
+                        },
+                        "catalogArticleNumber": "20382",
+                        "code": "Ext-TA-MTAxOjIwMzgy",
+                        "documentGroups": []
+                    }
+                }
+            ],
+            "tradeNumbers": [],
+            "type": "VehiclePartVariantProduct"
+        },
+        {
+            "brand": {
+                "code": "2097",
+                "name": "BE TURBO"
+            },
+            "catalogArticleNumber": "131448",
+            "catalogStatus": {
+                "code": "normal",
+                "name": "Normal"
+            },
+            "classifications": [
+                {
+                    "code": "2234",
+                    "features": [
+                        {
+                            "code": "120",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "Original"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Qualité",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "492",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "Turbocompresseur à gaz d'échappement"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Type de chargement",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "1553",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "5 ans de garantie"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Garantie sur les vices cachés",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        }
+                    ],
+                    "name": "Turbocompresseur, suralimentation"
+                }
+            ],
+            "code": "Ext-TA-MTI4OjEzMTQ0OA",
+            "foundBy": [
+                {
+                    "key": "REFERENCE_NUMBER",
+                    "value": [
+                        "8030365"
+                    ]
+                }
+            ],
+            "fullName": "Turbocompresseur, suralimentation",
+            "images": [
+                {
+                    "format": "thumbnail",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/200/ac2eb72839bd4c5439b437f5b6a76a04ca292048.jpg"
+                },
+                {
+                    "format": "product",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/400/ac2eb72839bd4c5439b437f5b6a76a04ca292048.jpg"
+                },
+                {
+                    "format": "zoom",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/800/ac2eb72839bd4c5439b437f5b6a76a04ca292048.jpg"
+                }
+            ],
+            "linkages": [],
+            "productReferences": [],
+            "tradeNumbers": [],
+            "type": "VehiclePartVariantProduct"
+        },
+        {
+            "brand": {
+                "code": "2097",
+                "name": "BE TURBO"
+            },
+            "catalogArticleNumber": "131507",
+            "catalogStatus": {
+                "code": "normal",
+                "name": "Normal"
+            },
+            "classifications": [
+                {
+                    "code": "2234",
+                    "features": [
+                        {
+                            "code": "120",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "Original"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Qualité",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "492",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "Turbocompresseur à gaz d'échappement"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Type de chargement",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "1553",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "5 ans de garantie"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Garantie sur les vices cachés",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        }
+                    ],
+                    "name": "Turbocompresseur, suralimentation"
+                }
+            ],
+            "code": "Ext-TA-MTI4OjEzMTUwNw",
+            "foundBy": [
+                {
+                    "key": "REFERENCE_NUMBER",
+                    "value": [
+                        "8030366"
+                    ]
+                }
+            ],
+            "fullName": "Turbocompresseur, suralimentation",
+            "images": [
+                {
+                    "format": "thumbnail",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/200/ac2eb72839bd4c5439b437f5b6a76a04ca292048.jpg"
+                },
+                {
+                    "format": "product",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/400/ac2eb72839bd4c5439b437f5b6a76a04ca292048.jpg"
+                },
+                {
+                    "format": "zoom",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/800/ac2eb72839bd4c5439b437f5b6a76a04ca292048.jpg"
+                }
+            ],
+            "linkages": [],
+            "productReferences": [],
+            "tradeNumbers": [],
+            "type": "VehiclePartVariantProduct"
+        },
+        {
+            "brand": {
+                "code": "2281",
+                "name": "BTS Turbo"
+            },
+            "catalogArticleNumber": "T918326",
+            "catalogStatus": {
+                "code": "normal",
+                "name": "Normal"
+            },
+            "classifications": [
+                {
+                    "code": "2234",
+                    "features": [
+                        {
+                            "code": "492",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "Turbocompresseur à gaz d'échappement"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Type de chargement",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        }
+                    ],
+                    "name": "Turbocompresseur, suralimentation"
+                }
+            ],
+            "code": "Ext-TA-MTc3OlQ5MTgzMjY",
+            "foundBy": [
+                {
+                    "key": "REFERENCE_NUMBER",
+                    "value": [
+                        "8030365"
+                    ]
+                }
+            ],
+            "fullName": "Turbocompresseur, suralimentation ORIGINAL",
+            "linkages": [],
+            "name": "ORIGINAL",
+            "productReferences": [],
+            "tradeNumbers": [],
+            "type": "VehiclePartVariantProduct"
+        },
+        {
+            "brand": {
+                "code": "3421",
+                "name": "TURBO-MOT"
+            },
+            "catalogArticleNumber": "670513",
+            "catalogStatus": {
+                "code": "normal",
+                "name": "Normal"
+            },
+            "classifications": [
+                {
+                    "code": "2234",
+                    "features": [
+                        {
+                            "code": "120",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "Original"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Qualité",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "492",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "Turbocompresseur à gaz d'échappement"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Type de chargement",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        }
+                    ],
+                    "name": "Turbocompresseur, suralimentation"
+                }
+            ],
+            "code": "Ext-TA-NDM2Mjo2NzA1MTM",
+            "foundBy": [
+                {
+                    "key": "REFERENCE_NUMBER",
+                    "value": [
+                        "8030366"
+                    ]
+                }
+            ],
+            "fullName": "Turbocompresseur, suralimentation TURBOCOMPRESSEUR-NOUVEAU",
+            "images": [
+                {
+                    "format": "thumbnail",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/200/72026a1ef55fd71c87e4714c520611e08f160740.jpg"
+                },
+                {
+                    "format": "product",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/400/72026a1ef55fd71c87e4714c520611e08f160740.jpg"
+                },
+                {
+                    "format": "zoom",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/800/72026a1ef55fd71c87e4714c520611e08f160740.jpg"
+                }
+            ],
+            "linkages": [],
+            "name": "TURBOCOMPRESSEUR-NOUVEAU",
+            "productReferences": [],
+            "tradeNumbers": [],
+            "type": "VehiclePartVariantProduct"
+        },
+        {
+            "brand": {
+                "code": "3421",
+                "name": "TURBO-MOT"
+            },
+            "catalogArticleNumber": "684413",
+            "catalogStatus": {
+                "code": "normal",
+                "name": "Normal"
+            },
+            "classifications": [
+                {
+                    "code": "2234",
+                    "features": [
+                        {
+                            "code": "120",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "Original"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Qualité",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "492",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "Turbocompresseur à gaz d'échappement"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Type de chargement",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        }
+                    ],
+                    "name": "Turbocompresseur, suralimentation"
+                }
+            ],
+            "code": "Ext-TA-NDM2Mjo2ODQ0MTM",
+            "foundBy": [
+                {
+                    "key": "REFERENCE_NUMBER",
+                    "value": [
+                        "8030365"
+                    ]
+                }
+            ],
+            "fullName": "Turbocompresseur, suralimentation TURBOCOMPRESSEUR-NOUVEAU",
+            "images": [
+                {
+                    "format": "thumbnail",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/200/72026a1ef55fd71c87e4714c520611e08f160740.jpg"
+                },
+                {
+                    "format": "product",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/400/72026a1ef55fd71c87e4714c520611e08f160740.jpg"
+                },
+                {
+                    "format": "zoom",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/800/72026a1ef55fd71c87e4714c520611e08f160740.jpg"
+                }
+            ],
+            "linkages": [],
+            "name": "TURBOCOMPRESSEUR-NOUVEAU",
+            "productReferences": [],
+            "tradeNumbers": [],
+            "type": "VehiclePartVariantProduct"
+        },
+        {
+            "brand": {
+                "code": "3593",
+                "name": "AUGER"
+            },
+            "catalogArticleNumber": "220037",
+            "catalogStatus": {
+                "code": "normal",
+                "name": "Normal"
+            },
+            "code": "Ext-TA-NDQ5NToyMjAwMzc",
+            "foundBy": [
+                {
+                    "key": "REFERENCE_NUMBER",
+                    "value": [
+                        "8030367"
+                    ]
+                }
+            ],
+            "fullName": "Amortisseur",
+            "linkages": [],
+            "productReferences": [],
+            "tradeNumbers": [],
+            "type": "VehiclePartVariantProduct"
+        },
+        {
+            "brand": {
+                "code": "3721",
+                "name": "SANDO"
+            },
+            "catalogArticleNumber": "STC61021.1",
+            "catalogStatus": {
+                "code": "normal",
+                "name": "Normal"
+            },
+            "classifications": [
+                {
+                    "code": "2234",
+                    "features": [
+                        {
+                            "code": "1059",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": ".1"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Version",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "1075",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": ""
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Pièce neuve",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        }
+                    ],
+                    "name": "Turbocompresseur, suralimentation"
+                }
+            ],
+            "code": "Ext-TA-NDU5MjpTVEM2MTAyMS4x",
+            "foundBy": [
+                {
+                    "key": "REFERENCE_NUMBER",
+                    "value": [
+                        "8030365"
+                    ]
+                }
+            ],
+            "fullName": "Turbocompresseur, suralimentation Genuine",
+            "linkages": [],
+            "name": "Genuine",
+            "productReferences": [],
+            "tradeNumbers": [],
+            "type": "VehiclePartVariantProduct"
+        },
+        {
+            "brand": {
+                "code": "3724",
+                "name": "STELLOX"
+            },
+            "catalogArticleNumber": "87-05006-SX",
+            "catalogStatus": {
+                "code": "normal",
+                "name": "Normal"
+            },
+            "classifications": [
+                {
+                    "code": "854",
+                    "features": [
+                        {
+                            "code": "101",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "Pression de gaz"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Type d'amortisseur",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "100",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "Essieu avant"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Côté d'assemblage",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "138",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "Goujon en haut"
+                                },
+                                {
+                                    "value": "Goujon en bas"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Mode de serrage d'amortisseur",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "136",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "Module atténuateur"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Modèle d'amortisseur",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        }
+                    ],
+                    "name": "Amortisseur"
+                }
+            ],
+            "code": "Ext-TA-NDU5NTo4Ny0wNTAwNi1TWA",
+            "foundBy": [
+                {
+                    "key": "REFERENCE_NUMBER",
+                    "value": [
+                        "8030367"
+                    ]
+                }
+            ],
+            "fullName": "Amortisseur",
+            "images": [
+                {
+                    "format": "thumbnail",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/200/fde4be2f9ea3e81dddd6f7ec4ea08ba39d085eec.jpg"
+                },
+                {
+                    "format": "product",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/400/fde4be2f9ea3e81dddd6f7ec4ea08ba39d085eec.jpg"
+                },
+                {
+                    "format": "zoom",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/800/fde4be2f9ea3e81dddd6f7ec4ea08ba39d085eec.jpg"
+                }
+            ],
+            "linkages": [],
+            "productReferences": [
+                {
+                    "inverse": false,
+                    "referenceType": "SUPERSESSION",
+                    "target": {
+                        "brand": {
+                            "code": "3724",
+                            "name": "STELLOX",
+                            "supplierNumber": "4595"
+                        },
+                        "catalogArticleNumber": "87-05276-SX",
+                        "code": "Ext-TA-NDU5NTo4Ny0wNTI3Ni1TWA",
+                        "documentGroups": []
+                    }
+                }
+            ],
+            "tradeNumbers": [],
+            "type": "VehiclePartVariantProduct"
+        },
+        {
+            "brand": {
+                "code": "3724",
+                "name": "STELLOX"
+            },
+            "catalogArticleNumber": "87-05276-SX",
+            "catalogStatus": {
+                "code": "not_available",
+                "name": "non-livrable"
+            },
+            "classifications": [
+                {
+                    "code": "854",
+                    "features": [
+                        {
+                            "code": "100",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "Essieu avant"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Côté d'assemblage",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "101",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "Pression de gaz"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Type d'amortisseur",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "138",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "Goujon en haut"
+                                },
+                                {
+                                    "value": "Goujon en bas"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Mode de serrage d'amortisseur",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "136",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "Amortisseur télescopique"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Modèle d'amortisseur",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "410",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "NEV45X210HAWN"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Données",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "137",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "Système bitube"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Système d'amortisseur",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        }
+                    ],
+                    "name": "Amortisseur"
+                }
+            ],
+            "code": "Ext-TA-NDU5NTo4Ny0wNTI3Ni1TWA",
+            "foundBy": [
+                {
+                    "key": "REFERENCE_NUMBER",
+                    "value": [
+                        "8030367"
+                    ]
+                }
+            ],
+            "fullName": "Amortisseur",
+            "linkages": [],
+            "productReferences": [
+                {
+                    "inverse": true,
+                    "referenceType": "SUPERSESSION",
+                    "target": {
+                        "brand": {
+                            "code": "3724",
+                            "name": "STELLOX",
+                            "supplierNumber": "4595"
+                        },
+                        "catalogArticleNumber": "87-05006-SX",
+                        "code": "Ext-TA-NDU5NTo4Ny0wNTAwNi1TWA",
+                        "documentGroups": []
+                    }
+                }
+            ],
+            "tradeNumbers": [],
+            "type": "VehiclePartVariantProduct"
+        },
+        {
+            "brand": {
+                "code": "3758",
+                "name": "SAMPA"
+            },
+            "catalogArticleNumber": "037.317",
+            "catalogStatus": {
+                "code": "normal",
+                "name": "Normal"
+            },
+            "code": "Ext-TA-NDYyMzowMzcuMzE3",
+            "foundBy": [
+                {
+                    "key": "REFERENCE_NUMBER",
+                    "value": [
+                        "8030367"
+                    ]
+                }
+            ],
+            "fullName": "Amortisseur",
+            "images": [
+                {
+                    "format": "thumbnail",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/200/192493f96db6de4473dc9d6534e3edb79112d6c3.jpg"
+                },
+                {
+                    "format": "product",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/400/192493f96db6de4473dc9d6534e3edb79112d6c3.jpg"
+                },
+                {
+                    "format": "zoom",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/800/192493f96db6de4473dc9d6534e3edb79112d6c3.jpg"
+                }
+            ],
+            "linkages": [],
+            "productReferences": [],
+            "tradeNumbers": [],
+            "type": "VehiclePartVariantProduct"
+        },
+        {
+            "brand": {
+                "code": "3778",
+                "name": "SPICER"
+            },
+            "catalogArticleNumber": "D-14296-00",
+            "catalogStatus": {
+                "code": "normal",
+                "name": "Normal"
+            },
+            "classifications": [
+                {
+                    "code": "3675",
+                    "features": [
+                        {
+                            "code": "203",
+                            "comparable": false,
+                            "featureUnit": {
+                                "name": "mm",
+                                "symbol": "mm"
+                            },
+                            "featureValues": [
+                                {
+                                    "value": "2 242"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Longueur [mm]",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        }
+                    ],
+                    "name": "Arbre de transmission, entraînement essieux"
+                }
+            ],
+            "code": "Ext-TA-NDYzNTpELTE0Mjk2LTAw",
+            "foundBy": [
+                {
+                    "key": "REFERENCE_NUMBER",
+                    "value": [
+                        "1803036"
+                    ]
+                }
+            ],
+            "fullName": "Arbre de transmission, entraînement essieux",
+            "linkages": [],
+            "productReferences": [],
+            "tradeNumbers": [],
+            "type": "VehiclePartVariantProduct"
+        },
+        {
+            "brand": {
+                "code": "3415",
+                "name": "CASCO"
+            },
+            "catalogArticleNumber": "CTC61021GS",
+            "catalogStatus": {
+                "code": "normal",
+                "name": "Normal"
+            },
+            "classifications": [
+                {
+                    "code": "2234",
+                    "features": [
+                        {
+                            "code": "1059",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "GS"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Version",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "1075",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": ""
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Pièce neuve",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        }
+                    ],
+                    "name": "Turbocompresseur, suralimentation"
+                }
+            ],
+            "code": "Ext-TA-NDg0OkNUQzYxMDIxR1M",
+            "foundBy": [
+                {
+                    "key": "REFERENCE_NUMBER",
+                    "value": [
+                        "8030365"
+                    ]
+                }
+            ],
+            "fullName": "Turbocompresseur, suralimentation Genuine",
+            "linkages": [],
+            "name": "Genuine",
+            "productReferences": [],
+            "tradeNumbers": [],
+            "type": "VehiclePartVariantProduct"
+        },
+        {
+            "brand": {
+                "code": "4810",
+                "name": "LGK"
+            },
+            "catalogArticleNumber": "070069021OEM",
+            "catalogStatus": {
+                "code": "normal",
+                "name": "Normal"
+            },
+            "classifications": [
+                {
+                    "code": "2234",
+                    "features": [
+                        {
+                            "code": "1059",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "OEM"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Version",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "1075",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": ""
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Pièce neuve",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        }
+                    ],
+                    "name": "Turbocompresseur, suralimentation"
+                }
+            ],
+            "code": "Ext-TA-NjAxMjowNzAwNjkwMjFPRU0",
+            "foundBy": [
+                {
+                    "key": "REFERENCE_NUMBER",
+                    "value": [
+                        "8030365"
+                    ]
+                }
+            ],
+            "fullName": "Turbocompresseur, suralimentation",
+            "linkages": [],
+            "productReferences": [],
+            "tradeNumbers": [],
+            "type": "VehiclePartVariantProduct"
+        },
+        {
+            "brand": {
+                "code": "5174",
+                "name": "REAL"
+            },
+            "catalogArticleNumber": "52006120OE",
+            "catalogStatus": {
+                "code": "normal",
+                "name": "Normal"
+            },
+            "classifications": [
+                {
+                    "code": "2234",
+                    "features": [
+                        {
+                            "code": "1059",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "OE"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Version",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "1075",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": ""
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Pièce neuve",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        }
+                    ],
+                    "name": "Turbocompresseur, suralimentation"
+                }
+            ],
+            "code": "Ext-TA-NjMzNTo1MjAwNjEyME9F",
+            "foundBy": [
+                {
+                    "key": "REFERENCE_NUMBER",
+                    "value": [
+                        "8030365"
+                    ]
+                }
+            ],
+            "fullName": "Turbocompresseur, suralimentation Genuine",
+            "linkages": [],
+            "name": "Genuine",
+            "productReferences": [],
+            "tradeNumbers": [],
+            "type": "VehiclePartVariantProduct"
+        },
+        {
+            "brand": {
+                "code": "3221",
+                "name": "CAUTEX"
+            },
+            "catalogArticleNumber": "760233",
+            "catalogStatus": {
+                "code": "normal",
+                "name": "Normal"
+            },
+            "classifications": [
+                {
+                    "code": "5",
+                    "features": [
+                        {
+                            "code": "100",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "côté roue"
+                                },
+                                {
+                                    "value": "Essieu avant"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Côté d'assemblage",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        }
+                    ],
+                    "name": "Jeu de joints, arbre de transmission"
+                }
+            ],
+            "code": "Ext-TA-NDA1Ojc2MDIzMw",
+            "foundBy": [
+                {
+                    "key": "REFERENCE_NUMBER",
+                    "value": [
+                        "803036"
+                    ]
+                }
+            ],
+            "fullName": "Jeu de joints, arbre de transmission",
+            "images": [
+                {
+                    "format": "thumbnail",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/200/12da634ac1cfa3bd75456ba39f33dc2e14ea1cef.jpg"
+                },
+                {
+                    "format": "product",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/400/12da634ac1cfa3bd75456ba39f33dc2e14ea1cef.jpg"
+                },
+                {
+                    "format": "zoom",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/800/12da634ac1cfa3bd75456ba39f33dc2e14ea1cef.jpg"
+                }
+            ],
+            "linkages": [],
+            "productReferences": [],
+            "tradeNumbers": [],
+            "type": "VehiclePartVariantProduct"
+        },
+        {
+            "brand": {
+                "code": "3223",
+                "name": "FIRST LINE"
+            },
+            "catalogArticleNumber": "FBK947",
+            "catalogStatus": {
+                "code": "normal",
+                "name": "Normal"
+            },
+            "classifications": [
+                {
+                    "code": "654",
+                    "features": [
+                        {
+                            "code": "818",
+                            "comparable": false,
+                            "featureUnit": {
+                                "name": "mm",
+                                "symbol": "mm"
+                            },
+                            "featureValues": [
+                                {
+                                    "value": "37"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Largeur 1 [mm]",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "836",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "avec capteur ABS intégré"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Article complémentaire / Info complémentaire 2",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "978",
+                            "comparable": false,
+                            "featureUnit": {
+                                "name": "mm",
+                                "symbol": "mm"
+                            },
+                            "featureValues": [
+                                {
+                                    "value": "82,5"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Diamètre extérieur 1 [mm]",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "995",
+                            "comparable": false,
+                            "featureUnit": {
+                                "name": "mm",
+                                "symbol": "mm"
+                            },
+                            "featureValues": [
+                                {
+                                    "value": "44"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Diamètre intérieur 1 [mm]",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        }
+                    ],
+                    "name": "Kit de roulements de roue"
+                }
+            ],
+            "code": "Ext-TA-NDA3OkZCSzk0Nw",
+            "foundBy": [
+                {
+                    "key": "REFERENCE_NUMBER",
+                    "value": [
+                        "803036"
+                    ]
+                }
+            ],
+            "fullName": "Kit de roulements de roue",
+            "images": [
+                {
+                    "format": "thumbnail",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/200/ef36244778fac4d44d9f21e2ef05460a3dc80280.jpg"
+                },
+                {
+                    "format": "product",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/400/ef36244778fac4d44d9f21e2ef05460a3dc80280.jpg"
+                },
+                {
+                    "format": "zoom",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/800/ef36244778fac4d44d9f21e2ef05460a3dc80280.jpg"
+                }
+            ],
+            "linkages": [],
+            "productReferences": [
+                {
+                    "inverse": true,
+                    "referenceType": "SUPERSESSION",
+                    "target": {
+                        "brand": {
+                            "code": "3223",
+                            "name": "FIRST LINE",
+                            "supplierNumber": "407"
+                        },
+                        "catalogArticleNumber": "FBK804",
+                        "code": "Ext-TA-NDA3OkZCSzgwNA",
+                        "documentGroups": []
+                    }
+                }
+            ],
+            "tradeNumbers": [],
+            "type": "VehiclePartVariantProduct"
+        },
+        {
+            "brand": {
+                "code": "3242",
+                "name": "COMLINE"
+            },
+            "catalogArticleNumber": "CBK050",
+            "catalogStatus": {
+                "code": "normal",
+                "name": "Normal"
+            },
+            "classifications": [
+                {
+                    "code": "654",
+                    "features": [
+                        {
+                            "code": "206",
+                            "comparable": false,
+                            "featureUnit": {
+                                "name": "mm",
+                                "symbol": "mm"
+                            },
+                            "featureValues": [
+                                {
+                                    "value": "37,1"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Largeur [mm]",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "496",
+                            "comparable": false,
+                            "featureUnit": {
+                                "name": "mm",
+                                "symbol": "mm"
+                            },
+                            "featureValues": [
+                                {
+                                    "value": "43,9"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Diamètre intérieur [mm]",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "497",
+                            "comparable": false,
+                            "featureUnit": {
+                                "name": "mm",
+                                "symbol": "mm"
+                            },
+                            "featureValues": [
+                                {
+                                    "value": "82,5"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Diamètre extérieur [mm]",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        }
+                    ],
+                    "name": "Kit de roulements de roue"
+                }
+            ],
+            "code": "Ext-TA-NDIxOkNCSzA1MA",
+            "foundBy": [
+                {
+                    "key": "REFERENCE_NUMBER",
+                    "value": [
+                        "803036"
+                    ]
+                }
+            ],
+            "fullName": "Kit de roulements de roue",
+            "images": [
+                {
+                    "format": "thumbnail",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/200/838ba19fd24d37240ea488409ce95a8dc8e57a7d.jpg"
+                },
+                {
+                    "format": "product",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/400/838ba19fd24d37240ea488409ce95a8dc8e57a7d.jpg"
+                },
+                {
+                    "format": "zoom",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/800/838ba19fd24d37240ea488409ce95a8dc8e57a7d.jpg"
+                }
+            ],
+            "linkages": [],
+            "productReferences": [],
+            "tradeNumbers": [],
+            "type": "VehiclePartVariantProduct"
+        },
+        {
+            "brand": {
+                "code": "3242",
+                "name": "COMLINE"
+            },
+            "catalogArticleNumber": "ECV034",
+            "catalogStatus": {
+                "code": "normal",
+                "name": "Normal"
+            },
+            "classifications": [
+                {
+                    "code": "5",
+                    "features": [
+                        {
+                            "code": "292",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "36"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Denture extérieure, côté roue",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "293",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "30"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Denture extérieure, côté différentiel",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "294",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "30"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Denture intérieure, côté roue",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "297",
+                            "comparable": false,
+                            "featureUnit": {
+                                "name": "mm",
+                                "symbol": "mm"
+                            },
+                            "featureValues": [
+                                {
+                                    "value": "52,8"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Diamètre de la bague détanchéité [mm]",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        }
+                    ],
+                    "name": "Jeu de joints, arbre de transmission"
+                }
+            ],
+            "code": "Ext-TA-NDIxOkVDVjAzNA",
+            "foundBy": [
+                {
+                    "key": "REFERENCE_NUMBER",
+                    "value": [
+                        "803036"
+                    ]
+                }
+            ],
+            "fullName": "Jeu de joints, arbre de transmission",
+            "images": [
+                {
+                    "format": "thumbnail",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/200/8c9a15459a7ff3bcabe34e7f6dea8424932529fc.jpg"
+                },
+                {
+                    "format": "product",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/400/8c9a15459a7ff3bcabe34e7f6dea8424932529fc.jpg"
+                },
+                {
+                    "format": "zoom",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/800/8c9a15459a7ff3bcabe34e7f6dea8424932529fc.jpg"
+                }
+            ],
+            "linkages": [],
+            "productReferences": [],
+            "tradeNumbers": [],
+            "type": "VehiclePartVariantProduct"
+        },
+        {
+            "brand": {
+                "code": "3550",
+                "name": "BSG"
+            },
+            "catalogArticleNumber": "BSG 90-340-003",
+            "catalogStatus": {
+                "code": "normal",
+                "name": "Normal"
+            },
+            "classifications": [
+                {
+                    "code": "5",
+                    "features": [
+                        {
+                            "code": "100",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "côté roue"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Côté d'assemblage",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        }
+                    ],
+                    "name": "Jeu de joints, arbre de transmission"
+                }
+            ],
+            "code": "Ext-TA-NDQ1NTpCU0cgOTAtMzQwLTAwMw",
+            "foundBy": [
+                {
+                    "key": "REFERENCE_NUMBER",
+                    "value": [
+                        "803036"
+                    ]
+                }
+            ],
+            "fullName": "Jeu de joints, arbre de transmission",
+            "images": [
+                {
+                    "format": "thumbnail",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/200/317df479ec731fe218fb749d91f35b7f2e1a751e.jpg"
+                },
+                {
+                    "format": "product",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/400/317df479ec731fe218fb749d91f35b7f2e1a751e.jpg"
+                },
+                {
+                    "format": "zoom",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/800/317df479ec731fe218fb749d91f35b7f2e1a751e.jpg"
+                }
+            ],
+            "linkages": [],
+            "productReferences": [],
+            "tradeNumbers": [],
+            "type": "VehiclePartVariantProduct"
+        },
+        {
+            "brand": {
+                "code": "4504",
+                "name": "TrakMotive"
+            },
+            "catalogArticleNumber": "40-0047",
+            "catalogStatus": {
+                "code": "normal",
+                "name": "Normal"
+            },
+            "classifications": [
+                {
+                    "code": "5",
+                    "features": [
+                        {
+                            "code": "592",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "Joint sphérique homocinétique"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Type de joint",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "203",
+                            "comparable": false,
+                            "featureUnit": {
+                                "name": "mm",
+                                "symbol": "mm"
+                            },
+                            "featureValues": [
+                                {
+                                    "value": "140"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Longueur [mm]",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "292",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "36"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Denture extérieure, côté roue",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "294",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "30"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Denture intérieure, côté roue",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "297",
+                            "comparable": false,
+                            "featureUnit": {
+                                "name": "mm",
+                                "symbol": "mm"
+                            },
+                            "featureValues": [
+                                {
+                                    "value": "53"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Diamètre de la bague détanchéité [mm]",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        }
+                    ],
+                    "name": "Jeu de joints, arbre de transmission"
+                }
+            ],
+            "code": "Ext-TA-NDQ3Mjo0MC0wMDQ3",
+            "foundBy": [
+                {
+                    "key": "REFERENCE_NUMBER",
+                    "value": [
+                        "803036"
+                    ]
+                }
+            ],
+            "fullName": "Jeu de joints, arbre de transmission",
+            "images": [
+                {
+                    "format": "thumbnail",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/200/72ba3bcbf8239342f59a5c59edb18a7c3f916637.jpg"
+                },
+                {
+                    "format": "product",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/400/72ba3bcbf8239342f59a5c59edb18a7c3f916637.jpg"
+                },
+                {
+                    "format": "zoom",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/800/72ba3bcbf8239342f59a5c59edb18a7c3f916637.jpg"
+                }
+            ],
+            "linkages": [],
+            "productReferences": [],
+            "tradeNumbers": [],
+            "type": "VehiclePartVariantProduct"
+        },
+        {
+            "brand": {
+                "code": "3268",
+                "name": "MOTAQUIP"
+            },
+            "catalogArticleNumber": "LVBW1040",
+            "catalogStatus": {
+                "code": "normal",
+                "name": "Normal"
+            },
+            "classifications": [
+                {
+                    "code": "654",
+                    "features": [
+                        {
+                            "code": "496",
+                            "comparable": false,
+                            "featureUnit": {
+                                "name": "mm",
+                                "symbol": "mm"
+                            },
+                            "featureValues": [
+                                {
+                                    "value": "44"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Diamètre intérieur [mm]",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "497",
+                            "comparable": false,
+                            "featureUnit": {
+                                "name": "mm",
+                                "symbol": "mm"
+                            },
+                            "featureValues": [
+                                {
+                                    "value": "82"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Diamètre extérieur [mm]",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "514",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "pour véhicules avec ASB"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Dynamique de mouvement et de freinage",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        }
+                    ],
+                    "name": "Kit de roulements de roue"
+                }
+            ],
+            "code": "Ext-TA-NDU2NDpMVkJXMTA0MA",
+            "foundBy": [
+                {
+                    "key": "REFERENCE_NUMBER",
+                    "value": [
+                        "803036"
+                    ]
+                }
+            ],
+            "fullName": "Kit de roulements de roue",
+            "images": [
+                {
+                    "format": "thumbnail",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/200/56270ab6c22fc6f51a671cf197db888ad8d96489.jpg"
+                },
+                {
+                    "format": "product",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/400/56270ab6c22fc6f51a671cf197db888ad8d96489.jpg"
+                },
+                {
+                    "format": "zoom",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/800/56270ab6c22fc6f51a671cf197db888ad8d96489.jpg"
+                }
+            ],
+            "linkages": [],
+            "productReferences": [],
+            "tradeNumbers": [],
+            "type": "VehiclePartVariantProduct"
+        },
+        {
+            "brand": {
+                "code": "1847",
+                "name": "BORG & BECK"
+            },
+            "catalogArticleNumber": "BCJ1230",
+            "catalogStatus": {
+                "code": "normal",
+                "name": "Normal"
+            },
+            "classifications": [
+                {
+                    "code": "5",
+                    "features": [
+                        {
+                            "code": "203",
+                            "comparable": false,
+                            "featureUnit": {
+                                "name": "mm",
+                                "symbol": "mm"
+                            },
+                            "featureValues": [
+                                {
+                                    "value": "138"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Longueur [mm]",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "289",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "M20X1.5"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Filetage",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "292",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "36"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Denture extérieure, côté roue",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "294",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "30"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Denture intérieure, côté roue",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "297",
+                            "comparable": false,
+                            "featureUnit": {
+                                "name": "mm",
+                                "symbol": "mm"
+                            },
+                            "featureValues": [
+                                {
+                                    "value": "53,2"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Diamètre de la bague détanchéité [mm]",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "836",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "avec rainure"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Article complémentaire / Info complémentaire 2",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        }
+                    ],
+                    "name": "Jeu de joints, arbre de transmission"
+                }
+            ],
+            "code": "Ext-TA-NDc1OkJDSjEyMzA",
+            "foundBy": [
+                {
+                    "key": "REFERENCE_NUMBER",
+                    "value": [
+                        "803036"
+                    ]
+                }
+            ],
+            "fullName": "Jeu de joints, arbre de transmission",
+            "images": [
+                {
+                    "format": "thumbnail",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/200/dd3b428f3ffe98f43c8ef842b4127d3ae536d447.jpg"
+                },
+                {
+                    "format": "product",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/400/dd3b428f3ffe98f43c8ef842b4127d3ae536d447.jpg"
+                },
+                {
+                    "format": "zoom",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/800/dd3b428f3ffe98f43c8ef842b4127d3ae536d447.jpg"
+                }
+            ],
+            "linkages": [],
+            "productReferences": [],
+            "tradeNumbers": [],
+            "type": "VehiclePartVariantProduct"
+        },
+        {
+            "brand": {
+                "code": "1847",
+                "name": "BORG & BECK"
+            },
+            "catalogArticleNumber": "BWK947",
+            "catalogStatus": {
+                "code": "normal",
+                "name": "Normal"
+            },
+            "classifications": [
+                {
+                    "code": "654",
+                    "features": [
+                        {
+                            "code": "818",
+                            "comparable": false,
+                            "featureUnit": {
+                                "name": "mm",
+                                "symbol": "mm"
+                            },
+                            "featureValues": [
+                                {
+                                    "value": "37"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Largeur 1 [mm]",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "836",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "avec capteur ABS intégré"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Article complémentaire / Info complémentaire 2",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "978",
+                            "comparable": false,
+                            "featureUnit": {
+                                "name": "mm",
+                                "symbol": "mm"
+                            },
+                            "featureValues": [
+                                {
+                                    "value": "82,5"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Diamètre extérieur 1 [mm]",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "995",
+                            "comparable": false,
+                            "featureUnit": {
+                                "name": "mm",
+                                "symbol": "mm"
+                            },
+                            "featureValues": [
+                                {
+                                    "value": "44"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Diamètre intérieur 1 [mm]",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        }
+                    ],
+                    "name": "Kit de roulements de roue"
+                }
+            ],
+            "code": "Ext-TA-NDc1OkJXSzk0Nw",
+            "foundBy": [
+                {
+                    "key": "REFERENCE_NUMBER",
+                    "value": [
+                        "803036"
+                    ]
+                }
+            ],
+            "fullName": "Kit de roulements de roue",
+            "images": [
+                {
+                    "format": "thumbnail",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/200/3e8938181f396047a83c454010c1a667b3a7d3a3.jpg"
+                },
+                {
+                    "format": "product",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/400/3e8938181f396047a83c454010c1a667b3a7d3a3.jpg"
+                },
+                {
+                    "format": "zoom",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/800/3e8938181f396047a83c454010c1a667b3a7d3a3.jpg"
+                }
+            ],
+            "linkages": [],
+            "productReferences": [
+                {
+                    "inverse": true,
+                    "referenceType": "SUPERSESSION",
+                    "target": {
+                        "brand": {
+                            "code": "1847",
+                            "name": "BORG & BECK",
+                            "supplierNumber": "475"
+                        },
+                        "catalogArticleNumber": "BWK804",
+                        "code": "Ext-TA-NDc1OkJXSzgwNA",
+                        "documentGroups": []
+                    }
+                }
+            ],
+            "tradeNumbers": [],
+            "type": "VehiclePartVariantProduct"
+        },
+        {
+            "brand": {
+                "code": "3410",
+                "name": "ALANKO"
+            },
+            "catalogArticleNumber": "10343709",
+            "catalogStatus": {
+                "code": "discontinued",
+                "name": "Livrable jusqu'à épuisement"
+            },
+            "classifications": [
+                {
+                    "code": "654",
+                    "features": [
+                        {
+                            "code": "978",
+                            "comparable": false,
+                            "featureUnit": {
+                                "name": "mm",
+                                "symbol": "mm"
+                            },
+                            "featureValues": [
+                                {
+                                    "value": "82"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Diamètre extérieur 1 [mm]",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "995",
+                            "comparable": false,
+                            "featureUnit": {
+                                "name": "mm",
+                                "symbol": "mm"
+                            },
+                            "featureValues": [
+                                {
+                                    "value": "44"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Diamètre intérieur 1 [mm]",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "100",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "côté conducteur + passager av."
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Côté d'assemblage",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "836",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "avec bague magnétique intégré"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Article complémentaire / Info complémentaire 2",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        }
+                    ],
+                    "name": "Kit de roulements de roue"
+                }
+            ],
+            "code": "Ext-TA-NDc5OjEwMzQzNzA5",
+            "foundBy": [
+                {
+                    "key": "REFERENCE_NUMBER",
+                    "value": [
+                        "803036"
+                    ]
+                }
+            ],
+            "fullName": "Kit de roulements de roue",
+            "images": [
+                {
+                    "format": "thumbnail",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/200/64ab1cffd8987f8fad39086020c52bcd53b445a4.jpg"
+                },
+                {
+                    "format": "product",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/400/64ab1cffd8987f8fad39086020c52bcd53b445a4.jpg"
+                },
+                {
+                    "format": "zoom",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/800/64ab1cffd8987f8fad39086020c52bcd53b445a4.jpg"
+                }
+            ],
+            "linkages": [],
+            "productReferences": [],
+            "tradeNumbers": [],
+            "type": "VehiclePartVariantProduct"
+        },
+        {
+            "brand": {
+                "code": "4270",
+                "name": "KEY PARTS"
+            },
+            "catalogArticleNumber": "KWB947",
+            "catalogStatus": {
+                "code": "normal",
+                "name": "Normal"
+            },
+            "classifications": [
+                {
+                    "code": "654",
+                    "features": [
+                        {
+                            "code": "818",
+                            "comparable": false,
+                            "featureUnit": {
+                                "name": "mm",
+                                "symbol": "mm"
+                            },
+                            "featureValues": [
+                                {
+                                    "value": "37"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Largeur 1 [mm]",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "836",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "avec capteur ABS intégré"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Article complémentaire / Info complémentaire 2",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "978",
+                            "comparable": false,
+                            "featureUnit": {
+                                "name": "mm",
+                                "symbol": "mm"
+                            },
+                            "featureValues": [
+                                {
+                                    "value": "82,5"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Diamètre extérieur 1 [mm]",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "995",
+                            "comparable": false,
+                            "featureUnit": {
+                                "name": "mm",
+                                "symbol": "mm"
+                            },
+                            "featureValues": [
+                                {
+                                    "value": "44"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Diamètre intérieur 1 [mm]",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        }
+                    ],
+                    "name": "Kit de roulements de roue"
+                }
+            ],
+            "code": "Ext-TA-NDg3OTpLV0I5NDc",
+            "foundBy": [
+                {
+                    "key": "REFERENCE_NUMBER",
+                    "value": [
+                        "803036"
+                    ]
+                }
+            ],
+            "fullName": "Kit de roulements de roue",
+            "images": [
+                {
+                    "format": "thumbnail",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/200/1bb46e635d21cd25c1178abc698b02f268952500.jpg"
+                },
+                {
+                    "format": "product",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/400/1bb46e635d21cd25c1178abc698b02f268952500.jpg"
+                },
+                {
+                    "format": "zoom",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/800/1bb46e635d21cd25c1178abc698b02f268952500.jpg"
+                }
+            ],
+            "linkages": [],
+            "productReferences": [],
+            "tradeNumbers": [],
+            "type": "VehiclePartVariantProduct"
+        },
+        {
+            "brand": {
+                "code": "501",
+                "name": "SPIDAN"
+            },
+            "catalogArticleNumber": "20340",
+            "catalogStatus": {
+                "code": "normal",
+                "name": "Normal"
+            },
+            "classifications": [
+                {
+                    "code": "5",
+                    "features": [
+                        {
+                            "code": "592",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "Joint sphérique homocinétique"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Type de joint",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "292",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "36"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Denture extérieure, côté roue",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "294",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "30"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Denture intérieure, côté roue",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "297",
+                            "comparable": false,
+                            "featureUnit": {
+                                "name": "mm",
+                                "symbol": "mm"
+                            },
+                            "featureValues": [
+                                {
+                                    "value": "53"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Diamètre de la bague détanchéité [mm]",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "909",
+                            "comparable": false,
+                            "featureUnit": {
+                                "name": "mm",
+                                "symbol": "mm"
+                            },
+                            "featureValues": [
+                                {
+                                    "value": "90"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Diamètre de la rotule [mm]",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "203",
+                            "comparable": false,
+                            "featureUnit": {
+                                "name": "mm",
+                                "symbol": "mm"
+                            },
+                            "featureValues": [
+                                {
+                                    "value": "139"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Longueur [mm]",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "289",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "M20x1.5"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Filetage",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "3296",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "NBR (caoutchoucs nitrile)"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Matériau soufflet",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "836",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "avec écrou"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Article complémentaire / Info complémentaire 2",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        }
+                    ],
+                    "name": "Jeu de joints, arbre de transmission"
+                }
+            ],
+            "code": "Ext-TA-MToyMDM0MA",
+            "foundBy": [
+                {
+                    "key": "REFERENCE_NUMBER",
+                    "value": [
+                        "803036"
+                    ]
+                }
+            ],
+            "fullName": "Jeu de joints, arbre de transmission",
+            "images": [
+                {
+                    "format": "thumbnail",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/200/d05095e5f7ae3e5e7bd2be024f4d39160370a365.jpg"
+                },
+                {
+                    "format": "product",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/400/d05095e5f7ae3e5e7bd2be024f4d39160370a365.jpg"
+                },
+                {
+                    "format": "zoom",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/800/d05095e5f7ae3e5e7bd2be024f4d39160370a365.jpg"
+                }
+            ],
+            "linkages": [],
+            "productReferences": [],
+            "tradeNumbers": [],
+            "type": "VehiclePartVariantProduct"
+        },
+        {
+            "brand": {
+                "code": "797",
+                "name": "FEBI BILSTEIN"
+            },
+            "catalogArticleNumber": "100177",
+            "catalogStatus": {
+                "code": "normal",
+                "name": "Normal"
+            },
+            "classifications": [
+                {
+                    "code": "654",
+                    "features": [
+                        {
+                            "code": "206",
+                            "comparable": false,
+                            "featureUnit": {
+                                "name": "mm",
+                                "symbol": "mm"
+                            },
+                            "featureValues": [
+                                {
+                                    "value": "37"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Largeur [mm]",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "496",
+                            "comparable": false,
+                            "featureUnit": {
+                                "name": "mm",
+                                "symbol": "mm"
+                            },
+                            "featureValues": [
+                                {
+                                    "value": "44"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Diamètre intérieur [mm]",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "497",
+                            "comparable": false,
+                            "featureUnit": {
+                                "name": "mm",
+                                "symbol": "mm"
+                            },
+                            "featureValues": [
+                                {
+                                    "value": "82"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Diamètre extérieur [mm]",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "734",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "Roulement à billes à contact oblique"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Type de suspension",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "836",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "avec bague magnétique intégré"
+                                },
+                                {
+                                    "value": "avec bague ABS"
+                                },
+                                {
+                                    "value": "avec anneau de freinage"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Article complémentaire / Info complémentaire 2",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "596",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "avec écrou d’essieu"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Article complémentaire/Info complémentaire",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "1403",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": ""
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Tenir compte des informations service",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        }
+                    ],
+                    "name": "Kit de roulements de roue"
+                }
+            ],
+            "code": "Ext-TA-MTAxOjEwMDE3Nw",
+            "foundBy": [
+                {
+                    "key": "REFERENCE_NUMBER",
+                    "value": [
+                        "803036"
+                    ]
+                }
+            ],
+            "fullName": "Kit de roulements de roue",
+            "images": [
+                {
+                    "format": "thumbnail",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/200/2e176b1194a16d5d82b8e0d6167ff7b4b962f07e.jpg"
+                },
+                {
+                    "format": "product",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/400/2e176b1194a16d5d82b8e0d6167ff7b4b962f07e.jpg"
+                },
+                {
+                    "format": "zoom",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/800/2e176b1194a16d5d82b8e0d6167ff7b4b962f07e.jpg"
+                }
+            ],
+            "linkages": [],
+            "productReferences": [],
+            "tradeNumbers": [],
+            "type": "VehiclePartVariantProduct"
+        },
+        {
+            "brand": {
+                "code": "797",
+                "name": "FEBI BILSTEIN"
+            },
+            "catalogArticleNumber": "109328",
+            "catalogStatus": {
+                "code": "normal",
+                "name": "Normal"
+            },
+            "classifications": [
+                {
+                    "code": "1180",
+                    "features": [
+                        {
+                            "code": "1564",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "171220"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Numéro d'article en paire",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "468",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "Caoutchouc/métal"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Matériel",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "100",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "Essieu arrière gauche"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Côté d'assemblage",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "836",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "sans roulement à billes"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Article complémentaire / Info complémentaire 2",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        }
+                    ],
+                    "name": "Coupelle de suspension"
+                }
+            ],
+            "code": "Ext-TA-MTAxOjEwOTMyOA",
+            "foundBy": [
+                {
+                    "key": "REFERENCE_NUMBER",
+                    "value": [
+                        "803 036"
+                    ]
+                }
+            ],
+            "fullName": "Coupelle de suspension",
+            "images": [
+                {
+                    "format": "thumbnail",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/200/d9f2f6dfbb340d1829cefed73d01ba0c1892f221.jpg"
+                },
+                {
+                    "format": "product",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/400/d9f2f6dfbb340d1829cefed73d01ba0c1892f221.jpg"
+                },
+                {
+                    "format": "zoom",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/800/d9f2f6dfbb340d1829cefed73d01ba0c1892f221.jpg"
+                }
+            ],
+            "linkages": [],
+            "productReferences": [],
+            "tradeNumbers": [],
+            "type": "VehiclePartVariantProduct"
+        },
+        {
+            "brand": {
+                "code": "1242",
+                "name": "TRISCAN"
+            },
+            "catalogArticleNumber": "8540 29134",
+            "catalogStatus": {
+                "code": "normal",
+                "name": "Normal"
+            },
+            "classifications": [
+                {
+                    "code": "5",
+                    "features": [
+                        {
+                            "code": "200",
+                            "comparable": false,
+                            "featureUnit": {
+                                "name": "mm",
+                                "symbol": "mm"
+                            },
+                            "featureValues": [
+                                {
+                                    "value": "90"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Diamètre [mm]",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "292",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "36"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Denture extérieure, côté roue",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "294",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "30"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Denture intérieure, côté roue",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "297",
+                            "comparable": false,
+                            "featureUnit": {
+                                "name": "mm",
+                                "symbol": "mm"
+                            },
+                            "featureValues": [
+                                {
+                                    "value": "53"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Diamètre de la bague détanchéité [mm]",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        }
+                    ],
+                    "name": "Jeu de joints, arbre de transmission"
+                }
+            ],
+            "code": "Ext-TA-MTA4Ojg1NDAgMjkxMzQ",
+            "foundBy": [
+                {
+                    "key": "REFERENCE_NUMBER",
+                    "value": [
+                        "803036"
+                    ]
+                }
+            ],
+            "fullName": "Jeu de joints, arbre de transmission",
+            "images": [
+                {
+                    "format": "thumbnail",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/200/d16ffdb4b40fc1fee62b076011d9646ef45680b7.jpg"
+                },
+                {
+                    "format": "product",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/400/d16ffdb4b40fc1fee62b076011d9646ef45680b7.jpg"
+                },
+                {
+                    "format": "zoom",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/800/d16ffdb4b40fc1fee62b076011d9646ef45680b7.jpg"
+                }
+            ],
+            "linkages": [],
+            "productReferences": [],
+            "tradeNumbers": [],
+            "type": "VehiclePartVariantProduct"
+        },
+        {
+            "brand": {
+                "code": "1740",
+                "name": "SNR"
+            },
+            "catalogArticleNumber": "OJK54.009",
+            "catalogStatus": {
+                "code": "normal",
+                "name": "Normal"
+            },
+            "classifications": [
+                {
+                    "code": "5",
+                    "features": [
+                        {
+                            "code": "289",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "M20x1,5"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Filetage",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "100",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "Essieu avant gauche"
+                                },
+                                {
+                                    "value": "extérieur"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Côté d'assemblage",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "292",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "36"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Denture extérieure, côté roue",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "294",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "30"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Denture intérieure, côté roue",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        },
+                        {
+                            "code": "1059",
+                            "comparable": false,
+                            "featureValues": [
+                                {
+                                    "value": "6 balls"
+                                }
+                            ],
+                            "immediateDisplay": true,
+                            "name": "Version",
+                            "range": false,
+                            "valuesFiltered": false,
+                            "warning": false
+                        }
+                    ],
+                    "name": "Jeu de joints, arbre de transmission"
+                }
+            ],
+            "code": "Ext-TA-MTEwOk9KSzU0LjAwOQ",
+            "foundBy": [
+                {
+                    "key": "REFERENCE_NUMBER",
+                    "value": [
+                        "803036"
+                    ]
+                }
+            ],
+            "fullName": "Jeu de joints, arbre de transmission",
+            "images": [
+                {
+                    "format": "thumbnail",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/200/96fc0fa49c04914c5321ce4174fe70271b4bc300.jpg"
+                },
+                {
+                    "format": "product",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/400/96fc0fa49c04914c5321ce4174fe70271b4bc300.jpg"
+                },
+                {
+                    "format": "zoom",
+                    "imageType": "PRIMARY",
+                    "url": "https://digital-assets.tecalliance.services/images/800/96fc0fa49c04914c5321ce4174fe70271b4bc300.jpg"
+                }
+            ],
+            "linkages": [],
+            "productReferences": [],
+            "tradeNumbers": [],
+            "type": "VehiclePartVariantProduct"
+        }
+    ]
+}

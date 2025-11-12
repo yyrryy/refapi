@@ -1,0 +1,15 @@
+dacia_models_years = {
+    "Dacia 1300": [1969, 2004],
+    "Logan I": [2004, 2012],
+    "Logan II": [2012, 2022],
+    "Logan III": [2021, 2024],
+    "Sandero I": [2007, 2012],
+    "Sandero II": [2012, 2020],
+    "Sandero III": [2020, 2024],
+    "Duster I": [2010, 2017],
+    "Duster II": [2017, 2024],
+    "Lodgy": [2012, 2022],
+    "Dokker": [2012, 2022],
+    "Spring": [2021, 2024],
+    "Dokker Van": [2012, 2020]
+}

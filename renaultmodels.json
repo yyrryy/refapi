@@ -1,0 +1,32 @@
+{
+    "Kangoo I": [1997, 2007],
+    "Kangoo II": [2007, 2021],
+    "Kangoo III": [2021, 2024],  # Assuming the present year is 2024
+    "Clio I": [1990, 1998],
+    "Clio II": [1998, 2012],
+    "Clio III": [2005, 2014],
+    "Clio IV": [2012, 2019],
+    "Clio V": [2019, 2024],
+    "Megane I": [1995, 2003],
+    "Megane II": [2002, 2009],
+    "Megane III": [2008, 2016],
+    "Megane IV": [2016, 2022],
+    "Megane V": [2022, 2024],  # Assuming the present year is 2024
+    "Scenic I": [1996, 2003],
+    "Scenic II": [2003, 2009],
+    "Scenic III": [2009, 2016],
+    "Scenic IV": [2016, 2022],
+    "Twingo I": [1992, 2007],
+    "Twingo II": [2007, 2014],
+    "Twingo III": [2014, 2024],  # Assuming the present year is 2024
+    "Laguna I": [1994, 2001],
+    "Laguna II": [2000, 2007],
+    "Laguna III": [2007, 2015],
+    "Espace I": [1984, 1991],
+    "Espace II": [1991, 1997],
+    "Espace III": [1996, 2002],
+    "Espace IV": [2002, 2014],
+    "Espace V": [2015, 2020],
+    "Captur I": [2013, 2019],
+    "Captur II": [2019, 2024]  # Assuming the present year is 2024
+}

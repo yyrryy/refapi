@@ -1,0 +1,27 @@
+from django.urls import path
+from . import views
+urlpatterns = [
+    path('vindata', views.vindata, name='vindata'),
+    path('getprudcts', views.getprudcts, name='getprudcts'),
+    path('getproductoems', views.getproductoems, name='getproductoems'),
+    path('getbrandpdcts', views.getbrandpdcts, name='getbrandpdcts'),
+    path('checksuppliers', views.checksuppliers, name='checksuppliers'),
+    path('getrefdata', views.getrefdata, name='getrefdata'),
+    path('getbrandrefpdcts', views.getbrandrefpdcts, name='getbrandrefpdcts'),
+    path('getmodels', views.getmodels, name='getmodels'),
+    path('gettargets', views.gettargets, name='gettargets'),
+    path('searchrefdirect', views.searchrefdirect, name='searchrefdirect'),
+    path('getbranddirectref', views.getbranddirectref, name='getbranddirectref'),
+    path('getcarinfo', views.getcarinfo, name='getcarinfo'),
+    path('go_there_check', views.go_there_check, name='go_there_check'),
+    path('searchdirectrefrep', views.searchdirectrefrep, name='searchdirectrefrep'),
+    path('getproducts', views.getproducts, name='getproducts'),
+    path('searchforsupplier', views.searchforsupplier, name='searchforsupplier'),
+    path('searchforibra', views.searchforibra, name='searchforibra'),
+    path('getproductcars', views.getproductcars, name='getproductcars'),
+    path('getproducdataforsuppliers', views.getproducdataforsuppliers, name='getproducdataforsuppliers'),
+    # path('vindata', views.vindata, name='vindata'),
+    # path('vindata', views.vindata, name='vindata'),
+    # path('vindata', views.vindata, name='vindata'),
+    # path('vindata', views.vindata, name='vindata'),
+]

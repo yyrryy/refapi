@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 
 from pathlib import Path
-from os.path import join
+from os import path, getenv
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -57,7 +57,7 @@ ROOT_URLCONF = 'A_partsexpert.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [(join(BASE_DIR, 'A_partsexpert/templates')),],
+        'DIRS': [(path.join(BASE_DIR, 'A_partsexpert/templates')),],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -75,13 +75,25 @@ WSGI_APPLICATION = 'A_partsexpert.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
-
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+inserver = getenv('PWD')=='/home/yurey/myprojectdir/A_partsexpert'
+if inserver:
+    DATABASES = {
+            'default': {
+                'ENGINE': 'django.db.backends.postgresql_psycopg2',
+                'NAME': 'myproject',
+                'USER': 'myprojectuser',
+                'PASSWORD': 'gadwad123',
+                'HOST': 'localhost',
+                'PORT': '',
+            }
     }
-}
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': BASE_DIR / 'db.sqlite3',
+        }
+    }
 
 
 # Password validation
@@ -118,10 +130,10 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 STATICFILES_DIRS = [
-    join(BASE_DIR, "A_partsexpert/static"),
+    path.join(BASE_DIR, "A_partsexpert/static"),
 ]
 STATIC_URL = 'static/'
-STATIC_ROOT = join(BASE_DIR, 'static/')
+STATIC_ROOT = path.join(BASE_DIR, 'static/')
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 

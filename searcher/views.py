@@ -917,14 +917,29 @@ def searchdirectrefrep(request):
     # search rep
     print('>> search for ean')
     url=f"https://www.repxpert.ma/api/Repxpert-MA/products/search?fields=products(foundBy%2Cimages(DEFAULT)%2CproductReferences(DEFAULT)%2Cclassifications(DEFAULT)%2Clinkages(FULL)%2Cname%2CstrikeThroughPrice(FULL)%2Cdescription%2Csummary%2Ccode%2Curl%2Cprice(DEFAULT)%2Cmanufacturer%2CcatalogStatus(DEFAULT)%2CfullName%2Cbrand(DEFAULT)%2CpurchasableStatus%2CmaximumRetailPrice(FULL)%2Cean%2CcatalogArticleNumber%2CtradeNumbers%2CseoPath%2CtargetTypes%2CcollectableBonusPoints%2CcampaignEndDate%2Ctype%2CcatalogArticleNumbers)%2Cfacets%2Cbreadcrumbs%2Cpagination(DEFAULT)%2Csorts(DEFAULT)%2CfreeTextSearch%2CcurrentQuery(DEFAULT)&query={ref}%3Arelevance&pageSize=20&source=globalsearch&lang=fr&curr=RXP&catalogCountry=MA"
-    print('>> url', Token.objects.get(name='rep').token)
     headers={
         "Authorization": f"Bearer {Token.objects.get(name='rep').token}",
-        "cookie":"cookiesession1=678A3E10511CE2F7851E341FD84C491A; OptanonAlertBoxClosed=2025-06-11T12:13:45.968Z; OptanonConsent=isGpcEnabled=0&datestamp=Thu+Nov+06+2025+11%3A39%3A30+GMT%2B0100+(UTC%2B01%3A00)&version=202403.1.0&isIABGlobal=false&hosts=&consentId=82c80ad4-f37b-49a6-9e96-647c6ee47116&interactionCount=3&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A0%2CC0003%3A0%2CC0004%3A0&geolocation=MA%3B09&AwaitingReconsent=false&browserGpcFlag=0&isAnonUser=1",
-        "user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
-     }
+        "authority": "www.repxpert.ma",
+        "method": "GET",
+        "scheme": "https",
+        "path": f"/api/Repxpert-MA/products/search?fields=products(foundBy%2Cimages(DEFAULT)%2CproductReferences(DEFAULT)%2Cclassifications(DEFAULT)%2Clinkages(FULL)%2Cname%2CstrikeThroughPrice(FULL)%2Cdescription%2Csummary%2Ccode%2Curl%2Cprice(DEFAULT)%2Cmanufacturer%2CcatalogStatus(DEFAULT)%2CfullName%2Cbrand(DEFAULT)%2CpurchasableStatus%2CmaximumRetailPrice(FULL)%2Cean%2CcatalogArticleNumber%2CtradeNumbers%2CseoPath%2CtargetTypes%2CcollectableBonusPoints%2CcampaignEndDate%2Ctype%2CcatalogArticleNumbers)%2Cfacets%2Cbreadcrumbs%2Cpagination(DEFAULT)%2Csorts(DEFAULT)%2CfreeTextSearch%2CcurrentQuery(DEFAULT)&query=={ref}%3Arelevance&pageSize=20&source=globalsearch&lang=fr&curr=RXP&catalogCountry=MA",
+        "accept": "application/json, text/plain, */*",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "en-US,en;q=0.7",
+        "priority": "u=1, i",
+        "referer": "https://www.repxpert.ma/fr/search/results?q=803035&source=globalsearch",
+        "sec-ch-ua": "\"Brave\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Linux\"",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "sec-gpc": "1",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+    }
     res=req.get(url, headers=headers)
-    print("res", res)
+    # with open("a.txt", "w") as f:
+    #     print(res.text, file=f)
     # return JsonResponse({
     #     'res':res.content.decode('utf-8')
     # })
@@ -1069,11 +1084,27 @@ def searchforibra(request):
         return render(request, 'ibratrs.html', {'products':products, 'fromdb':True, 'brands':[], 'assamblyandcategory':'', 'repref':True})
     # search rep
     print('>> search for ean')
-    url=f"https://www.repxpert.ma/api/Repxpert-MA/products/search?fields=products(foundBy%2Cimages(DEFAULT)%2CproductReferences(DEFAULT)%2Cclassifications(DEFAULT)%2Clinkages(FULL)%2Cname%2Cdescription%2Csummary%2Ccode%2Curl%2Cprice(DEFAULT)%2Cmanufacturer%2CcatalogStatus(DEFAULT)%2CfullName%2Cbrand(DEFAULT)%2CpurchasableStatus%2CmaximumRetailPrice(FULL)%2Cean%2CcatalogArticleNumber%2CtradeNumbers%2CseoPath%2CtargetTypes%2CcollectableBonusPoints%2Ctype%2CcatalogArticleNumbers)%2Cfacets%2Cbreadcrumbs%2Cpagination(DEFAULT)%2Csorts(DEFAULT)%2CfreeTextSearch%2CcurrentQuery(DEFAULT)&query={ref}%3Arelevance&pageSize=10&lang=fr&curr=RXP&catalogCountry=MA"
+    url=f"https://www.repxpert.ma/api/Repxpert-MA/products/search?fields=products(foundBy%2Cimages(DEFAULT)%2CproductReferences(DEFAULT)%2Cclassifications(DEFAULT)%2Clinkages(FULL)%2Cname%2CstrikeThroughPrice(FULL)%2Cdescription%2Csummary%2Ccode%2Curl%2Cprice(DEFAULT)%2Cmanufacturer%2CcatalogStatus(DEFAULT)%2CfullName%2Cbrand(DEFAULT)%2CpurchasableStatus%2CmaximumRetailPrice(FULL)%2Cean%2CcatalogArticleNumber%2CtradeNumbers%2CseoPath%2CtargetTypes%2CcollectableBonusPoints%2CcampaignEndDate%2Ctype%2CcatalogArticleNumbers)%2Cfacets%2Cbreadcrumbs%2Cpagination(DEFAULT)%2Csorts(DEFAULT)%2CfreeTextSearch%2CcurrentQuery(DEFAULT)&query={ref}%3Arelevance&pageSize=20&source=globalsearch&lang=fr&curr=RXP&catalogCountry=MA"
     headers={
         "Authorization": f"Bearer {Token.objects.get(name='rep').token}",
-        "Connection": "keep-alive",
-     }
+        "authority": "www.repxpert.ma",
+        "method": "GET",
+        "scheme": "https",
+        "path": f"/api/Repxpert-MA/products/search?fields=products(foundBy%2Cimages(DEFAULT)%2CproductReferences(DEFAULT)%2Cclassifications(DEFAULT)%2Clinkages(FULL)%2Cname%2CstrikeThroughPrice(FULL)%2Cdescription%2Csummary%2Ccode%2Curl%2Cprice(DEFAULT)%2Cmanufacturer%2CcatalogStatus(DEFAULT)%2CfullName%2Cbrand(DEFAULT)%2CpurchasableStatus%2CmaximumRetailPrice(FULL)%2Cean%2CcatalogArticleNumber%2CtradeNumbers%2CseoPath%2CtargetTypes%2CcollectableBonusPoints%2CcampaignEndDate%2Ctype%2CcatalogArticleNumbers)%2Cfacets%2Cbreadcrumbs%2Cpagination(DEFAULT)%2Csorts(DEFAULT)%2CfreeTextSearch%2CcurrentQuery(DEFAULT)&query=={ref}%3Arelevance&pageSize=20&source=globalsearch&lang=fr&curr=RXP&catalogCountry=MA",
+        "accept": "application/json, text/plain, */*",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "en-US,en;q=0.7",
+        "priority": "u=1, i",
+        "referer": "https://www.repxpert.ma/fr/search/results?q=803035&source=globalsearch",
+        "sec-ch-ua": "\"Brave\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Linux\"",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "sec-gpc": "1",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+    }
     res=req.get(url, headers=headers)
     try:
         products=json.loads(res.content.decode('utf-8'))['products']
@@ -1082,11 +1113,6 @@ def searchforibra(request):
         return render(request, 'ibratrs.html', {'products':[]})
     brands=json.loads(res.content.decode('utf-8'))['facets'] or [{'values':[]}]
     brands=brands[0]['values']
-    # we are not going to create brands in searching ref
-    # if not Brand.objects.filter(code=f'{assamblyandcategory}-{carid}').exists():
-    #  print('>>>>> create brands')
-    #  Brand.objects.create(code=f'{assamblyandcategory}-{carid}', brands=brands)
-    #this should run on another thread
     carid=''
     categoryid=['', '']
     print('>>> process the data in another thread wit args')

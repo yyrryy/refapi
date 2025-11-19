@@ -201,7 +201,21 @@ def getproducdataforsuppliers(request):
     url=f'https://www.repxpert.ma/api/Repxpert-MA/products/{code}/linkages/manufacturers?targetTypeCodes=passengerCar&globalCarPark=true&fields=FULL&lang=fr&curr=RXP&catalogCountry=MA'
     headers={
         "Authorization": f"Bearer {Token.objects.get(name='rep').token}",
-        "Connection": "keep-alive",
+        "authority": "www.repxpert.ma",
+        "method": "GET",
+        "scheme": "https",
+        "accept": "application/json, text/plain, */*",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "en-US,en;q=0.7",
+        "priority": "u=1, i",
+        "sec-ch-ua": "\"Brave\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Linux\"",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "sec-gpc": "1",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
     }
     res=req.get(url, headers=headers, timeout=10)
     print('>> res car', res.content)
